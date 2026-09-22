@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- three-stage sequence panels -->
+  <g>
+    <!-- panel backgrounds -->
+    <rect x="20" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <rect x="285" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <rect x="550" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  </g>
+
+  <!-- Stage 1: open trench -->
+  <g>
+    <rect x="35" y="140" width="200" height="150" fill="#e2e8e1"/>
+    <path d="M55,140 L95,290 L175,290 L215,140 Z" fill="#f3f5f4" stroke="#8a8f98" stroke-width="1.5"/>
+    <line x1="35" y1="140" x2="235" y2="140" stroke="#9fb09c" stroke-width="2"/>
+    <text x="135" y="120" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Giai đoạn 1</text>
+    <text x="135" y="335" font-size="12" fill="#5a6270" text-anchor="middle">Đào hở rãnh</text>
+    <text x="135" y="350" font-size="12" fill="#5a6270" text-anchor="middle">Open trench excavation</text>
+  </g>
+
+  <!-- Stage 2: structure + steel decking, traffic restored temporarily -->
+  <g>
+    <rect x="300" y="140" width="200" height="150" fill="#e2e8e1"/>
+    <path d="M320,140 L360,290 L440,290 L480,140 Z" fill="#f3f5f4" stroke="#8a8f98" stroke-width="1.5"/>
+    <rect x="355" y="200" width="90" height="80" fill="#0a5c4a"/>
+    <text x="400" y="245" font-size="11" fill="#ffffff" text-anchor="middle">kết cấu hầm</text>
+    <rect x="315" y="132" width="170" height="10" fill="#3a3f47"/>
+    <text x="400" y="120" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Giai đoạn 2</text>
+    <text x="400" y="335" font-size="12" fill="#5a6270" text-anchor="middle">Xây kết cấu + sàn thép tạm</text>
+    <text x="400" y="350" font-size="12" fill="#5a6270" text-anchor="middle">Structure + temp. steel decking</text>
+  </g>
+
+  <!-- Stage 3: backfilled, road reinstated -->
+  <g>
+    <rect x="565" y="140" width="200" height="150" fill="#e2e8e1"/>
+    <rect x="620" y="200" width="90" height="80" fill="#0a5c4a"/>
+    <text x="665" y="245" font-size="11" fill="#ffffff" text-anchor="middle">kết cấu hầm</text>
+    <rect x="565" y="130" width="200" height="14" fill="#3a3f47"/>
+    <line x1="565" y1="137" x2="765" y2="137" stroke="#e6c84a" stroke-width="2" stroke-dasharray="12 9"/>
+    <text x="665" y="118" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Giai đoạn 3</text>
+    <text x="665" y="335" font-size="12" fill="#5a6270" text-anchor="middle">Lấp đất, hoàn trả mặt đường</text>
+    <text x="665" y="350" font-size="12" fill="#5a6270" text-anchor="middle">Backfill, road reinstated</text>
+  </g>
+
+  <!-- arrows between panels -->
+  <line x1="255" y1="215" x2="280" y2="215" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow2)"/>
+  <line x1="520" y1="215" x2="545" y2="215" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Phương pháp đào hở Cut &amp; Cover / Cut &amp; Cover method
+  </text>
+</svg>

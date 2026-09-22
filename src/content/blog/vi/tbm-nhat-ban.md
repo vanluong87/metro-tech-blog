@@ -5,6 +5,8 @@ lang: "vi"
 date: 2026-01-15
 country: "Nhật Bản"
 tags: ["TBM", "khiên đào hầm", "địa chất đô thị"]
+heroImage: "/images/blog/tbm-nhat-ban.svg"
+heroImageAlt: "Sơ đồ nguyên lý máy khiên đào hầm TBM"
 ---
 
 ## TBM là gì?

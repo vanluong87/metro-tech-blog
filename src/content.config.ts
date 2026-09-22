@@ -13,6 +13,8 @@ const blog = defineCollection({
     country: z.string(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    // đường dẫn tới sơ đồ SVG minh hoạ trong public/images/blog/, vd "/images/blog/tbm-nhat-ban.svg"
+    heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
   }),
 });

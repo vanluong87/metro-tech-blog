@@ -30,6 +30,7 @@ const formattedDate = post.data.date.toLocaleDateString('vi-VN', {
   path={`/vi/blog/${slug}/`}
   altPaths={enTwin ? { en: `/en/blog/${slug}/` } : {}}
   type="article"
+  image={post.data.heroImage}
 >
   <a class="back-link" href="/vi/blog/">← Quay lại danh sách bài viết</a>
   <article class="post">
@@ -38,6 +39,7 @@ const formattedDate = post.data.date.toLocaleDateString('vi-VN', {
       {post.data.country} · {formattedDate}
       {post.data.tags.map((tag: string) => <span class="tag">{tag}</span>)}
     </div>
+    {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? ''} />}
     <Content />
   </article>
 </BaseLayout>

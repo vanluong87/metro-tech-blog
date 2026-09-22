@@ -5,6 +5,8 @@ lang: "en"
 date: 2026-02-02
 country: "Singapore"
 tags: ["underground station", "diaphragm wall", "top-down construction"]
+heroImage: "/images/blog/ga-ngam-singapore.svg"
+heroImageAlt: "Diagram of top-down underground station construction"
 ---
 
 ## Singapore's core challenge

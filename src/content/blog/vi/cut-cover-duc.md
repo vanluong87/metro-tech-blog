@@ -5,6 +5,8 @@ lang: "vi"
 date: 2026-02-20
 country: "Đức"
 tags: ["cut and cover", "đào hở", "U-Bahn"]
+heroImage: "/images/blog/cut-cover-duc.svg"
+heroImageAlt: "Sơ đồ 3 giai đoạn thi công Cut & Cover"
 ---
 
 ## Cut & Cover là gì?

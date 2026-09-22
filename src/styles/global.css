@@ -151,6 +151,21 @@ main {
   background: var(--color-surface);
 }
 
+.post-card-thumb {
+  display: block;
+  margin: -20px -22px 16px;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.post-card-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #f6f7f9;
+}
+
 .post-card h2 {
   margin: 0 0 8px;
   font-size: 1.25rem;
@@ -181,6 +196,23 @@ main {
 article.post h1 {
   font-size: 1.9rem;
   margin-bottom: 6px;
+}
+
+article.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: #f6f7f9;
+  margin: 8px 0 4px;
+}
+
+article.post img + em {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: -2px;
 }
 
 article.post .meta {

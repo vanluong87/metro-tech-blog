@@ -5,6 +5,8 @@ lang: "en"
 date: 2026-01-15
 country: "Japan"
 tags: ["TBM", "tunnel boring", "urban geology"]
+heroImage: "/images/blog/tbm-nhat-ban.svg"
+heroImageAlt: "Diagram of TBM shield tunneling principle"
 ---
 
 ## What is a TBM?

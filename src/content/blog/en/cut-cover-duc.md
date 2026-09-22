@@ -5,6 +5,8 @@ lang: "en"
 date: 2026-02-20
 country: "Germany"
 tags: ["cut and cover", "open-cut excavation", "U-Bahn"]
+heroImage: "/images/blog/cut-cover-duc.svg"
+heroImageAlt: "Diagram of the 3-stage Cut & Cover construction sequence"
 ---
 
 ## What is Cut & Cover?

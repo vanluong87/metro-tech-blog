@@ -11,9 +11,10 @@ interface Props {
   /** map các ngôn ngữ khác có bản dịch cho đúng trang này, dùng cho hreflang + nút chuyển ngôn ngữ */
   altPaths?: Partial<Record<Lang, string>>;
   type?: 'website' | 'article';
+  image?: string;
 }
 
-const { lang, title, description, path, altPaths = {}, type = 'website' } = Astro.props;
+const { lang, title, description, path, altPaths = {}, type = 'website', image } = Astro.props;
 const t = ui[lang];
 const canonicalURL = new URL(path, Astro.site);
 ---
@@ -40,9 +41,11 @@ const canonicalURL = new URL(path, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_US'} />
-    <meta name="twitter:card" content="summary" />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    {image && <meta name="twitter:image" content={new URL(image, Astro.site)} />}
   </head>
   <body>
     <header class="site-header">

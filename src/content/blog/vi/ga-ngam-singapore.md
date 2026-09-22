@@ -5,6 +5,8 @@ lang: "vi"
 date: 2026-02-02
 country: "Singapore"
 tags: ["ga ngầm", "tường vây", "top-down"]
+heroImage: "/images/blog/ga-ngam-singapore.svg"
+heroImageAlt: "Sơ đồ thi công ga ngầm kiểu top-down"
 ---
 
 ## Thách thức của Singapore

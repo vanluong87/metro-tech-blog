@@ -18,6 +18,11 @@ const formattedDate = post.data.date.toLocaleDateString(lang === 'vi' ? 'vi-VN' 
 ---
 
 <li class="post-card">
+  {post.data.heroImage && (
+    <a href={`/${lang}/blog/${slug}/`} class="post-card-thumb">
+      <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? ''} loading="lazy" />
+    </a>
+  )}
   <h2><a href={`/${lang}/blog/${slug}/`}>{post.data.title}</a></h2>
   <div class="meta">{post.data.country} · {formattedDate}</div>
   <p class="desc">{post.data.description}</p>
