@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { ui } from '../../../i18n/ui';
+import { getCollection } from 'astro:content';
+
+const t = ui.vi;
+const posts = (await getCollection('blog', ({ data }) => data.lang === 'vi' && !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<BaseLayout
+  lang="vi"
+  title={t.nav_blog}
+  description={t.home_intro}
+  path="/vi/blog/"
+  altPaths={{ en: '/en/blog/' }}
+>
+  <section class="hero">
+    <h1>{t.nav_blog}</h1>
+  </section>
+  <ul class="post-list">
+    {posts.map((post) => <PostCard post={post} lang="vi" />)}
+  </ul>
+</BaseLayout>

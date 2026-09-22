@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => data.lang === 'en' && !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id.split('/').pop() },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const slug = post.id.split('/').pop();
+
+const viTwin = await getEntry('blog', `vi/${slug}`);
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout
+  lang="en"
+  title={post.data.title}
+  description={post.data.description}
+  path={`/en/blog/${slug}/`}
+  altPaths={viTwin ? { vi: `/vi/blog/${slug}/` } : {}}
+  type="article"
+>
+  <a class="back-link" href="/en/blog/">← Back to articles</a>
+  <article class="post">
+    <h1>{post.data.title}</h1>
+    <div class="meta">
+      {post.data.country} · {formattedDate}
+      {post.data.tags.map((tag: string) => <span class="tag">{tag}</span>)}
+    </div>
+    <Content />
+  </article>
+</BaseLayout>

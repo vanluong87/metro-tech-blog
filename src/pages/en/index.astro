@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { ui } from '../../i18n/ui';
+import { getCollection } from 'astro:content';
+
+const t = ui.en;
+const posts = (await getCollection('blog', ({ data }) => data.lang === 'en' && !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<BaseLayout
+  lang="en"
+  title={t.home_title}
+  description={t.home_intro}
+  path="/en/"
+  altPaths={{ vi: '/vi/' }}
+>
+  <section class="hero">
+    <h1>{t.home_title}</h1>
+    <p>{t.home_intro}</p>
+  </section>
+
+  <section>
+    <h2>{t.latest_posts}</h2>
+    <ul class="post-list">
+      {posts.map((post) => <PostCard post={post} lang="en" />)}
+    </ul>
+  </section>
+</BaseLayout>

@@ -1,0 +1,81 @@
+---
+import '../styles/global.css';
+import { languages, ui, defaultLang, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** đường dẫn tương đối không kèm domain, vd "/vi/blog/tbm-nhat-ban/" */
+  path: string;
+  /** map các ngôn ngữ khác có bản dịch cho đúng trang này, dùng cho hreflang + nút chuyển ngôn ngữ */
+  altPaths?: Partial<Record<Lang, string>>;
+  type?: 'website' | 'article';
+}
+
+const { lang, title, description, path, altPaths = {}, type = 'website' } = Astro.props;
+const t = ui[lang];
+const canonicalURL = new URL(path, Astro.site);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} · {t.siteName}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    {Object.entries(languages).map(([code]) => {
+      const altPath = code === lang ? path : altPaths[code as Lang];
+      if (!altPath) return null;
+      return <link rel="alternate" hreflang={code} href={new URL(altPath, Astro.site)} />;
+    })}
+    <link rel="alternate" hreflang="x-default" href={new URL((lang === defaultLang ? path : altPaths[defaultLang]) ?? path, Astro.site)} />
+
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_US'} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href={`/${lang}/`}>{t.siteName}</a>
+        <nav class="main-nav">
+          <a href={`/${lang}/`}>{t.nav_home}</a>
+          <a href={`/${lang}/blog/`}>{t.nav_blog}</a>
+          <a href={`/${lang}/about/`}>{t.nav_about}</a>
+          <span class="lang-switch">
+            {Object.entries(languages).map(([code, label]) => {
+              const href = code === lang ? path : altPaths[code as Lang];
+              if (!href) return null;
+              return (
+                <a href={href} aria-current={code === lang ? 'true' : 'false'}>
+                  {label}
+                </a>
+              );
+            })}
+          </span>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <slot />
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>{t.footer_note}</p>
+        <p>© {new Date().getFullYear()} {t.siteName}</p>
+      </div>
+    </footer>
+  </body>
+</html>

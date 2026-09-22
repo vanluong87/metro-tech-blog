@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ui } from '../../i18n/ui';
+
+const t = ui.vi;
+---
+
+<BaseLayout
+  lang="vi"
+  title={t.about_title}
+  description={t.home_intro}
+  path="/vi/about/"
+  altPaths={{ en: '/en/about/' }}
+>
+  <section class="hero">
+    <h1>{t.about_title}</h1>
+    <p>
+      Đây là nơi tổng hợp và chia sẻ kinh nghiệm thực tế về công nghệ thi công tàu điện ngầm (metro)
+      từ nhiều quốc gia trên thế giới — bao gồm các phương pháp như khiên đào hầm TBM, NATM, đào hở
+      Cut &amp; Cover, thi công ga ngầm, quản lý rủi ro địa kỹ thuật đô thị và các bài học kinh nghiệm
+      thực tế từ hiện trường.
+    </p>
+    <p>
+      Mục tiêu là xây dựng một nguồn tham khảo hữu ích, dễ tiếp cận cho kỹ sư, sinh viên và những
+      người quan tâm đến hạ tầng giao thông đô thị tại Việt Nam và khu vực.
+    </p>
+  </section>
+</BaseLayout>
