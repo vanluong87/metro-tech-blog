@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Quy trình nghiên cứu tiền khả thi &amp; quy hoạch mạng lưới metro
+  </text>
+  <text x="400" y="53" font-size="12" fill="#5a6270" text-anchor="middle">
+    Pre-feasibility &amp; metro network planning process
+  </text>
+
+  <!-- 5-step horizontal sequence -->
+  <g>
+    <!-- connecting line -->
+    <line x1="90" y1="180" x2="710" y2="180" stroke="#d8dde1" stroke-width="3"/>
+  </g>
+
+  <!-- Step 1 -->
+  <g>
+    <circle cx="90" cy="180" r="28" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <text x="90" y="186" font-size="18" fill="#1a1d23" text-anchor="middle" font-weight="700">1</text>
+    <rect x="20" y="230" width="140" height="90" rx="6" fill="#ffffff" stroke="#d8dde1"/>
+    <text x="90" y="255" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Phân tích nhu cầu</text>
+    <text x="90" y="272" font-size="11" fill="#5a6270" text-anchor="middle">đi lại</text>
+    <text x="90" y="298" font-size="10" fill="#8a8f98" text-anchor="middle">Travel demand</text>
+    <text x="90" y="312" font-size="10" fill="#8a8f98" text-anchor="middle">analysis</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g>
+    <circle cx="245" cy="180" r="28" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <text x="245" y="186" font-size="18" fill="#1a1d23" text-anchor="middle" font-weight="700">2</text>
+    <rect x="175" y="230" width="140" height="90" rx="6" fill="#ffffff" stroke="#d8dde1"/>
+    <text x="245" y="255" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Đề xuất phương án</text>
+    <text x="245" y="272" font-size="11" fill="#5a6270" text-anchor="middle">tuyến</text>
+    <text x="245" y="298" font-size="10" fill="#8a8f98" text-anchor="middle">Corridor</text>
+    <text x="245" y="312" font-size="10" fill="#8a8f98" text-anchor="middle">options</text>
+  </g>
+
+  <!-- Step 3 - highlighted as key/accent -->
+  <g>
+    <circle cx="400" cy="180" r="30" fill="#0a5c4a"/>
+    <text x="400" y="187" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="700">3</text>
+    <rect x="325" y="228" width="150" height="94" rx="6" fill="#0a5c4a"/>
+    <text x="400" y="255" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Phân tích chi phí -</text>
+    <text x="400" y="272" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">lợi ích</text>
+    <text x="400" y="298" font-size="10" fill="#dfe9e6" text-anchor="middle">Cost-benefit</text>
+    <text x="400" y="312" font-size="10" fill="#dfe9e6" text-anchor="middle">analysis</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g>
+    <circle cx="555" cy="180" r="28" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <text x="555" y="186" font-size="18" fill="#1a1d23" text-anchor="middle" font-weight="700">4</text>
+    <rect x="485" y="230" width="140" height="90" rx="6" fill="#ffffff" stroke="#d8dde1"/>
+    <text x="555" y="255" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Tham vấn cộng</text>
+    <text x="555" y="272" font-size="11" fill="#5a6270" text-anchor="middle">đồng</text>
+    <text x="555" y="298" font-size="10" fill="#8a8f98" text-anchor="middle">Public</text>
+    <text x="555" y="312" font-size="10" fill="#8a8f98" text-anchor="middle">consultation</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g>
+    <circle cx="710" cy="180" r="28" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <text x="710" y="186" font-size="18" fill="#1a1d23" text-anchor="middle" font-weight="700">5</text>
+    <rect x="640" y="230" width="140" height="90" rx="6" fill="#ffffff" stroke="#d8dde1"/>
+    <text x="710" y="255" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Chọn phương án</text>
+    <text x="710" y="272" font-size="11" fill="#5a6270" text-anchor="middle">ưu tiên</text>
+    <text x="710" y="298" font-size="10" fill="#8a8f98" text-anchor="middle">Preferred</text>
+    <text x="710" y="312" font-size="10" fill="#8a8f98" text-anchor="middle">option</text>
+  </g>
+
+  <!-- network map motif at bottom: simple line + interchange dots -->
+  <g stroke="#8a8f98" stroke-width="2" fill="none">
+    <path d="M60,390 L300,390 L360,420 L500,420"/>
+    <path d="M200,360 L200,390 L280,420 L280,440"/>
+  </g>
+  <circle cx="200" cy="390" r="5" fill="#0a5c4a"/>
+  <circle cx="360" cy="420" r="5" fill="#0a5c4a"/>
+  <circle cx="60" cy="390" r="4" fill="#5a6270"/>
+  <circle cx="500" cy="420" r="4" fill="#5a6270"/>
+  <circle cx="200" cy="360" r="4" fill="#5a6270"/>
+  <circle cx="280" cy="440" r="4" fill="#5a6270"/>
+  <text x="620" y="395" font-size="11" fill="#5a6270" text-anchor="start">Quy hoạch mạng lưới tích hợp</text>
+  <text x="620" y="410" font-size="10" fill="#8a8f98" text-anchor="start">Integrated network planning</text>
+</svg>

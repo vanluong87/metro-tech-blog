@@ -14,10 +14,9 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] TBM (khiên đào hầm) — Nhật Bản — `tbm-nhat-ban`
 - [x] Thi công ga ngầm (tường vây, top-down) — Singapore — `ga-ngam-singapore`
 - [x] Đào hở Cut & Cover — Đức — `cut-cover-duc`
+- [x] Nghiên cứu tiền khả thi & quy hoạch mạng lưới metro — Pháp (Paris) — `quy-hoach-metro-phap`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
-
-- [ ] Nghiên cứu tiền khả thi & quy hoạch mạng lưới metro — Pháp (Paris) — slug gợi ý: `quy-hoach-metro-phap`
 - [ ] Thiết kế cơ sở & thiết kế kỹ thuật tuyến metro — Hàn Quốc (Seoul) — `thiet-ke-metro-han-quoc`
 - [ ] Đấu thầu quốc tế & lựa chọn nhà thầu EPC — Vương quốc Anh (London Crossrail/Elizabeth Line) — `dau-thau-metro-anh`
 - [ ] Giải phóng mặt bằng & di dời hạ tầng ngầm hiện hữu — Hà Lan (Amsterdam) — `giai-phong-mat-bang-ha-lan`
