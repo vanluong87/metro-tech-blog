@@ -17,9 +17,9 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Nghiên cứu tiền khả thi & quy hoạch mạng lưới metro — Pháp (Paris) — `quy-hoach-metro-phap`
 - [x] Thiết kế cơ sở & thiết kế kỹ thuật tuyến metro — Hàn Quốc (Seoul) — `thiet-ke-metro-han-quoc`
 - [x] Đấu thầu quốc tế & lựa chọn nhà thầu EPC — Vương quốc Anh (London Crossrail/Elizabeth Line) — `dau-thau-metro-anh`
+- [x] Giải phóng mặt bằng & di dời hạ tầng ngầm hiện hữu — Hà Lan (Amsterdam) — `giai-phong-mat-bang-ha-lan`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
-- [ ] Giải phóng mặt bằng & di dời hạ tầng ngầm hiện hữu — Hà Lan (Amsterdam) — `giai-phong-mat-bang-ha-lan`
 - [ ] Khảo sát địa chất & đánh giá rủi ro trước thi công — Trung Quốc (Thượng Hải) — `khao-sat-dia-chat-thuong-hai`
 
 ## Hàng chờ — Giai đoạn thi công kết cấu
