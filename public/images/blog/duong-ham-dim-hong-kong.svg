@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="80" fill="#eef2f1"/>
+
+  <!-- water -->
+  <rect x="0" y="80" width="800" height="200" fill="#dce7ea"/>
+  <path d="M0,90 q20,-8 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0"
+        fill="none" stroke="#9cc3cf" stroke-width="2" opacity="0.8"/>
+  <text x="16" y="72" font-size="12" fill="#4d6b96">mặt biển / sea surface</text>
+
+  <!-- seabed layers -->
+  <rect x="0" y="280" width="800" height="90" fill="#d3ddd2"/>
+  <rect x="0" y="370" width="800" height="80" fill="#c3cfc1"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#9fb09c" stroke-width="2"/>
+  <text x="16" y="298" font-size="12" fill="#5a6270">đáy biển / seabed</text>
+
+  <!-- dredged trench -->
+  <path d="M60,280 L140,280 L160,330 L540,330 L560,280 L640,280 L640,345 L60,345 Z" fill="#eef1ed" stroke="#8a8f98" stroke-width="1.5"/>
+
+  <!-- element 1: already placed (immersed tube segment) -->
+  <rect x="165" y="290" width="150" height="55" rx="6" fill="#0a5c4a"/>
+  <text x="240" y="322" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">đốt hầm đã lắp</text>
+  <text x="240" y="336" font-size="10" fill="#eafff6" text-anchor="middle">placed element</text>
+
+  <!-- element 2: being lowered, with cables from barge -->
+  <rect x="330" y="150" width="150" height="55" rx="6" fill="#0a5c4a" opacity="0.9"/>
+  <text x="405" y="182" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">đốt hầm hạ chìm</text>
+  <text x="405" y="196" font-size="10" fill="#eafff6" text-anchor="middle">element being sunk</text>
+
+  <!-- cables from surface crane barge to element 2 -->
+  <line x1="355" y1="80" x2="355" y2="150" stroke="#5a6270" stroke-width="2"/>
+  <line x1="455" y1="80" x2="455" y2="150" stroke="#5a6270" stroke-width="2"/>
+
+  <!-- crane barge on surface -->
+  <rect x="320" y="55" width="170" height="25" rx="3" fill="#8a8f98"/>
+  <rect x="380" y="20" width="10" height="40" fill="#5a6270"/>
+  <rect x="420" y="20" width="10" height="40" fill="#5a6270"/>
+  <text x="405" y="42" font-size="10" fill="#1a1d23" text-anchor="middle">sà lan lắp đặt / barge</text>
+
+  <!-- downward arrow showing sinking motion -->
+  <line x1="405" y1="208" x2="405" y2="275" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrowdown)"/>
+
+  <!-- arrow showing next element towed in -->
+  <rect x="610" y="90" width="110" height="45" rx="5" fill="#0a5c4a" opacity="0.5"/>
+  <text x="665" y="116" font-size="10" fill="#ffffff" text-anchor="middle">đốt hầm kéo tới</text>
+  <text x="665" y="128" font-size="9" fill="#eafff6" text-anchor="middle">towed element</text>
+  <line x1="605" y1="113" x2="500" y2="155" stroke="#1a1d23" stroke-width="2" marker-end="url(#arrowleft)"/>
+
+  <defs>
+    <marker id="arrowdown" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <path d="M0,0 L10,0 L5,10 z" fill="#1a1d23"/>
+    </marker>
+    <marker id="arrowleft" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="415" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Thi công đường hầm dìm vượt biển / Immersed tube tunnel installation
+  </text>
+</svg>

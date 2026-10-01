@@ -20,12 +20,11 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Giải phóng mặt bằng & di dời hạ tầng ngầm hiện hữu — Hà Lan (Amsterdam) — `giai-phong-mat-bang-ha-lan`
 - [x] Khảo sát địa chất & đánh giá rủi ro trước thi công — Trung Quốc (Thượng Hải) — `khao-sat-dia-chat-thuong-hai`
 - [x] Phương pháp NATM (đào hầm kiểu Áo mới) — Áo (Vienna) — `natm-ao`
+- [x] Đường hầm dìm (Immersed tube tunnel) — vượt sông/biển — Hồng Kông — `duong-ham-dim-hong-kong`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
 
 ## Hàng chờ — Giai đoạn thi công kết cấu
-
-- [ ] Đường hầm dìm (Immersed tube tunnel) — vượt sông/biển — Hồng Kông — `duong-ham-dim-hong-kong`
 - [ ] Thi công ga metro nhiều tầng, kết nối trung tâm thương mại — Trung Quốc (Thâm Quyến) — `ga-da-tang-tham-quyen`
 - [ ] Kiểm soát lún và bảo vệ công trình di sản khi thi công ngầm — Ý (Rome) — `bao-ve-di-san-rome`
 - [ ] Thi công metro trên cao (elevated/viaduct) — Thái Lan (Bangkok) — `metro-tren-cao-bangkok`
