@@ -22,11 +22,11 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Phương pháp NATM (đào hầm kiểu Áo mới) — Áo (Vienna) — `natm-ao`
 - [x] Đường hầm dìm (Immersed tube tunnel) — vượt sông/biển — Hồng Kông — `duong-ham-dim-hong-kong`
 - [x] Thi công ga metro nhiều tầng, kết nối trung tâm thương mại — Trung Quốc (Thâm Quyến) — `ga-da-tang-tham-quyen`
+- [x] Kiểm soát lún và bảo vệ công trình di sản khi thi công ngầm — Ý (Rome) — `bao-ve-di-san-rome`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
 
 ## Hàng chờ — Giai đoạn thi công kết cấu
-- [ ] Kiểm soát lún và bảo vệ công trình di sản khi thi công ngầm — Ý (Rome) — `bao-ve-di-san-rome`
 - [ ] Thi công metro trên cao (elevated/viaduct) — Thái Lan (Bangkok) — `metro-tren-cao-bangkok`
 
 ## Hàng chờ — Hệ thống kỹ thuật (M&E, đường ray, tín hiệu)
