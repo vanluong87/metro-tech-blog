@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- sky area -->
+  <rect x="0" y="0" width="800" height="300" fill="#eef2f0"/>
+
+  <!-- ground / road level -->
+  <rect x="0" y="360" width="800" height="90" fill="#d8dde1"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#9fa6ad" stroke-width="2"/>
+
+  <!-- road lane markings under viaduct -->
+  <g stroke="#b8bec4" stroke-width="3" stroke-dasharray="14 10">
+    <line x1="0" y1="400" x2="800" y2="400"/>
+  </g>
+
+  <!-- pier 1 -->
+  <g>
+    <rect x="150" y="260" width="40" height="100" fill="#8a8f98"/>
+    <rect x="120" y="230" width="100" height="32" rx="4" fill="#5a6270"/>
+    <rect x="130" y="355" width="80" height="14" fill="#5a6270"/>
+  </g>
+
+  <!-- pier 2 -->
+  <g>
+    <rect x="610" y="260" width="40" height="100" fill="#8a8f98"/>
+    <rect x="580" y="230" width="100" height="32" rx="4" fill="#5a6270"/>
+    <rect x="590" y="355" width="80" height="14" fill="#5a6270"/>
+  </g>
+
+  <!-- precast segmental girder spanning between piers -->
+  <rect x="90" y="196" width="620" height="36" rx="4" fill="#0a5c4a"/>
+  <!-- segment joints -->
+  <g stroke="#06392e" stroke-width="1.5" opacity="0.6">
+    <line x1="150" y1="196" x2="150" y2="232"/>
+    <line x1="210" y1="196" x2="210" y2="232"/>
+    <line x1="270" y1="196" x2="270" y2="232"/>
+    <line x1="330" y1="196" x2="330" y2="232"/>
+    <line x1="470" y1="196" x2="470" y2="232"/>
+    <line x1="530" y1="196" x2="530" y2="232"/>
+    <line x1="590" y1="196" x2="590" y2="232"/>
+    <line x1="650" y1="196" x2="650" y2="232"/>
+  </g>
+
+  <!-- station box on widened pier section -->
+  <rect x="330" y="150" width="140" height="46" rx="4" fill="#d8dde1" stroke="#8a8f98"/>
+  <rect x="340" y="160" width="40" height="26" fill="#ffffff" stroke="#8a8f98"/>
+  <rect x="390" y="160" width="40" height="26" fill="#ffffff" stroke="#8a8f98"/>
+  <text x="400" y="178" font-size="10" fill="#5a6270" text-anchor="middle">ga / station</text>
+
+  <!-- station support columns (wider) -->
+  <rect x="345" y="196" width="24" height="64" fill="#5a6270"/>
+  <rect x="431" y="196" width="24" height="64" fill="#5a6270"/>
+
+  <!-- stairs down to street -->
+  <path d="M345,260 L300,360 L330,360 L365,262 Z" fill="#e2e8e1" stroke="#9fa6ad"/>
+  <text x="310" y="345" font-size="9" fill="#5a6270" transform="rotate(-70 310,345)">thang bộ / stairs</text>
+
+  <!-- rail + overhead contact system on top of girder -->
+  <line x1="90" y1="192" x2="710" y2="192" stroke="#1a1d23" stroke-width="3"/>
+  <g stroke="#3a3f47" stroke-width="2">
+    <line x1="160" y1="150" x2="160" y2="192"/>
+    <line x1="640" y1="150" x2="640" y2="192"/>
+  </g>
+  <line x1="160" y1="150" x2="640" y2="150" stroke="#8a8f98" stroke-width="1.5"/>
+  <text x="200" y="142" font-size="11" fill="#5a6270">đường dây tiếp xúc / OCS</text>
+
+  <!-- train on girder -->
+  <rect x="470" y="170" width="120" height="26" rx="6" fill="#0a5c4a" opacity="0.9"/>
+  <rect x="480" y="176" width="20" height="12" fill="#eafff6"/>
+  <rect x="508" y="176" width="20" height="12" fill="#eafff6"/>
+  <rect x="536" y="176" width="20" height="12" fill="#eafff6"/>
+  <rect x="564" y="176" width="20" height="12" fill="#eafff6"/>
+
+  <!-- span dimension label -->
+  <line x1="190" y1="340" x2="610" y2="340" stroke="#1a1d23" stroke-width="1.5" marker-start="url(#arrowL)" marker-end="url(#arrowR)"/>
+  <text x="400" y="332" font-size="12" fill="#1a1d23" text-anchor="middle">nhịp dầm 25-35m / span 25-35m</text>
+
+  <defs>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a1d23"/>
+    </marker>
+    <marker id="arrowL" markerWidth="8" markerHeight="8" refX="2" refY="4" orient="auto-start-reverse">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Mặt cắt kết cấu metro trên cao / Elevated metro structure cross-section
+  </text>
+  <text x="400" y="430" font-size="12" fill="#5a6270" text-anchor="middle">
+    Trụ – dầm cầu cạn đúc sẵn – ray / Pier – precast viaduct girder – rail
+  </text>
+</svg>
