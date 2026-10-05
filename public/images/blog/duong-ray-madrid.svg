@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- main panel -->
+  <rect x="40" y="36" width="720" height="300" rx="6" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- tunnel floor / slab track bed -->
+  <rect x="70" y="260" width="660" height="34" fill="#d8dde1" stroke="#8a8f98" stroke-width="2"/>
+  <text x="400" y="312" font-size="13" fill="#5a6270" text-anchor="middle">bản bê tông (slab track) / concrete track slab</text>
+
+  <!-- fasteners -->
+  <g fill="#8a8f98">
+    <rect x="96" y="250" width="18" height="12"/>
+    <rect x="176" y="250" width="18" height="12"/>
+    <rect x="256" y="250" width="18" height="12"/>
+    <rect x="356" y="250" width="18" height="12"/>
+    <rect x="456" y="250" width="18" height="12"/>
+    <rect x="556" y="250" width="18" height="12"/>
+    <rect x="636" y="250" width="18" height="12"/>
+    <rect x="696" y="250" width="18" height="12"/>
+  </g>
+
+  <!-- continuous welded rail (highlighted accent element) -->
+  <rect x="80" y="236" width="640" height="16" rx="3" fill="#0a5c4a"/>
+
+  <!-- weld joint marker -->
+  <line x1="400" y1="226" x2="400" y2="262" stroke="#1a1d23" stroke-width="2" stroke-dasharray="3 3"/>
+  <circle cx="400" cy="214" r="3" fill="#1a1d23"/>
+
+  <!-- callout to weld detail -->
+  <line x1="400" y1="210" x2="560" y2="150" stroke="#1a1d23" stroke-width="1.5"/>
+
+  <!-- weld detail zoom circle -->
+  <circle cx="610" cy="120" r="62" fill="#f3f5f4" stroke="#5a6270" stroke-width="2"/>
+  <rect x="560" y="113" width="46" height="14" fill="#0a5c4a"/>
+  <rect x="614" y="113" width="46" height="14" fill="#0a5c4a"/>
+  <rect x="603" y="110" width="14" height="20" fill="#eafff6" stroke="#06392e" stroke-width="1.5"/>
+  <text x="610" y="150" font-size="11" fill="#1a1d23" text-anchor="middle" font-weight="600">mối hàn / weld</text>
+  <text x="610" y="163" font-size="10" fill="#5a6270" text-anchor="middle">thermite / flash-butt</text>
+
+  <!-- end anchoring arrows showing locked thermal stress -->
+  <line x1="150" y1="190" x2="110" y2="190" stroke="#1a1d23" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="650" y1="190" x2="690" y2="190" stroke="#1a1d23" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="400" y="185" font-size="13" fill="#1a1d23" text-anchor="middle">
+    ray neo chặt ở nhiệt độ trung hòa — không khe co giãn
+  </text>
+  <text x="400" y="202" font-size="12" fill="#5a6270" text-anchor="middle">
+    rail anchored at neutral temperature — no expansion joints
+  </text>
+
+  <!-- fastening detail inset (bottom-left) -->
+  <rect x="70" y="60" width="230" height="110" fill="#f3f5f4" stroke="#d8dde1" stroke-width="1.5"/>
+  <text x="185" y="78" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Chi tiết liên kết / Fastening detail</text>
+
+  <rect x="110" y="140" width="150" height="14" fill="#8a8f98"/>
+  <rect x="150" y="128" width="70" height="12" fill="#c9a76b"/>
+  <rect x="165" y="112" width="40" height="16" rx="2" fill="#0a5c4a"/>
+  <rect x="150" y="104" width="12" height="18" fill="#5a6270"/>
+  <rect x="223" y="104" width="12" height="18" fill="#5a6270"/>
+
+  <text x="185" y="155" font-size="9" fill="#5a6270" text-anchor="middle">bản bê tông / slab</text>
+  <text x="275" y="134" font-size="9" fill="#5a6270" text-anchor="start">đệm cao su</text>
+  <text x="275" y="146" font-size="9" fill="#5a6270" text-anchor="start">rail pad</text>
+  <text x="95" y="112" font-size="9" fill="#5a6270" text-anchor="end">kẹp đàn hồi</text>
+  <text x="95" y="124" font-size="9" fill="#5a6270" text-anchor="end">elastic clip</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="400" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Ray liên tục hàn (CWR) trên nền đường ray bản bê tông
+  </text>
+  <text x="400" y="420" font-size="13" fill="#5a6270" text-anchor="middle">
+    Continuously Welded Rail (CWR) on slab track
+  </text>
+</svg>
