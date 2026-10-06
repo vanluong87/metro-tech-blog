@@ -32,7 +32,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 ## Hàng chờ — Hệ thống kỹ thuật (M&E, đường ray, tín hiệu)
 
 - [x] Lắp đặt đường ray & hệ thống ray liên tục hàn (CWR) — Tây Ban Nha (Madrid) — `duong-ray-madrid`
-- [ ] Hệ thống cấp điện kéo & đường dây tiếp xúc (third rail/OCS) — Hồng Kông (MTR) — `cap-dien-keo-hong-kong`
+- [x] Hệ thống cấp điện kéo & đường dây tiếp xúc (third rail/OCS) — Hồng Kông (MTR) — `cap-dien-keo-hong-kong`
 - [ ] Hệ thống tín hiệu & điều khiển đoàn tàu tự động CBTC — Pháp (Paris Métro Line 14) — `cbtc-phap`
 - [ ] Hệ thống thông gió & kiểm soát khói trong hầm — Nhật Bản (Tokyo) — `thong-gio-ham-nhat-ban`
 - [ ] Hệ thống PCCC & thoát hiểm khẩn cấp trong ga ngầm — Singapore — `pccc-ga-ngam-singapore`

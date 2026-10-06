@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- two comparison panels -->
+  <rect x="30" y="50" width="350" height="330" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+  <rect x="420" y="50" width="350" height="330" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- ===== Left panel: Third rail ===== -->
+  <text x="205" y="80" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">Ray thứ ba / Third rail</text>
+
+  <!-- tunnel cross-section suggestion -->
+  <rect x="60" y="300" width="290" height="16" fill="#d8dde1" stroke="#8a8f98" stroke-width="1.5"/>
+  <text x="205" y="334" font-size="11" fill="#5a6270" text-anchor="middle">nền đường ray / track bed</text>
+
+  <!-- running rails -->
+  <rect x="110" y="286" width="60" height="10" fill="#8a8f98"/>
+  <rect x="240" y="286" width="60" height="10" fill="#8a8f98"/>
+
+  <!-- third rail (accent) -->
+  <rect x="175" y="270" width="55" height="14" rx="2" fill="#0a5c4a"/>
+  <rect x="175" y="256" width="55" height="8" fill="#5a6270"/>
+  <text x="330" y="262" font-size="10" fill="#0a5c4a" text-anchor="start" font-weight="600">ray thứ ba</text>
+  <text x="330" y="274" font-size="10" fill="#0a5c4a" text-anchor="start" font-weight="600">third rail</text>
+
+  <!-- protective cover callout -->
+  <line x1="202" y1="256" x2="150" y2="200" stroke="#1a1d23" stroke-width="1.2"/>
+  <text x="90" y="195" font-size="10" fill="#5a6270" text-anchor="middle">tấm chắn bảo vệ</text>
+  <text x="90" y="207" font-size="10" fill="#5a6270" text-anchor="middle">protective cover</text>
+
+  <!-- train body -->
+  <rect x="100" y="150" width="210" height="60" rx="8" fill="#eef1f0" stroke="#5a6270" stroke-width="2"/>
+  <rect x="115" y="162" width="36" height="24" rx="3" fill="#bcd8ce"/>
+  <rect x="160" y="162" width="36" height="24" rx="3" fill="#bcd8ce"/>
+  <rect x="205" y="162" width="36" height="24" rx="3" fill="#bcd8ce"/>
+
+  <!-- collector shoe -->
+  <line x1="205" y1="210" x2="205" y2="256" stroke="#1a1d23" stroke-width="2.5"/>
+  <rect x="195" y="254" width="20" height="8" fill="#1a1d23"/>
+  <text x="240" y="230" font-size="10" fill="#1a1d23" text-anchor="start">guốc trượt</text>
+  <text x="240" y="242" font-size="10" fill="#1a1d23" text-anchor="start">collector shoe</text>
+
+  <text x="205" y="358" font-size="11" fill="#5a6270" text-anchor="middle">phù hợp tuyến ngầm, hạn chế chiều cao hầm</text>
+  <text x="205" y="372" font-size="11" fill="#5a6270" text-anchor="middle">suits tunnels — reduces required tunnel height</text>
+
+  <!-- ===== Right panel: OCS ===== -->
+  <text x="595" y="80" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">Dây tiếp xúc trên cao / OCS</text>
+
+  <!-- ground -->
+  <rect x="450" y="300" width="290" height="16" fill="#d8dde1" stroke="#8a8f98" stroke-width="1.5"/>
+  <text x="595" y="334" font-size="11" fill="#5a6270" text-anchor="middle">nền đường ray / track bed</text>
+  <rect x="500" y="286" width="60" height="10" fill="#8a8f98"/>
+  <rect x="630" y="286" width="60" height="10" fill="#8a8f98"/>
+
+  <!-- support poles -->
+  <rect x="470" y="110" width="10" height="190" fill="#5a6270"/>
+  <rect x="710" y="110" width="10" height="190" fill="#5a6270"/>
+
+  <!-- catenary wire -->
+  <path d="M475,112 L715,112" stroke="#0a5c4a" stroke-width="3" fill="none"/>
+  <path d="M475,112 Q595,100 715,112" stroke="#0a5c4a" stroke-width="2" fill="none"/>
+  <text x="595" y="95" font-size="10" fill="#0a5c4a" text-anchor="middle" font-weight="600">dây tiếp xúc / contact wire</text>
+
+  <!-- train body -->
+  <rect x="490" y="180" width="210" height="60" rx="8" fill="#eef1f0" stroke="#5a6270" stroke-width="2"/>
+  <rect x="505" y="192" width="36" height="24" rx="3" fill="#bcd8ce"/>
+  <rect x="550" y="192" width="36" height="24" rx="3" fill="#bcd8ce"/>
+  <rect x="595" y="192" width="36" height="24" rx="3" fill="#bcd8ce"/>
+
+  <!-- pantograph -->
+  <path d="M580,180 L588,140 L602,140 L610,180" stroke="#1a1d23" stroke-width="2.5" fill="none"/>
+  <line x1="588" y1="140" x2="602" y2="140" stroke="#1a1d23" stroke-width="3"/>
+  <text x="640" y="150" font-size="10" fill="#1a1d23" text-anchor="start">cần pantograph</text>
+  <text x="640" y="162" font-size="10" fill="#1a1d23" text-anchor="start">pantograph</text>
+
+  <text x="595" y="358" font-size="11" fill="#5a6270" text-anchor="middle">phù hợp đoạn trên cao, tốc độ cao, điện áp lớn hơn</text>
+  <text x="595" y="372" font-size="11" fill="#5a6270" text-anchor="middle">suits elevated sections, higher speed &amp; voltage</text>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Hệ thống cấp điện kéo: Ray thứ ba &amp; Dây tiếp xúc trên cao
+  </text>
+  <text x="400" y="410" font-size="12" fill="#5a6270" text-anchor="middle">
+    Traction power supply: Third rail &amp; Overhead catenary system (OCS)
+  </text>
+</svg>
