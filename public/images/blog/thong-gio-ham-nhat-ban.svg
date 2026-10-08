@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- main panel -->
+  <rect x="30" y="50" width="740" height="330" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- ground level line -->
+  <line x1="60" y1="90" x2="740" y2="90" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="70" y="82" font-size="10" fill="#5a6270">mặt đất / ground level</text>
+
+  <!-- tunnel box -->
+  <rect x="60" y="230" width="680" height="90" fill="#eef1f0" stroke="#5a6270" stroke-width="2"/>
+  <text x="90" y="222" font-size="11" fill="#5a6270">hầm metro / metro tunnel</text>
+
+  <!-- running rails -->
+  <rect x="90" y="300" width="620" height="8" fill="#8a8f98"/>
+
+  <!-- train -->
+  <rect x="260" y="250" width="160" height="48" rx="6" fill="#dfe4e2" stroke="#5a6270" stroke-width="2"/>
+  <rect x="272" y="260" width="30" height="20" rx="3" fill="#bcd8ce"/>
+  <rect x="310" y="260" width="30" height="20" rx="3" fill="#bcd8ce"/>
+  <rect x="348" y="260" width="30" height="20" rx="3" fill="#bcd8ce"/>
+  <rect x="386" y="260" width="22" height="20" rx="3" fill="#bcd8ce"/>
+
+  <!-- airflow arrows along tunnel (normal ventilation) -->
+  <path d="M110,245 l24,0 l-7,-6 m7,6 l-7,6" stroke="#0a5c4a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160,245 l24,0 l-7,-6 m7,6 l-7,6" stroke="#0a5c4a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M450,245 l24,0 l-7,-6 m7,6 l-7,6" stroke="#0a5c4a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M500,245 l24,0 l-7,-6 m7,6 l-7,6" stroke="#0a5c4a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- jet fan units mounted at tunnel ceiling -->
+  <rect x="150" y="233" width="46" height="16" rx="3" fill="#5a6270"/>
+  <circle cx="158" cy="241" r="5" fill="#d8dde1"/>
+  <circle cx="172" cy="241" r="5" fill="#d8dde1"/>
+  <circle cx="186" cy="241" r="5" fill="#d8dde1"/>
+  <text x="173" y="226" font-size="9.5" fill="#1a1d23" text-anchor="middle">quạt jet fan</text>
+  <text x="173" y="216" font-size="9.5" fill="#1a1d23" text-anchor="middle">jet fan</text>
+
+  <rect x="520" y="233" width="46" height="16" rx="3" fill="#5a6270"/>
+  <circle cx="528" cy="241" r="5" fill="#d8dde1"/>
+  <circle cx="542" cy="241" r="5" fill="#d8dde1"/>
+  <circle cx="556" cy="241" r="5" fill="#d8dde1"/>
+
+  <!-- ventilation shaft (accent green) -->
+  <rect x="610" y="90" width="50" height="140" fill="#0a5c4a"/>
+  <rect x="610" y="90" width="50" height="140" fill="none" stroke="#1a1d23" stroke-width="1"/>
+  <!-- shaft airflow arrow exiting upward -->
+  <path d="M635,170 l0,-55 m-8,10 l8,-10 l8,10" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- shaft grille on surface -->
+  <rect x="600" y="78" width="70" height="12" rx="2" fill="#8a8f98" stroke="#5a6270" stroke-width="1.5"/>
+  <text x="635" y="66" font-size="10.5" fill="#1a1d23" text-anchor="middle" font-weight="600">giếng thông gió</text>
+  <text x="635" y="55" font-size="10.5" fill="#1a1d23" text-anchor="middle" font-weight="600">ventilation shaft</text>
+
+  <!-- smoke stratification callout at left (emergency mode) -->
+  <path d="M60,235 q15,-10 30,0 q15,-10 30,0 q15,-10 30,0" stroke="#8a8f98" stroke-width="2.5" fill="none" opacity="0.8"/>
+  <text x="90" y="200" font-size="9.5" fill="#5a6270" text-anchor="middle">lớp khói / smoke layer</text>
+  <text x="90" y="189" font-size="9.5" fill="#5a6270" text-anchor="middle">(chế độ khẩn cấp / emergency mode)</text>
+
+  <!-- evacuation walkway at bottom of tunnel -->
+  <rect x="90" y="312" width="620" height="6" fill="#d8dde1"/>
+  <text x="400" y="333" font-size="10" fill="#5a6270" text-anchor="middle">lối thoát hiểm dọc hầm / emergency walkway</text>
+
+  <!-- legend -->
+  <circle cx="90" cy="358" r="5" fill="#0a5c4a"/>
+  <text x="102" y="362" font-size="10" fill="#1a1d23">luồng khí thông gió thường xuyên / normal airflow</text>
+
+  <!-- titles -->
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Thông gió hầm &amp; kiểm soát khói trong metro
+  </text>
+  <text x="400" y="410" font-size="12" fill="#5a6270" text-anchor="middle">
+    Tunnel ventilation &amp; smoke control: jet fans and ventilation shafts
+  </text>
+</svg>
