@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground -->
+  <rect x="0" y="40" width="800" height="20" fill="#3a3f47"/>
+  <text x="20" y="34" font-size="13" fill="#1a1d23">mặt đất / street level</text>
+
+  <!-- station box -->
+  <rect x="60" y="60" width="680" height="330" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- concourse level -->
+  <rect x="60" y="60" width="680" height="110" fill="#eef1ef"/>
+  <text x="80" y="85" font-size="13" fill="#5a6270" font-weight="600">Sảnh ga / Concourse</text>
+
+  <!-- smoke reservoir near ceiling (dashed) -->
+  <rect x="80" y="95" width="640" height="26" fill="#8a8f98" opacity="0.25" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="400" y="112" font-size="12" fill="#5a6270" text-anchor="middle">bể chứa khói / smoke reservoir (ceiling)</text>
+
+  <!-- smoke extraction fans -->
+  <g stroke="#5a6270" stroke-width="2" fill="none">
+    <circle cx="150" cy="108" r="9"/>
+    <circle cx="400" cy="108" r="9"/>
+    <circle cx="650" cy="108" r="9"/>
+  </g>
+  <text x="150" y="140" font-size="11" fill="#5a6270" text-anchor="middle">quạt hút khói</text>
+  <text x="150" y="153" font-size="11" fill="#5a6270" text-anchor="middle">smoke fan</text>
+
+  <!-- platform level -->
+  <rect x="60" y="170" width="680" height="90" fill="#e4e8e6"/>
+  <text x="80" y="195" font-size="13" fill="#5a6270" font-weight="600">Ke ga / Platform</text>
+  <rect x="330" y="215" width="140" height="30" fill="#8a8f98"/>
+  <text x="400" y="235" font-size="12" fill="#ffffff" text-anchor="middle">Tàu / Train</text>
+
+  <!-- fire-rated compartment wall -->
+  <rect x="470" y="170" width="10" height="90" fill="#3a3f47"/>
+  <text x="485" y="265" font-size="11" fill="#3a3f47">vách ngăn cháy</text>
+  <text x="485" y="278" font-size="11" fill="#3a3f47">fire compartment wall</text>
+
+  <!-- pressurized escape stairwell (left) -->
+  <rect x="70" y="100" width="40" height="280" fill="#0a5c4a" opacity="0.9"/>
+  <g stroke="#eafff6" stroke-width="2">
+    <line x1="80" y1="140" x2="100" y2="140"/>
+    <line x1="80" y1="180" x2="100" y2="180"/>
+    <line x1="80" y1="220" x2="100" y2="220"/>
+    <line x1="80" y1="260" x2="100" y2="260"/>
+    <line x1="80" y1="300" x2="100" y2="300"/>
+    <line x1="80" y1="340" x2="100" y2="340"/>
+  </g>
+  <text x="90" y="395" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">Thang</text>
+  <text x="90" y="408" font-size="11" fill="#0a5c4a" text-anchor="middle">tăng áp</text>
+  <text x="90" y="420" font-size="10" fill="#0a5c4a" text-anchor="middle">pressurized</text>
+  <text x="90" y="432" font-size="10" fill="#0a5c4a" text-anchor="middle">stair</text>
+
+  <!-- arrow showing evacuation flow up the stair -->
+  <line x1="90" y1="370" x2="90" y2="110" stroke="#0a5c4a" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- refuge area marker midway -->
+  <circle cx="90" cy="250" r="14" fill="#ffffff" stroke="#0a5c4a" stroke-width="2"/>
+  <text x="120" y="248" font-size="11" fill="#0a5c4a">khu lánh nạn</text>
+  <text x="120" y="261" font-size="10" fill="#0a5c4a">refuge area</text>
+
+  <!-- secondary escape route (right side, straight to street) -->
+  <rect x="690" y="100" width="40" height="280" fill="#3a8a72" opacity="0.9"/>
+  <g stroke="#eafff6" stroke-width="2">
+    <line x1="700" y1="140" x2="720" y2="140"/>
+    <line x1="700" y1="200" x2="720" y2="200"/>
+    <line x1="700" y1="260" x2="720" y2="260"/>
+    <line x1="700" y1="320" x2="720" y2="320"/>
+  </g>
+  <line x1="710" y1="370" x2="710" y2="110" stroke="#245c4c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="710" y="395" font-size="12" fill="#245c4c" text-anchor="middle" font-weight="600">Lối thoát</text>
+  <text x="710" y="408" font-size="11" fill="#245c4c" text-anchor="middle">độc lập</text>
+  <text x="710" y="420" font-size="10" fill="#245c4c" text-anchor="middle">independent</text>
+  <text x="710" y="432" font-size="10" fill="#245c4c" text-anchor="middle">egress</text>
+
+  <!-- detection sensors on platform ceiling -->
+  <g fill="#0a5c4a">
+    <circle cx="200" cy="178" r="4"/>
+    <circle cx="300" cy="178" r="4"/>
+    <circle cx="560" cy="178" r="4"/>
+    <circle cx="640" cy="178" r="4"/>
+  </g>
+  <text x="640" y="195" font-size="10" fill="#0a5c4a" text-anchor="middle">đầu báo khói</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <path d="M0,8 L5,0 L10,8 z" fill="#0a5c4a"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="20" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    PCCC &amp; thoát hiểm khẩn cấp tại ga ngầm / Fire safety &amp; emergency egress in underground stations
+  </text>
+</svg>
