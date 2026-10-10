@@ -25,6 +25,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Kiểm soát lún và bảo vệ công trình di sản khi thi công ngầm — Ý (Rome) — `bao-ve-di-san-rome`
 - [x] Thi công metro trên cao (elevated/viaduct) — Thái Lan (Bangkok) — `metro-tren-cao-bangkok`
 - [x] Hệ thống PCCC & thoát hiểm khẩn cấp trong ga ngầm — Singapore — `pccc-ga-ngam-singapore`
+- [x] Sản xuất & vận chuyển đoàn tàu (rolling stock) — Đức (Siemens) — `doan-tau-duc`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
 
@@ -36,7 +37,6 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Hệ thống cấp điện kéo & đường dây tiếp xúc (third rail/OCS) — Hồng Kông (MTR) — `cap-dien-keo-hong-kong`
 - [x] Hệ thống tín hiệu & điều khiển đoàn tàu tự động CBTC — Pháp (Paris Métro Line 14) — `cbtc-phap`
 - [x] Hệ thống thông gió & kiểm soát khói trong hầm — Nhật Bản (Tokyo) — `thong-gio-ham-nhat-ban`
-- [ ] Sản xuất & vận chuyển đoàn tàu (rolling stock) — Đức (Siemens) — `doan-tau-duc`
 
 ## Hàng chờ — Kiểm tra, bàn giao, vận hành
 
