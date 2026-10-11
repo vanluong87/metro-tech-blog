@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- main panel -->
+  <rect x="24" y="56" width="752" height="300" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- step boxes: 5 stages -->
+  <!-- Step 1: Static testing -->
+  <rect x="48" y="150" width="120" height="100" rx="8" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <circle cx="108" cy="178" r="14" fill="#8a8f98"/>
+  <text x="108" y="183" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+  <text x="108" y="206" font-size="11.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Thử nghiệm tĩnh</text>
+  <text x="108" y="222" font-size="10.5" fill="#5a6270" text-anchor="middle">Static testing</text>
+  <text x="108" y="238" font-size="9.5" fill="#8a8f98" text-anchor="middle">(chưa có tàu)</text>
+
+  <!-- arrow -->
+  <line x1="168" y1="200" x2="192" y2="200" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-g)"/>
+
+  <!-- Step 2: Dynamic testing -->
+  <rect x="192" y="150" width="120" height="100" rx="8" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <circle cx="252" cy="178" r="14" fill="#8a8f98"/>
+  <text x="252" y="183" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+  <text x="252" y="206" font-size="11.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Thử nghiệm động</text>
+  <text x="252" y="222" font-size="10.5" fill="#5a6270" text-anchor="middle">Dynamic testing</text>
+  <text x="252" y="238" font-size="9.5" fill="#8a8f98" text-anchor="middle">(tàu chạy, không khách)</text>
+
+  <line x1="312" y1="200" x2="336" y2="200" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-g)"/>
+
+  <!-- Step 3: Integrated testing (highlighted - key element) -->
+  <rect x="336" y="140" width="128" height="120" rx="8" fill="#0a5c4a"/>
+  <circle cx="400" cy="170" r="15" fill="#ffffff"/>
+  <text x="400" y="175" font-size="13" fill="#0a5c4a" text-anchor="middle" font-weight="700">3</text>
+  <text x="400" y="200" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="700">Chạy thử tích hợp</text>
+  <text x="400" y="217" font-size="10.5" fill="#eafff6" text-anchor="middle">Integrated testing</text>
+  <text x="400" y="236" font-size="9.5" fill="#bcd8ce" text-anchor="middle">tín hiệu + điện + PCCC</text>
+  <text x="400" y="249" font-size="9.5" fill="#bcd8ce" text-anchor="middle">+ cửa chắn ke ga</text>
+
+  <line x1="464" y1="200" x2="488" y2="200" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-g)"/>
+
+  <!-- Step 4: Trial running -->
+  <rect x="488" y="150" width="120" height="100" rx="8" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <circle cx="548" cy="178" r="14" fill="#8a8f98"/>
+  <text x="548" y="183" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+  <text x="548" y="206" font-size="11.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Vận hành thử</text>
+  <text x="548" y="222" font-size="10.5" fill="#5a6270" text-anchor="middle">Trial running</text>
+  <text x="548" y="238" font-size="9.5" fill="#8a8f98" text-anchor="middle">(theo biểu đồ tàu)</text>
+
+  <line x1="608" y1="200" x2="632" y2="200" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-g)"/>
+
+  <!-- Step 5: Revenue service -->
+  <rect x="632" y="150" width="120" height="100" rx="8" fill="#eef1f0" stroke="#5a6270" stroke-width="2"/>
+  <circle cx="692" cy="178" r="14" fill="#5a6270"/>
+  <text x="692" y="183" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+  <text x="692" y="206" font-size="11.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Khai thác</text>
+  <text x="692" y="222" font-size="10.5" fill="#5a6270" text-anchor="middle">Revenue service</text>
+  <text x="692" y="238" font-size="9.5" fill="#8a8f98" text-anchor="middle">(chở khách)</text>
+
+  <!-- safety case banner under steps -->
+  <line x1="60" y1="296" x2="740" y2="296" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="400" y="316" font-size="11.5" fill="#5a6270" text-anchor="middle">
+    Hồ sơ chứng minh an toàn hệ thống (safety case) được tích lũy liên tục qua từng giai đoạn
+  </text>
+  <text x="400" y="332" font-size="10.5" fill="#8a8f98" text-anchor="middle">
+    safety case built up progressively through every stage
+  </text>
+
+  <defs>
+    <marker id="arrow-g" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8f98"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="16" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Các giai đoạn chạy thử tích hợp toàn tuyến metro
+  </text>
+  <text x="400" y="400" font-size="12" fill="#5a6270" text-anchor="middle">
+    Stages of integrated metro testing &amp; commissioning
+  </text>
+</svg>
