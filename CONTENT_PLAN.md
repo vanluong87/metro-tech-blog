@@ -41,7 +41,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 ## Hàng chờ — Kiểm tra, bàn giao, vận hành
 
 - [x] Chạy thử tích hợp toàn tuyến (integrated testing & commissioning) — Hàn Quốc (Busan) — `chay-thu-busan`
-- [ ] Đánh giá & cấp chứng nhận an toàn hệ thống trước vận hành — Vương quốc Anh — `chung-nhan-an-toan-anh`
+- [x] Đánh giá & cấp chứng nhận an toàn hệ thống trước vận hành — Vương quốc Anh — `chung-nhan-an-toan-anh`
 - [ ] Đào tạo nhân sự vận hành & bảo trì — Nhật Bản — `dao-tao-van-hanh-nhat-ban`
 - [ ] Bàn giao dự án & khai thác thương mại giai đoạn đầu — Trung Quốc (Quảng Châu) — `ban-giao-quang-chau`
 - [ ] Bảo trì dự phòng (preventive maintenance) hệ thống metro đang vận hành — Đức (Munich U-Bahn) — `bao-tri-munich`
