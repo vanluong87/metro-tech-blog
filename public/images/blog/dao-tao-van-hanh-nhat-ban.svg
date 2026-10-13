@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- main panel -->
+  <rect x="24" y="56" width="752" height="330" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- Pyramid-style levels, widest at bottom (foundational), narrowing upward (certification) -->
+
+  <!-- Level 1: Induction training (widest, bottom) -->
+  <rect x="60" y="300" width="680" height="56" rx="6" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <circle cx="98" cy="328" r="14" fill="#8a8f98"/>
+  <text x="98" y="333" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+  <text x="400" y="323" font-size="12.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Đào tạo nền tảng — an toàn &amp; quy định chung</text>
+  <text x="400" y="340" font-size="10.5" fill="#5a6270" text-anchor="middle">Induction training — safety &amp; general rules (all staff)</text>
+
+  <!-- arrow up -->
+  <line x1="400" y1="300" x2="400" y2="278" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-up)"/>
+
+  <!-- Level 2: Role-specific technical training -->
+  <rect x="110" y="222" width="580" height="56" rx="6" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <circle cx="148" cy="250" r="14" fill="#8a8f98"/>
+  <text x="148" y="255" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+  <text x="400" y="245" font-size="12.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Đào tạo chuyên môn theo vị trí</text>
+  <text x="400" y="262" font-size="10.5" fill="#5a6270" text-anchor="middle">Role-specific training — operator / controller / technician</text>
+
+  <line x1="400" y1="222" x2="400" y2="200" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-up)"/>
+
+  <!-- Level 3: Simulator training (highlighted - key element) -->
+  <rect x="190" y="140" width="420" height="60" rx="6" fill="#0a5c4a"/>
+  <circle cx="228" cy="170" r="15" fill="#ffffff"/>
+  <text x="228" y="175" font-size="13" fill="#0a5c4a" text-anchor="middle" font-weight="700">3</text>
+  <text x="419" y="165" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="700">Đào tạo mô phỏng (simulator)</text>
+  <text x="419" y="183" font-size="10.5" fill="#eafff6" text-anchor="middle">rèn phản xạ xử lý tình huống khẩn cấp</text>
+
+  <line x1="400" y1="140" x2="400" y2="118" stroke="#8a8f98" stroke-width="2.5" marker-end="url(#arrow-up)"/>
+
+  <!-- Level 4: Supervised practice -->
+  <rect x="240" y="78" width="320" height="40" rx="6" fill="#eef1f0" stroke="#8a8f98" stroke-width="2"/>
+  <text x="400" y="94" font-size="11.5" fill="#1a1d23" text-anchor="middle" font-weight="600">Thực tập có giám sát trên hệ thống thật</text>
+  <text x="400" y="108" font-size="9.5" fill="#5a6270" text-anchor="middle">Supervised practice on the live system</text>
+
+  <defs>
+    <marker id="arrow-up" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <path d="M0,10 L5,0 L10,10 z" fill="#8a8f98"/>
+    </marker>
+  </defs>
+
+  <!-- certification badge off to the side -->
+  <circle cx="710" cy="98" r="34" fill="#ffffff" stroke="#0a5c4a" stroke-width="2.5"/>
+  <text x="710" y="93" font-size="9.5" fill="#0a5c4a" text-anchor="middle" font-weight="700">Chứng chỉ</text>
+  <text x="710" y="105" font-size="8.5" fill="#0a5c4a" text-anchor="middle" font-weight="600">hành nghề</text>
+  <text x="710" y="117" font-size="7.5" fill="#5a6270" text-anchor="middle">+ tái đánh giá</text>
+  <line x1="610" y1="98" x2="676" y2="98" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow-g)"/>
+
+  <defs>
+    <marker id="arrow-g" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8f98"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="16" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Các cấp độ đào tạo nhân sự vận hành &amp; bảo trì metro
+  </text>
+  <text x="400" y="408" font-size="12" fill="#5a6270" text-anchor="middle">
+    Levels of metro operations &amp; maintenance staff training
+  </text>
+</svg>
