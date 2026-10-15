@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ===== 24h service / maintenance window timeline ===== -->
+  <text x="400" y="55" font-size="13" fill="#5a6270" text-anchor="middle">Chu kỳ 24 giờ / 24-hour cycle</text>
+
+  <!-- base timeline bar -->
+  <rect x="60" y="75" width="680" height="42" rx="6" fill="#d8dde1"/>
+  <!-- revenue service segment (majority of day) -->
+  <rect x="60" y="75" width="520" height="42" rx="6" fill="#8a8f98"/>
+  <!-- maintenance window segment (night) -->
+  <rect x="580" y="75" width="160" height="42" rx="6" fill="#0a5c4a"/>
+
+  <line x1="580" y1="75" x2="580" y2="117" stroke="#1a1d23" stroke-width="1.5"/>
+  <text x="580" y="68" font-size="11" fill="#1a1d23" text-anchor="middle">01:00</text>
+  <text x="740" y="68" font-size="11" fill="#1a1d23" text-anchor="middle">04:30</text>
+
+  <text x="320" y="100" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Giờ khai thác / Revenue service</text>
+  <text x="660" y="100" font-size="12" fill="#eafff6" text-anchor="middle" font-weight="600">Cửa sổ bảo trì</text>
+  <text x="660" y="113" font-size="10" fill="#eafff6" text-anchor="middle">Maintenance window</text>
+
+  <!-- connector lines from window down to the three panels -->
+  <line x1="660" y1="117" x2="660" y2="150" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="660" y1="150" x2="150" y2="150" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="150" y1="150" x2="150" y2="170" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="660" y1="150" x2="660" y2="170" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="405" y1="150" x2="405" y2="170" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- ===== three panels ===== -->
+  <rect x="50" y="170" width="220" height="200" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+  <rect x="290" y="170" width="220" height="200" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+  <rect x="530" y="170" width="220" height="200" rx="8" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- Panel 1: condition-based sensors on train -->
+  <text x="160" y="195" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Giám sát tình trạng</text>
+  <text x="160" y="210" font-size="11" fill="#5a6270" text-anchor="middle">Condition monitoring</text>
+
+  <rect x="90" y="230" width="140" height="46" rx="8" fill="#eef1f0" stroke="#5a6270" stroke-width="2"/>
+  <rect x="100" y="240" width="26" height="18" rx="2" fill="#bcd8ce"/>
+  <rect x="134" y="240" width="26" height="18" rx="2" fill="#bcd8ce"/>
+  <rect x="168" y="240" width="26" height="18" rx="2" fill="#bcd8ce"/>
+  <circle cx="110" cy="276" r="8" fill="#5a6270"/>
+  <circle cx="210" cy="276" r="8" fill="#5a6270"/>
+
+  <!-- sensor pulse on train -->
+  <circle cx="160" cy="230" r="4" fill="#0a5c4a"/>
+  <circle cx="160" cy="230" r="10" fill="none" stroke="#0a5c4a" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="160" cy="230" r="16" fill="none" stroke="#0a5c4a" stroke-width="1.2" opacity="0.35"/>
+
+  <text x="160" y="310" font-size="10.5" fill="#5a6270" text-anchor="middle">cảm biến độ rung, nhiệt độ,</text>
+  <text x="160" y="323" font-size="10.5" fill="#5a6270" text-anchor="middle">dòng điện trên đoàn tàu</text>
+  <text x="160" y="342" font-size="10" fill="#8a8f98" text-anchor="middle">vibration, heat &amp; current</text>
+  <text x="160" y="355" font-size="10" fill="#8a8f98" text-anchor="middle">sensors on rolling stock</text>
+
+  <!-- Panel 2: scheduled track inspection -->
+  <text x="400" y="195" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Kiểm tra định kỳ</text>
+  <text x="400" y="210" font-size="11" fill="#5a6270" text-anchor="middle">Scheduled inspection</text>
+
+  <rect x="330" y="265" width="140" height="10" fill="#d8dde1" stroke="#8a8f98" stroke-width="1.5"/>
+  <rect x="345" y="251" width="34" height="6" fill="#8a8f98"/>
+  <rect x="421" y="251" width="34" height="6" fill="#8a8f98"/>
+
+  <rect x="365" y="222" width="70" height="30" rx="5" fill="#0a5c4a"/>
+  <circle cx="378" cy="252" r="7" fill="#1a1d23"/>
+  <circle cx="422" cy="252" r="7" fill="#1a1d23"/>
+  <line x1="400" y1="222" x2="400" y2="208" stroke="#0a5c4a" stroke-width="2.5"/>
+  <circle cx="400" cy="205" r="4" fill="#0a5c4a"/>
+
+  <text x="400" y="310" font-size="10.5" fill="#5a6270" text-anchor="middle">xe kiểm tra ray, siêu âm</text>
+  <text x="400" y="323" font-size="10.5" fill="#5a6270" text-anchor="middle">mối hàn, kiểm tra kết cấu</text>
+  <text x="400" y="342" font-size="10" fill="#8a8f98" text-anchor="middle">track inspection car &amp;</text>
+  <text x="400" y="355" font-size="10" fill="#8a8f98" text-anchor="middle">ultrasonic rail weld testing</text>
+
+  <!-- Panel 3: night maintenance crew -->
+  <text x="640" y="195" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Bảo trì ban đêm</text>
+  <text x="640" y="210" font-size="11" fill="#5a6270" text-anchor="middle">Night maintenance</text>
+
+  <rect x="570" y="265" width="140" height="10" fill="#d8dde1" stroke="#8a8f98" stroke-width="1.5"/>
+  <rect x="585" y="251" width="34" height="6" fill="#8a8f98"/>
+  <rect x="661" y="251" width="34" height="6" fill="#8a8f98"/>
+
+  <!-- worker icon -->
+  <circle cx="615" cy="225" r="10" fill="#1a1d23"/>
+  <path d="M600,260 L600,238 Q615,228 630,238 L630,260 Z" fill="#5a6270"/>
+  <line x1="630" y1="245" x2="650" y2="232" stroke="#1a1d23" stroke-width="3"/>
+  <rect x="646" y="226" width="12" height="10" rx="2" fill="#0a5c4a"/>
+
+  <!-- warning / closed track marker -->
+  <path d="M672,260 L684,236 L696,260 Z" fill="none" stroke="#0a5c4a" stroke-width="2.5"/>
+  <line x1="684" y1="246" x2="684" y2="252" stroke="#0a5c4a" stroke-width="2"/>
+  <circle cx="684" cy="256" r="1.4" fill="#0a5c4a"/>
+
+  <text x="640" y="310" font-size="10.5" fill="#5a6270" text-anchor="middle">thay thế linh kiện, siết bu-lông,</text>
+  <text x="640" y="323" font-size="10.5" fill="#5a6270" text-anchor="middle">chỉnh ray — trong vài giờ ngừng tàu</text>
+  <text x="640" y="342" font-size="10" fill="#8a8f98" text-anchor="middle">part replacement &amp; track work</text>
+  <text x="640" y="355" font-size="10" fill="#8a8f98" text-anchor="middle">during the few non-service hours</text>
+
+  <text x="400" y="405" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Bảo trì dự phòng hệ thống metro đang vận hành (ví dụ: U-Bahn Munich)
+  </text>
+  <text x="400" y="425" font-size="12" fill="#5a6270" text-anchor="middle">
+    Preventive maintenance on an operating metro system (example: Munich U-Bahn)
+  </text>
+</svg>
