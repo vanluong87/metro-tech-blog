@@ -45,7 +45,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Đào tạo nhân sự vận hành & bảo trì — Nhật Bản — `dao-tao-van-hanh-nhat-ban`
 - [x] Bàn giao dự án & khai thác thương mại giai đoạn đầu — Trung Quốc (Quảng Châu) — `ban-giao-quang-chau`
 - [x] Bảo trì dự phòng (preventive maintenance) hệ thống metro đang vận hành — Đức (Munich U-Bahn) — `bao-tri-munich`
-- [ ] Nâng cấp, mở rộng tuyến metro hiện hữu — Hoa Kỳ (New York) — `nang-cap-new-york`
+- [x] Nâng cấp, mở rộng tuyến metro hiện hữu — Hoa Kỳ (New York) — `nang-cap-new-york`
 
 ## Hàng chờ — Chủ đề quản lý & bài học kinh nghiệm chung
 
