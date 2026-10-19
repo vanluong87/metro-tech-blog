@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground -->
+  <rect x="0" y="60" width="800" height="16" fill="#3a3f47"/>
+  <text x="20" y="52" font-size="13" fill="#1a1d23">mặt đất / street level</text>
+
+  <!-- surface barricade / guardrail around shaft opening -->
+  <g stroke="#8a8f98" stroke-width="3">
+    <line x1="300" y1="76" x2="300" y2="55"/>
+    <line x1="330" y1="76" x2="330" y2="55"/>
+    <line x1="360" y1="76" x2="360" y2="55"/>
+    <line x1="300" y1="58" x2="360" y2="58"/>
+    <line x1="470" y1="76" x2="470" y2="55"/>
+    <line x1="500" y1="76" x2="500" y2="55"/>
+    <line x1="440" y1="76" x2="440" y2="55"/>
+    <line x1="440" y1="58" x2="500" y2="58"/>
+  </g>
+  <circle cx="190" cy="40" r="11" fill="#0a5c4a"/>
+  <text x="190" y="44" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+  <text x="210" y="36" font-size="11" fill="#1a1d23">Rào chắn, biển cảnh báo</text>
+  <text x="210" y="49" font-size="10" fill="#5a6270">Barricade &amp; warning signage</text>
+
+  <!-- surrounding ground fill -->
+  <rect x="60" y="76" width="680" height="330" fill="#e9ece9"/>
+
+  <!-- shaft walls / shoring -->
+  <rect x="330" y="76" width="140" height="330" fill="#d8dde1" stroke="#8a8f98" stroke-width="2"/>
+  <g stroke="#5a6270" stroke-width="2">
+    <line x1="340" y1="90" x2="460" y2="90"/>
+    <line x1="340" y1="150" x2="460" y2="150"/>
+    <line x1="340" y1="210" x2="460" y2="210"/>
+    <line x1="340" y1="270" x2="460" y2="270"/>
+    <line x1="340" y1="330" x2="460" y2="330"/>
+  </g>
+  <circle cx="520" cy="130" r="11" fill="#0a5c4a"/>
+  <text x="520" y="134" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+  <text x="538" y="126" font-size="11" fill="#1a1d23">Chống đỡ vách giếng</text>
+  <text x="538" y="139" font-size="10" fill="#5a6270">Shaft shoring / support</text>
+
+  <!-- ventilation duct along shaft -->
+  <rect x="345" y="86" width="20" height="300" rx="8" fill="#8a8f98"/>
+  <circle cx="300" cy="200" r="11" fill="#0a5c4a"/>
+  <text x="300" y="204" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+  <text x="130" y="196" font-size="11" fill="#1a1d23" text-anchor="middle">Ống thông gió cưỡng bức</text>
+  <text x="130" y="209" font-size="10" fill="#5a6270" text-anchor="middle">Forced ventilation duct</text>
+  <line x1="289" y1="200" x2="343" y2="200" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- gas monitor box -->
+  <rect x="420" y="250" width="34" height="22" rx="3" fill="#1a1d23"/>
+  <text x="437" y="265" font-size="9" fill="#eafff6" text-anchor="middle">O2/CO</text>
+  <circle cx="520" cy="260" r="11" fill="#0a5c4a"/>
+  <text x="520" y="264" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+  <text x="538" y="252" font-size="11" fill="#1a1d23">Quan trắc khí liên tục</text>
+  <text x="538" y="265" font-size="10" fill="#5a6270">Continuous gas monitoring</text>
+
+  <!-- ladder -->
+  <g stroke="#3a3f47" stroke-width="2">
+    <line x1="385" y1="95" x2="385" y2="395"/>
+    <line x1="405" y1="95" x2="405" y2="395"/>
+    <line x1="385" y1="110" x2="405" y2="110"/>
+    <line x1="385" y1="150" x2="405" y2="150"/>
+    <line x1="385" y1="190" x2="405" y2="190"/>
+    <line x1="385" y1="230" x2="405" y2="230"/>
+    <line x1="385" y1="270" x2="405" y2="270"/>
+    <line x1="385" y1="310" x2="405" y2="310"/>
+    <line x1="385" y1="350" x2="405" y2="350"/>
+  </g>
+
+  <!-- worker with PPE -->
+  <circle cx="395" cy="150" r="9" fill="#e6c84a" stroke="#1a1d23" stroke-width="1"/>
+  <rect x="387" y="159" width="16" height="22" rx="3" fill="#0a5c4a"/>
+  <circle cx="300" cy="330" r="11" fill="#0a5c4a"/>
+  <text x="300" y="334" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+  <text x="130" y="326" font-size="11" fill="#1a1d23" text-anchor="middle">Trang bị bảo hộ cá nhân (PPE)</text>
+  <text x="130" y="339" font-size="10" fill="#5a6270" text-anchor="middle">Personal protective equipment</text>
+  <line x1="289" y1="330" x2="386" y2="165" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- refuge chamber at shaft bottom -->
+  <rect x="330" y="386" width="140" height="20" fill="#0a5c4a"/>
+  <text x="400" y="400" font-size="10" fill="#ffffff" text-anchor="middle">Trạm lánh nạn / Refuge station</text>
+  <circle cx="600" cy="396" r="11" fill="#0a5c4a"/>
+  <text x="600" y="400" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">6</text>
+  <text x="618" y="392" font-size="11" fill="#1a1d23">Trạm lánh nạn khẩn cấp</text>
+  <text x="618" y="405" font-size="10" fill="#5a6270">Emergency refuge station</text>
+
+  <text x="400" y="26" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    An toàn lao động công trường ngầm / Underground construction site safety
+  </text>
+</svg>
