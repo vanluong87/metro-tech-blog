@@ -52,4 +52,4 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Quản lý rủi ro & vượt ngân sách trong dự án metro lớn — Úc (Sydney Metro) — `quan-ly-rui-ro-sydney`
 - [x] Ứng dụng BIM trong thiết kế & thi công metro — Hàn Quốc — `bim-metro-han-quoc`
 - [x] An toàn lao động công trường thi công ngầm — Đài Loan (Đài Bắc) — `an-toan-lao-dong-dai-bac`
-- [ ] Metro không người lái (driverless/automated) — vận hành & bảo trì — Pháp (Paris Métro Line 1) — `metro-khong-nguoi-lai-phap`
+- [x] Metro không người lái (driverless/automated) — vận hành & bảo trì — Pháp (Paris Métro Line 1) — `metro-khong-nguoi-lai-phap`
