@@ -53,3 +53,18 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Ứng dụng BIM trong thiết kế & thi công metro — Hàn Quốc — `bim-metro-han-quoc`
 - [x] An toàn lao động công trường thi công ngầm — Đài Loan (Đài Bắc) — `an-toan-lao-dong-dai-bac`
 - [x] Metro không người lái (driverless/automated) — vận hành & bảo trì — Pháp (Paris Métro Line 1) — `metro-khong-nguoi-lai-phap`
+
+## Hàng chờ — Bổ sung (lô 2)
+
+- [x] Chống thấm & hệ thống chống nước ngầm cho vỏ hầm metro — Nga (Moscow) — `chong-tham-ham-moscow`
+- [ ] Hệ thống thu phí tự động AFC & cổng soát vé — Indonesia (Jakarta MRT) — `he-thong-ve-jakarta`
+- [ ] Thiết kế đề-pô & khu bảo dưỡng đoàn tàu — Malaysia (Kuala Lumpur) — `de-po-kuala-lumpur`
+- [ ] Hạ mực nước ngầm & kiểm soát nước khi thi công hố đào sâu — Ấn Độ (Delhi Metro) — `ha-muc-nuoc-ngam-delhi`
+- [ ] Thiết kế kháng chấn cho kết cấu hầm & ga metro — Thổ Nhĩ Kỳ (Istanbul) — `khang-chan-istanbul`
+- [ ] Cửa chắn ke ga (Platform Screen Doors) — Các Tiểu vương quốc Ả Rập Thống nhất (Dubai Metro) — `cua-chan-ke-ga-dubai`
+- [ ] Đánh giá tác động môi trường (ĐTM) cho dự án metro — Philippines (Manila) — `danh-gia-moi-truong-manila`
+- [ ] Kiểm soát tiếng ồn & rung chấn cho khu dân cư lân cận — Thụy Điển (Stockholm) — `tieng-on-stockholm`
+- [ ] Thiết kế ga trung chuyển kết nối nhiều tuyến metro — Mexico (Mexico City) — `ga-trung-chuyen-mexico-city`
+- [ ] Thiết kế tiếp cận cho người khuyết tật trong ga metro — Canada (Toronto) — `tiep-can-nguoi-khuyet-tat-toronto`
+- [ ] Hệ thống lối thoát hiểm & hành lang nối ngang trong hầm — Ai Cập (Cairo) — `thoat-hiem-ham-cairo`
+- [ ] Mô hình hợp tác công-tư (PPP) trong tài trợ dự án metro — Brazil (São Paulo) — `ppp-tai-tro-sao-paulo`

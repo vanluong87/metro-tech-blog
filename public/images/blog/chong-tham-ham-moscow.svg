@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground layers -->
+  <rect x="0" y="0" width="800" height="90" fill="#e7ebe6"/>
+  <rect x="0" y="90" width="800" height="290" fill="#dfe6de"/>
+  <rect x="0" y="380" width="800" height="70" fill="#d3ddd2"/>
+
+  <!-- ground surface hatch -->
+  <line x1="0" y1="90" x2="800" y2="90" stroke="#9fb09c" stroke-width="2"/>
+  <g stroke="#9fb09c" stroke-width="2">
+    <line x1="30" y1="90" x2="20" y2="75"/>
+    <line x1="70" y1="90" x2="60" y2="75"/>
+    <line x1="630" y1="90" x2="620" y2="75"/>
+    <line x1="670" y1="90" x2="660" y2="75"/>
+  </g>
+
+  <!-- groundwater table -->
+  <path d="M0,170 q20,-10 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0"
+        fill="none" stroke="#7fa8d9" stroke-width="2" opacity="0.8"/>
+  <text x="16" y="162" font-size="13" fill="#4d6b96">mực nước ngầm / groundwater table</text>
+
+  <!-- tunnel cross-section: concentric rings -->
+  <g transform="translate(290,270)">
+    <!-- surrounding soil boundary -->
+    <circle r="145" fill="none" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6 5"/>
+    <!-- waterproofing membrane (key accent layer) -->
+    <circle r="122" fill="none" stroke="#0a5c4a" stroke-width="7"/>
+    <!-- segmental concrete lining -->
+    <circle r="100" fill="none" stroke="#5a6270" stroke-width="10"/>
+    <!-- segment joint marks -->
+    <g stroke="#f3f5f4" stroke-width="3">
+      <line x1="-100" y1="0" x2="-85" y2="0"/>
+      <line x1="100" y1="0" x2="85" y2="0"/>
+      <line x1="0" y1="-100" x2="0" y2="-85"/>
+      <line x1="70" y1="-70" x2="60" y2="-60"/>
+      <line x1="-70" y1="-70" x2="-60" y2="-60"/>
+      <line x1="70" y1="70" x2="60" y2="60"/>
+      <line x1="-70" y1="70" x2="-60" y2="60"/>
+    </g>
+    <!-- hydrophilic gasket highlight at one joint -->
+    <circle cx="70" cy="70" r="7" fill="#ffffff" stroke="#0a5c4a" stroke-width="3"/>
+    <!-- tunnel bore interior -->
+    <circle r="85" fill="#ffffff"/>
+    <text x="0" y="-6" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">không gian hầm</text>
+    <text x="0" y="12" font-size="12" fill="#5a6270" text-anchor="middle">tunnel bore</text>
+    <!-- drainage channel at invert -->
+    <path d="M-40,82 q40,25 80,0" fill="none" stroke="#4d6b96" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- leader lines + labels -->
+  <line x1="412" y1="270" x2="470" y2="200" stroke="#0a5c4a" stroke-width="1.5"/>
+  <text x="474" y="196" font-size="13" fill="#0a5c4a" font-weight="600">màng chống thấm</text>
+  <text x="474" y="212" font-size="12" fill="#0a5c4a">waterproofing membrane</text>
+
+  <line x1="390" y1="270" x2="470" y2="250" stroke="#5a6270" stroke-width="1.5"/>
+  <text x="474" y="246" font-size="13" fill="#5a6270" font-weight="600">vỏ hầm segment</text>
+  <text x="474" y="262" font-size="12" fill="#5a6270">segmental lining</text>
+
+  <line x1="357" y1="340" x2="470" y2="340" stroke="#0a5c4a" stroke-width="1.5"/>
+  <text x="474" y="336" font-size="13" fill="#0a5c4a" font-weight="600">gioăng trương nở</text>
+  <text x="474" y="352" font-size="12" fill="#0a5c4a">hydrophilic gasket</text>
+
+  <!-- drainage to sump pump -->
+  <path d="M320,352 q30,20 40,45" fill="none" stroke="#4d6b96" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="330" y="398" width="110" height="34" rx="4" fill="#ffffff" stroke="#4d6b96" stroke-width="2"/>
+  <text x="385" y="419" font-size="12" fill="#4d6b96" text-anchor="middle">hố thu / sump pump</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4d6b96"/>
+    </marker>
+  </defs>
+
+  <text x="600" y="48" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Hệ chống thấm nhiều lớp cho vỏ hầm metro
+  </text>
+  <text x="600" y="68" font-size="12" fill="#5a6270" text-anchor="middle">
+    Multi-layer waterproofing system for metro tunnel linings
+  </text>
+</svg>
