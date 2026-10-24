@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground -->
+  <rect x="0" y="95" width="800" height="355" fill="#e2e8e1"/>
+  <line x1="0" y1="95" x2="800" y2="95" stroke="#9fb09c" stroke-width="2"/>
+
+  <!-- natural water table (outside excavation) -->
+  <line x1="0" y1="175" x2="800" y2="175" stroke="#5a86a8" stroke-width="2" stroke-dasharray="10 7"/>
+  <text x="20" y="168" font-size="12" fill="#355f7c">mực nước ngầm tự nhiên</text>
+  <text x="20" y="182" font-size="12" fill="#355f7c">natural water table</text>
+
+  <!-- diaphragm / sheet-pile walls of excavation -->
+  <rect x="298" y="110" width="16" height="300" fill="#5a6270"/>
+  <rect x="486" y="110" width="16" height="300" fill="#5a6270"/>
+  <text x="306" y="100" font-size="11" fill="#5a6270" text-anchor="middle">tường vây</text>
+  <text x="494" y="100" font-size="11" fill="#5a6270" text-anchor="middle">tường vây</text>
+
+  <!-- excavation pit interior, lighter to show dewatered zone -->
+  <rect x="314" y="110" width="172" height="300" fill="#f3f5f4" stroke="#d8dde1"/>
+
+  <!-- lowered water table line inside pit, near base -->
+  <line x1="314" y1="370" x2="486" y2="370" stroke="#5a86a8" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="400" y="386" font-size="11" fill="#355f7c" text-anchor="middle">mực nước đã hạ / lowered water table</text>
+
+  <!-- excavation base slab -->
+  <rect x="298" y="404" width="204" height="14" fill="#0a5c4a"/>
+  <text x="400" y="434" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Đáy hố đào / excavation base</text>
+
+  <!-- dewatering wells with pumps: two on each side -->
+  <g>
+    <!-- left wells -->
+    <line x1="210" y1="130" x2="210" y2="372" stroke="#8a8f98" stroke-width="4"/>
+    <line x1="210" y1="300" x2="210" y2="372" stroke="#5a86a8" stroke-width="4" stroke-dasharray="3 3"/>
+    <rect x="196" y="112" width="28" height="18" rx="3" fill="#0a5c4a"/>
+    <text x="210" y="105" font-size="10" fill="#1a1d23" text-anchor="middle">bơm</text>
+
+    <line x1="258" y1="130" x2="258" y2="365" stroke="#8a8f98" stroke-width="4"/>
+    <line x1="258" y1="290" x2="258" y2="365" stroke="#5a86a8" stroke-width="4" stroke-dasharray="3 3"/>
+    <rect x="244" y="112" width="28" height="18" rx="3" fill="#0a5c4a"/>
+    <text x="258" y="105" font-size="10" fill="#1a1d23" text-anchor="middle">bơm</text>
+
+    <!-- right wells -->
+    <line x1="542" y1="130" x2="542" y2="365" stroke="#8a8f98" stroke-width="4"/>
+    <line x1="542" y1="290" x2="542" y2="365" stroke="#5a86a8" stroke-width="4" stroke-dasharray="3 3"/>
+    <rect x="528" y="112" width="28" height="18" rx="3" fill="#0a5c4a"/>
+    <text x="542" y="105" font-size="10" fill="#1a1d23" text-anchor="middle">bơm</text>
+
+    <line x1="590" y1="130" x2="590" y2="372" stroke="#8a8f98" stroke-width="4"/>
+    <line x1="590" y1="300" x2="590" y2="372" stroke="#5a86a8" stroke-width="4" stroke-dasharray="3 3"/>
+    <rect x="576" y="112" width="28" height="18" rx="3" fill="#0a5c4a"/>
+    <text x="590" y="105" font-size="10" fill="#1a1d23" text-anchor="middle">bơm</text>
+  </g>
+
+  <!-- arrows showing drawdown of water toward wells -->
+  <g stroke="#355f7c" stroke-width="1.5" fill="none" marker-end="url(#arrowDw)">
+    <path d="M160,210 C185,235 200,260 207,290"/>
+    <path d="M330,220 C300,245 278,270 262,290"/>
+    <path d="M640,210 C615,235 600,260 593,290"/>
+    <path d="M470,220 C500,245 522,270 538,290"/>
+  </g>
+  <defs>
+    <marker id="arrowDw" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#355f7c"/>
+    </marker>
+  </defs>
+
+  <!-- piezometer monitoring instrument near pit wall -->
+  <circle cx="340" cy="260" r="5" fill="#e6c84a" stroke="#1a1d23" stroke-width="1"/>
+  <line x1="340" y1="260" x2="340" y2="230" stroke="#1a1d23" stroke-width="1.5"/>
+  <text x="340" y="220" font-size="10" fill="#1a1d23" text-anchor="middle">quan trắc</text>
+
+  <text x="200" y="70" font-size="12" fill="#5a6270" text-anchor="middle">giếng hạ mực nước ngầm</text>
+  <text x="200" y="84" font-size="12" fill="#5a6270" text-anchor="middle">dewatering wells</text>
+  <text x="600" y="70" font-size="12" fill="#5a6270" text-anchor="middle">giếng hạ mực nước ngầm</text>
+  <text x="600" y="84" font-size="12" fill="#5a6270" text-anchor="middle">dewatering wells</text>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Hạ mực nước ngầm cho hố đào sâu / Dewatering for deep excavation
+  </text>
+</svg>
