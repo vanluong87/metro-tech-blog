@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- three panels -->
+  <g>
+    <rect x="20" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <rect x="285" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <rect x="550" y="70" width="230" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  </g>
+
+  <!-- Panel 1: ovaling of circular tunnel -->
+  <g>
+    <text x="135" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">1. Oval hóa / Ovaling</text>
+    <!-- original circular ring (dashed) -->
+    <circle cx="135" cy="220" r="70" fill="none" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <!-- deformed oval ring -->
+    <ellipse cx="135" cy="220" rx="85" ry="55" fill="#e2e8e1" stroke="#0a5c4a" stroke-width="5"/>
+    <!-- shear arrows -->
+    <line x1="60" y1="150" x2="80" y2="170" stroke="#5a6270" stroke-width="2" marker-end="url(#arrow1)"/>
+    <line x1="210" y1="290" x2="190" y2="270" stroke="#5a6270" stroke-width="2" marker-end="url(#arrow1)"/>
+    <text x="135" y="330" font-size="12" fill="#5a6270" text-anchor="middle">Sóng cắt làm méo mặt cắt hầm tròn</text>
+    <text x="135" y="345" font-size="12" fill="#5a6270" text-anchor="middle">Shear waves distort the circular lining</text>
+  </g>
+
+  <!-- Panel 2: racking of rectangular station box -->
+  <g>
+    <text x="400" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">2. Biến dạng khung / Racking</text>
+    <!-- original rectangle (dashed) -->
+    <rect x="345" y="150" width="110" height="140" fill="none" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <!-- racked parallelogram -->
+    <polygon points="365,150 475,150 435,290 325,290" fill="#e2e8e1" stroke="#0a5c4a" stroke-width="5"/>
+    <!-- columns inside -->
+    <line x1="400" y1="160" x2="382" y2="280" stroke="#5a6270" stroke-width="3"/>
+    <line x1="430" y1="160" x2="412" y2="280" stroke="#5a6270" stroke-width="3"/>
+    <line x1="300" y1="150" x2="320" y2="150" stroke="#5a6270" stroke-width="2" marker-end="url(#arrow1)"/>
+    <line x1="500" y1="290" x2="480" y2="290" stroke="#5a6270" stroke-width="2" marker-end="url(#arrow1)"/>
+    <text x="400" y="330" font-size="12" fill="#5a6270" text-anchor="middle">Chuyển vị cắt làm vặn hộp ga chữ nhật</text>
+    <text x="400" y="345" font-size="12" fill="#5a6270" text-anchor="middle">Lateral shear racks the station box</text>
+  </g>
+
+  <!-- Panel 3: flexible seismic joint between tunnel and station -->
+  <g>
+    <text x="665" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">3. Khớp nối mềm / Flexible joint</text>
+    <!-- tunnel segment -->
+    <rect x="580" y="190" width="70" height="70" rx="12" fill="#e2e8e1" stroke="#8a8f98" stroke-width="1.5"/>
+    <!-- station segment -->
+    <rect x="690" y="180" width="70" height="90" fill="#e2e8e1" stroke="#8a8f98" stroke-width="1.5"/>
+    <!-- flexible joint gap -->
+    <rect x="652" y="200" width="36" height="60" fill="#ffffff" stroke="#0a5c4a" stroke-width="4" stroke-dasharray="6,5"/>
+    <line x1="670" y1="205" x2="670" y2="255" stroke="#0a5c4a" stroke-width="2"/>
+    <text x="665" y="305" font-size="12" fill="#5a6270" text-anchor="middle">Khe mềm cho phép trượt/xoay tương đối</text>
+    <text x="665" y="320" font-size="12" fill="#5a6270" text-anchor="middle">Gap allows relative sliding &amp; rotation</text>
+    <text x="598" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Hầm / Tunnel</text>
+    <text x="725" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Ga / Station</text>
+  </g>
+
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6270"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Thiết kế kháng chấn hầm &amp; ga metro / Seismic design for metro tunnels &amp; stations
+  </text>
+</svg>

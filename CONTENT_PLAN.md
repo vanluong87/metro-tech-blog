@@ -59,8 +59,8 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Chống thấm & hệ thống chống nước ngầm cho vỏ hầm metro — Nga (Moscow) — `chong-tham-ham-moscow`
 - [x] Hệ thống thu phí tự động AFC & cổng soát vé — Indonesia (Jakarta MRT) — `he-thong-ve-jakarta`
 - [x] Thiết kế đề-pô & khu bảo dưỡng đoàn tàu — Malaysia (Kuala Lumpur) — `de-po-kuala-lumpur`
-- [ ] Hạ mực nước ngầm & kiểm soát nước khi thi công hố đào sâu — Ấn Độ (Delhi Metro) — `ha-muc-nuoc-ngam-delhi`
-- [ ] Thiết kế kháng chấn cho kết cấu hầm & ga metro — Thổ Nhĩ Kỳ (Istanbul) — `khang-chan-istanbul`
+- [x] Hạ mực nước ngầm & kiểm soát nước khi thi công hố đào sâu — Ấn Độ (Delhi Metro) — `ha-muc-nuoc-ngam-delhi`
+- [x] Thiết kế kháng chấn cho kết cấu hầm & ga metro — Thổ Nhĩ Kỳ (Istanbul) — `khang-chan-istanbul`
 - [ ] Cửa chắn ke ga (Platform Screen Doors) — Các Tiểu vương quốc Ả Rập Thống nhất (Dubai Metro) — `cua-chan-ke-ga-dubai`
 - [ ] Đánh giá tác động môi trường (ĐTM) cho dự án metro — Philippines (Manila) — `danh-gia-moi-truong-manila`
 - [ ] Kiểm soát tiếng ồn & rung chấn cho khu dân cư lân cận — Thụy Điển (Stockholm) — `tieng-on-stockholm`
