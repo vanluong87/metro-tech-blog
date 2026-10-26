@@ -61,7 +61,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Thiết kế đề-pô & khu bảo dưỡng đoàn tàu — Malaysia (Kuala Lumpur) — `de-po-kuala-lumpur`
 - [x] Hạ mực nước ngầm & kiểm soát nước khi thi công hố đào sâu — Ấn Độ (Delhi Metro) — `ha-muc-nuoc-ngam-delhi`
 - [x] Thiết kế kháng chấn cho kết cấu hầm & ga metro — Thổ Nhĩ Kỳ (Istanbul) — `khang-chan-istanbul`
-- [ ] Cửa chắn ke ga (Platform Screen Doors) — Các Tiểu vương quốc Ả Rập Thống nhất (Dubai Metro) — `cua-chan-ke-ga-dubai`
+- [x] Cửa chắn ke ga (Platform Screen Doors) — Các Tiểu vương quốc Ả Rập Thống nhất (Dubai Metro) — `cua-chan-ke-ga-dubai`
 - [ ] Đánh giá tác động môi trường (ĐTM) cho dự án metro — Philippines (Manila) — `danh-gia-moi-truong-manila`
 - [ ] Kiểm soát tiếng ồn & rung chấn cho khu dân cư lân cận — Thụy Điển (Stockholm) — `tieng-on-stockholm`
 - [ ] Thiết kế ga trung chuyển kết nối nhiều tuyến metro — Mexico (Mexico City) — `ga-trung-chuyen-mexico-city`

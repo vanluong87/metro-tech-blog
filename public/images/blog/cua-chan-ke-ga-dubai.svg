@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- platform floor -->
+  <rect x="0" y="360" width="800" height="20" fill="#d8dde1"/>
+  <text x="400" y="400" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Ke ga / Platform</text>
+
+  <!-- platform ceiling -->
+  <rect x="0" y="60" width="800" height="16" fill="#d8dde1"/>
+
+  <!-- track bed below platform level, slightly recessed -->
+  <rect x="80" y="380" width="640" height="30" fill="#8a8f98"/>
+  <line x1="120" y1="395" x2="680" y2="395" stroke="#5a6270" stroke-width="3"/>
+  <text x="400" y="430" font-size="12" fill="#5a6270" text-anchor="middle">Đường ray / Track</text>
+
+  <!-- full height PSD frame -->
+  <rect x="140" y="76" width="10" height="284" fill="#5a6270"/>
+  <rect x="650" y="76" width="10" height="284" fill="#5a6270"/>
+  <text x="145" y="68" font-size="11" fill="#5a6270" text-anchor="middle">PSD</text>
+  <text x="655" y="68" font-size="11" fill="#5a6270" text-anchor="middle">PSD</text>
+
+  <!-- fixed glass panels -->
+  <rect x="150" y="76" width="130" height="284" fill="#cfe3dc" opacity="0.55"/>
+  <rect x="520" y="76" width="130" height="284" fill="#cfe3dc" opacity="0.55"/>
+
+  <!-- sliding screen doors, shown open (slid into side pockets), aligned with train doors -->
+  <rect x="280" y="76" width="8" height="284" fill="#8a8f98"/>
+  <rect x="512" y="76" width="8" height="284" fill="#8a8f98"/>
+  <rect x="288" y="76" width="112" height="284" fill="#0a5c4a" opacity="0.12"/>
+  <rect x="400" y="76" width="112" height="284" fill="#0a5c4a" opacity="0.12"/>
+
+  <!-- door leaves, drawn open/retracted to the sides, highlighted accent green = PSD door -->
+  <rect x="284" y="76" width="10" height="284" fill="#0a5c4a"/>
+  <rect x="506" y="76" width="10" height="284" fill="#0a5c4a"/>
+  <rect x="396" y="76" width="10" height="284" fill="#0a5c4a"/>
+  <rect x="402" y="76" width="10" height="284" fill="#0a5c4a"/>
+
+  <text x="345" y="100" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">Cửa PSD mở</text>
+  <text x="345" y="115" font-size="11" fill="#0a5c4a" text-anchor="middle">PSD door open</text>
+  <text x="455" y="100" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">Cửa PSD mở</text>
+  <text x="455" y="115" font-size="11" fill="#0a5c4a" text-anchor="middle">PSD door open</text>
+
+  <!-- train silhouette behind the PSD line, doors aligned with the open PSD gaps -->
+  <rect x="150" y="150" width="500" height="150" rx="10" fill="#3a3f47" opacity="0.85"/>
+  <rect x="288" y="150" width="112" height="150" fill="#1a1d23" opacity="0.9"/>
+  <rect x="400" y="150" width="112" height="150" fill="#1a1d23" opacity="0.9"/>
+  <rect x="294" y="158" width="100" height="134" fill="#5a6270"/>
+  <rect x="406" y="158" width="100" height="134" fill="#5a6270"/>
+  <text x="400" y="230" font-size="13" fill="#f3f5f4" text-anchor="middle" font-weight="600">Đoàn tàu đã dừng đúng vị trí</text>
+  <text x="400" y="246" font-size="11" fill="#d8dde1" text-anchor="middle">Train stopped at designated position</text>
+
+  <!-- waiting passengers area label -->
+  <text x="720" y="340" font-size="11" fill="#5a6270" text-anchor="end">khu vực chờ</text>
+  <text x="720" y="353" font-size="11" fill="#5a6270" text-anchor="end">waiting area</text>
+
+  <!-- interlock note -->
+  <text x="400" y="330" font-size="11" fill="#245c4c" text-anchor="middle">Cửa PSD chỉ mở khi tàu dừng đúng vị trí &amp; cửa tàu mở đồng thời</text>
+  <text x="400" y="344" font-size="10" fill="#245c4c" text-anchor="middle">PSD opens only when train stops at position &amp; train doors open together</text>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Cửa chắn ke ga (PSD) toàn chiều cao / Full-height Platform Screen Doors
+  </text>
+</svg>
