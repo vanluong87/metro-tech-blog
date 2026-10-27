@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Quy trình đánh giá tác động môi trường (ĐTM) / Environmental impact assessment process
+  </text>
+
+  <!-- Five stage boxes in a flow -->
+  <g>
+    <!-- Stage 1 -->
+    <rect x="20" y="80" width="135" height="190" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <circle cx="87" cy="120" r="22" fill="#8a8f98"/>
+    <text x="87" y="126" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+    <text x="87" y="165" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Sàng lọc &amp;</text>
+    <text x="87" y="180" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">phạm vi</text>
+    <text x="87" y="200" font-size="10.5" fill="#5a6270" text-anchor="middle">Screening &amp;</text>
+    <text x="87" y="213" font-size="10.5" fill="#5a6270" text-anchor="middle">scoping</text>
+
+    <!-- Stage 2 -->
+    <rect x="170" y="80" width="135" height="190" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <circle cx="237" cy="120" r="22" fill="#8a8f98"/>
+    <text x="237" y="126" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+    <text x="237" y="165" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Khảo sát</text>
+    <text x="237" y="180" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">hiện trạng</text>
+    <text x="237" y="200" font-size="10.5" fill="#5a6270" text-anchor="middle">Baseline</text>
+    <text x="237" y="213" font-size="10.5" fill="#5a6270" text-anchor="middle">study</text>
+
+    <!-- Stage 3 -->
+    <rect x="320" y="80" width="135" height="190" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <circle cx="387" cy="120" r="22" fill="#8a8f98"/>
+    <text x="387" y="126" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+    <text x="387" y="165" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Dự báo</text>
+    <text x="387" y="180" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">tác động</text>
+    <text x="387" y="200" font-size="10.5" fill="#5a6270" text-anchor="middle">Impact</text>
+    <text x="387" y="213" font-size="10.5" fill="#5a6270" text-anchor="middle">prediction</text>
+
+    <!-- Stage 4 -->
+    <rect x="470" y="80" width="135" height="190" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <circle cx="537" cy="120" r="22" fill="#0a5c4a"/>
+    <text x="537" y="126" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+    <text x="537" y="165" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Biện pháp</text>
+    <text x="537" y="180" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">giảm thiểu</text>
+    <text x="537" y="200" font-size="10.5" fill="#5a6270" text-anchor="middle">Mitigation</text>
+    <text x="537" y="213" font-size="10.5" fill="#5a6270" text-anchor="middle">measures</text>
+
+    <!-- Stage 5 -->
+    <rect x="620" y="80" width="160" height="190" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+    <circle cx="700" cy="120" r="22" fill="#8a8f98"/>
+    <text x="700" y="126" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+    <text x="700" y="165" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Tham vấn &amp;</text>
+    <text x="700" y="180" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">giám sát</text>
+    <text x="700" y="200" font-size="10.5" fill="#5a6270" text-anchor="middle">Consultation &amp;</text>
+    <text x="700" y="213" font-size="10.5" fill="#5a6270" text-anchor="middle">monitoring</text>
+  </g>
+
+  <!-- arrows connecting stages -->
+  <g stroke="#1a1d23" stroke-width="2.5">
+    <line x1="155" y1="170" x2="168" y2="170" marker-end="url(#arrowEia)"/>
+    <line x1="305" y1="170" x2="318" y2="170" marker-end="url(#arrowEia)"/>
+    <line x1="455" y1="170" x2="468" y2="170" marker-end="url(#arrowEia)"/>
+    <line x1="605" y1="170" x2="618" y2="170" marker-end="url(#arrowEia)"/>
+  </g>
+  <defs>
+    <marker id="arrowEia" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <!-- small icon row representing affected factors, under the boxes -->
+  <g fill="#5a6270">
+    <text x="400" y="310" font-size="12" text-anchor="middle" font-weight="600">Các yếu tố được đánh giá / Factors assessed</text>
+  </g>
+  <g font-size="11" fill="#1a1d23" text-anchor="middle">
+    <rect x="60" y="330" width="110" height="34" rx="6" fill="#e2e8e1"/>
+    <text x="115" y="351">Tiếng ồn / Noise</text>
+
+    <rect x="195" y="330" width="110" height="34" rx="6" fill="#e2e8e1"/>
+    <text x="250" y="351">Nước / Water</text>
+
+    <rect x="330" y="330" width="140" height="34" rx="6" fill="#e2e8e1"/>
+    <text x="400" y="351">Thoát nước / Drainage</text>
+
+    <rect x="495" y="330" width="110" height="34" rx="6" fill="#e2e8e1"/>
+    <text x="550" y="351">Dân cư / People</text>
+
+    <rect x="630" y="330" width="110" height="34" rx="6" fill="#e2e8e1"/>
+    <text x="685" y="351">Sinh thái / Ecology</text>
+  </g>
+
+  <text x="400" y="400" font-size="12" fill="#5a6270" text-anchor="middle">
+    Áp dụng cho dự án đường sắt đô thị, vd. Manila, Philippines / Applied to urban rail projects, e.g. Manila, Philippines
+  </text>
+</svg>
