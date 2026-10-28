@@ -63,7 +63,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Thiết kế kháng chấn cho kết cấu hầm & ga metro — Thổ Nhĩ Kỳ (Istanbul) — `khang-chan-istanbul`
 - [x] Cửa chắn ke ga (Platform Screen Doors) — Các Tiểu vương quốc Ả Rập Thống nhất (Dubai Metro) — `cua-chan-ke-ga-dubai`
 - [x] Đánh giá tác động môi trường (ĐTM) cho dự án metro — Philippines (Manila) — `danh-gia-moi-truong-manila`
-- [ ] Kiểm soát tiếng ồn & rung chấn cho khu dân cư lân cận — Thụy Điển (Stockholm) — `tieng-on-stockholm`
+- [x] Kiểm soát tiếng ồn & rung chấn cho khu dân cư lân cận — Thụy Điển (Stockholm) — `tieng-on-stockholm`
 - [ ] Thiết kế ga trung chuyển kết nối nhiều tuyến metro — Mexico (Mexico City) — `ga-trung-chuyen-mexico-city`
 - [ ] Thiết kế tiếp cận cho người khuyết tật trong ga metro — Canada (Toronto) — `tiep-can-nguoi-khuyet-tat-toronto`
 - [ ] Hệ thống lối thoát hiểm & hành lang nối ngang trong hầm — Ai Cập (Cairo) — `thoat-hiem-ham-cairo`
