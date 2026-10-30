@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground level -->
+  <rect x="0" y="60" width="800" height="18" fill="#3a3f47"/>
+  <line x1="0" y1="70" x2="800" y2="70" stroke="#e6c84a" stroke-width="2" stroke-dasharray="18 14"/>
+  <text x="20" y="52" font-size="13" fill="#1a1d23">mặt đường / street level</text>
+
+  <!-- station box -->
+  <rect x="40" y="78" width="720" height="330" rx="6" fill="#ffffff" stroke="#d8dde1"/>
+
+  <!-- elevator shaft, full height, accent green = accessible route -->
+  <rect x="90" y="96" width="70" height="294" fill="#0a5c4a"/>
+  <text x="125" y="130" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">THANG</text>
+  <text x="125" y="146" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">MÁY</text>
+  <text x="125" y="260" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">ELEVATOR</text>
+  <text x="125" y="276" font-size="10" fill="#d8f0e8" text-anchor="middle">step-free</text>
+
+  <!-- concourse level -->
+  <rect x="180" y="96" width="560" height="60" fill="#e9ecea"/>
+  <text x="460" y="130" font-size="12" fill="#5a6270" text-anchor="middle">Sảnh soát vé — lối rộng cho xe lăn</text>
+  <text x="460" y="146" font-size="11" fill="#8a8f98" text-anchor="middle">Concourse — wide fare gate for wheelchairs</text>
+
+  <!-- ramp connecting concourse to platform, alternative step-free path -->
+  <path d="M180,156 L420,156 L700,340 L700,390 L180,390 Z" fill="#e2e8e1" stroke="#9fb09c" stroke-width="1.5"/>
+  <text x="470" y="200" font-size="11" fill="#5a6270">đường dốc / ramp</text>
+
+  <!-- stairs, alternative route, not accessible -->
+  <g stroke="#8a8f98" stroke-width="1.5" fill="#f3f5f4">
+    <rect x="610" y="156" width="20" height="10"/>
+    <rect x="630" y="166" width="20" height="10"/>
+    <rect x="650" y="176" width="20" height="10"/>
+    <rect x="670" y="186" width="20" height="10"/>
+  </g>
+  <text x="650" y="140" font-size="10" fill="#8a8f98" text-anchor="middle">cầu thang / stairs</text>
+
+  <!-- platform level -->
+  <rect x="180" y="340" width="520" height="50" fill="#ffffff"/>
+  <line x1="180" y1="340" x2="700" y2="340" stroke="#d8dde1" stroke-width="1"/>
+
+  <!-- tactile paving strip at platform edge -->
+  <rect x="180" y="358" width="520" height="8" fill="#e6c84a"/>
+  <g stroke="#b89a2e" stroke-width="1">
+    <line x1="190" y1="358" x2="190" y2="366"/>
+    <line x1="210" y1="358" x2="210" y2="366"/>
+    <line x1="230" y1="358" x2="230" y2="366"/>
+    <line x1="250" y1="358" x2="250" y2="366"/>
+    <line x1="270" y1="358" x2="270" y2="366"/>
+    <line x1="290" y1="358" x2="290" y2="366"/>
+    <line x1="310" y1="358" x2="310" y2="366"/>
+    <line x1="330" y1="358" x2="330" y2="366"/>
+  </g>
+  <text x="235" y="352" font-size="10" fill="#8a8f98">gạch lát nổi / tactile paving</text>
+
+  <!-- platform screen doors -->
+  <g fill="#5a6270">
+    <rect x="400" y="320" width="6" height="40"/>
+    <rect x="440" y="320" width="6" height="40"/>
+    <rect x="480" y="320" width="6" height="40"/>
+    <rect x="520" y="320" width="6" height="40"/>
+  </g>
+  <rect x="400" y="320" width="126" height="6" fill="#5a6270"/>
+  <text x="463" y="312" font-size="10" fill="#5a6270" text-anchor="middle">cửa chắn ke ga / platform screen doors</text>
+
+  <!-- track -->
+  <rect x="180" y="390" width="520" height="18" fill="#d8dde1"/>
+  <line x1="180" y1="399" x2="700" y2="399" stroke="#8a8f98" stroke-width="2"/>
+
+  <!-- wheelchair icon on platform near elevator exit, marking the continuous accessible route -->
+  <g transform="translate(205,352)">
+    <circle cx="0" cy="0" r="10" fill="#0a5c4a"/>
+    <text x="0" y="4" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="700">♿</text>
+  </g>
+
+  <text x="400" y="38" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Lộ trình tiếp cận không rào cản trong ga metro / Barrier-free accessible route in a metro station
+  </text>
+</svg>
