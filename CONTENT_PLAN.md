@@ -26,6 +26,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Thi công metro trên cao (elevated/viaduct) — Thái Lan (Bangkok) — `metro-tren-cao-bangkok`
 - [x] Hệ thống PCCC & thoát hiểm khẩn cấp trong ga ngầm — Singapore — `pccc-ga-ngam-singapore`
 - [x] Sản xuất & vận chuyển đoàn tàu (rolling stock) — Đức (Siemens) — `doan-tau-duc`
+- [x] Mô hình hợp tác công-tư (PPP) trong tài trợ dự án metro — Brazil (São Paulo) — `ppp-tai-tro-sao-paulo`
 
 ## Hàng chờ — Giai đoạn khởi tạo & chuẩn bị dự án
 
@@ -67,4 +68,3 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Thiết kế ga trung chuyển kết nối nhiều tuyến metro — Mexico (Mexico City) — `ga-trung-chuyen-mexico-city`
 - [x] Thiết kế tiếp cận cho người khuyết tật trong ga metro — Canada (Toronto) — `tiep-can-nguoi-khuyet-tat-toronto`
 - [x] Hệ thống lối thoát hiểm & hành lang nối ngang trong hầm — Ai Cập (Cairo) — `thoat-hiem-ham-cairo`
-- [ ] Mô hình hợp tác công-tư (PPP) trong tài trợ dự án metro — Brazil (São Paulo) — `ppp-tai-tro-sao-paulo`
