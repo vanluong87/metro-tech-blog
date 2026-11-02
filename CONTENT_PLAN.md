@@ -68,3 +68,21 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Thiết kế ga trung chuyển kết nối nhiều tuyến metro — Mexico (Mexico City) — `ga-trung-chuyen-mexico-city`
 - [x] Thiết kế tiếp cận cho người khuyết tật trong ga metro — Canada (Toronto) — `tiep-can-nguoi-khuyet-tat-toronto`
 - [x] Hệ thống lối thoát hiểm & hành lang nối ngang trong hầm — Ai Cập (Cairo) — `thoat-hiem-ham-cairo`
+
+## Hàng chờ — Bổ sung (lô 3)
+
+- [x] Thi công hầm bằng phương pháp khoan nổ (drill and blast) trong địa chất đá cứng — Na Uy (Oslo) — `khoan-no-ham-oslo`
+- [ ] Gia cố nền đất yếu bằng cọc đất trộn xi măng (jet grouting) trước khi thi công hầm — Việt Nam (Hà Nội) — `gia-co-nen-dat-ha-noi`
+- [ ] Thiết kế hệ thống chiếu sáng ga ngầm — Hungary (Budapest) — `chieu-sang-ga-budapest`
+- [ ] Quản lý giao thông mặt đất trong quá trình thi công ngầm tại đô thị đông đúc — Việt Nam (TP. Hồ Chí Minh) — `quan-ly-giao-thong-tphcm`
+- [ ] Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT (structural health monitoring) — Qatar (Doha) — `giam-sat-ket-cau-doha`
+- [ ] Kiểm soát chất lượng thi công (QA/QC) trong dự án metro — Ba Lan (Warsaw) — `qa-qc-metro-warsaw`
+- [ ] Kiến trúc ga & nghệ thuật công cộng trong thiết kế ga metro — Bồ Đào Nha (Lisbon) — `kien-truc-ga-lisbon`
+- [ ] Thi công hầm qua địa chất karst (đá vôi hang hốc) — Hy Lạp (Athens) — `dia-chat-karst-athens`
+- [ ] Thiết kế trụ cầu & kết cấu cầu cạn cho đoạn tuyến trên cao — Chile (Santiago) — `tru-cau-can-santiago`
+- [ ] Tích hợp metro với quy hoạch phát triển theo định hướng giao thông công cộng (TOD) — Đan Mạch (Copenhagen) — `tod-copenhagen`
+- [ ] Thi công giao cắt giữa hai tuyến hầm (tunnel crossing) trong đô thị hiện hữu — Séc (Praha) — `giao-cat-ham-prague`
+- [ ] Đánh giá tuổi thọ & gia cường kết cấu hầm metro cũ — Argentina (Buenos Aires) — `gia-cuong-ham-cu-buenos-aires`
+- [ ] Chuyển giao công nghệ & đào tạo kỹ sư thi công hầm cho dự án metro đầu tiên của một quốc gia — Bangladesh (Dhaka) — `chuyen-giao-cong-nghe-dhaka`
+- [ ] Hệ thống thông báo hành khách & thông tin hành trình (PA/PIS) trong ga metro — Peru (Lima) — `he-thong-thong-bao-lima`
+- [ ] Quản lý chuỗi cung ứng vật tư thi công cho dự án metro — Azerbaijan (Baku) — `chuoi-cung-ung-baku`

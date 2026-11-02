@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- four-stage drill and blast cycle panels -->
+  <rect x="20" y="70" width="170" height="260" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <rect x="210" y="70" width="170" height="260" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <rect x="400" y="70" width="170" height="260" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <rect x="590" y="70" width="170" height="260" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+
+  <!-- Stage 1: Drilling -->
+  <g>
+    <rect x="35" y="130" width="140" height="130" fill="#dfe6de"/>
+    <g stroke="#8a8f98" stroke-width="2">
+      <line x1="65" y1="140" x2="60" y2="250"/>
+      <line x1="90" y1="140" x2="88" y2="250"/>
+      <line x1="115" y1="140" x2="116" y2="250"/>
+      <line x1="140" y1="140" x2="144" y2="250"/>
+    </g>
+    <g fill="#5a6270">
+      <circle cx="60" cy="250" r="3"/>
+      <circle cx="88" cy="250" r="3"/>
+      <circle cx="116" cy="250" r="3"/>
+      <circle cx="144" cy="250" r="3"/>
+    </g>
+    <text x="105" y="108" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">1. Khoan lỗ mìn</text>
+    <text x="105" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Drilling blast holes</text>
+  </g>
+
+  <!-- Stage 2: Blasting -->
+  <g>
+    <rect x="225" y="130" width="140" height="130" fill="#dfe6de"/>
+    <g stroke="#8a8f98" stroke-width="1.5" opacity="0.6">
+      <line x1="255" y1="140" x2="252" y2="250"/>
+      <line x1="280" y1="140" x2="282" y2="250"/>
+      <line x1="305" y1="140" x2="304" y2="250"/>
+      <line x1="330" y1="140" x2="334" y2="250"/>
+    </g>
+    <g stroke="#c0392b" stroke-width="2.5">
+      <line x1="295" y1="195" x2="270" y2="170"/>
+      <line x1="295" y1="195" x2="320" y2="170"/>
+      <line x1="295" y1="195" x2="255" y2="195"/>
+      <line x1="295" y1="195" x2="335" y2="195"/>
+      <line x1="295" y1="195" x2="270" y2="220"/>
+      <line x1="295" y1="195" x2="320" y2="220"/>
+    </g>
+    <circle cx="295" cy="195" r="10" fill="#c0392b"/>
+    <text x="295" y="108" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">2. Kích nổ</text>
+    <text x="295" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Timed detonation</text>
+  </g>
+
+  <!-- Stage 3: Mucking out -->
+  <g>
+    <rect x="415" y="130" width="140" height="130" fill="#dfe6de"/>
+    <path d="M425,250 L460,200 L480,225 L500,195 L520,250 Z" fill="#8a8f98"/>
+    <g fill="#5a6270">
+      <circle cx="450" cy="240" r="6"/>
+      <circle cx="470" cy="245" r="5"/>
+      <circle cx="490" cy="238" r="6"/>
+      <circle cx="505" cy="248" r="4"/>
+    </g>
+    <line x1="520" y1="260" x2="555" y2="260" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrowMuck)"/>
+    <text x="485" y="108" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">3. Dọn đá vụn</text>
+    <text x="485" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Mucking out</text>
+  </g>
+
+  <!-- Stage 4: Temporary support -->
+  <g>
+    <rect x="605" y="130" width="140" height="130" fill="#dfe6de"/>
+    <path d="M605,230 Q675,155 745,230 L745,260 L605,260 Z" fill="#0a5c4a"/>
+    <g stroke="#eafff6" stroke-width="2">
+      <line x1="630" y1="220" x2="630" y2="180"/>
+      <line x1="660" y1="200" x2="660" y2="165"/>
+      <line x1="690" y1="200" x2="690" y2="165"/>
+      <line x1="720" y1="220" x2="720" y2="180"/>
+    </g>
+    <g fill="#eafff6">
+      <circle cx="630" cy="180" r="3"/>
+      <circle cx="660" cy="165" r="3"/>
+      <circle cx="690" cy="165" r="3"/>
+      <circle cx="720" cy="180" r="3"/>
+    </g>
+    <text x="675" y="108" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">4. Gia cố tạm</text>
+    <text x="675" y="345" font-size="11" fill="#5a6270" text-anchor="middle">Temporary support</text>
+  </g>
+
+  <!-- arrows between panels -->
+  <line x1="195" y1="195" x2="205" y2="195" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrowSeq)"/>
+  <line x1="385" y1="195" x2="395" y2="195" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrowSeq)"/>
+  <line x1="575" y1="195" x2="585" y2="195" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrowSeq)"/>
+
+  <!-- cycle-back arrow -->
+  <path d="M745,330 C745,380 55,380 55,330" fill="none" stroke="#1a1d23" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrowSeq)"/>
+  <text x="400" y="375" font-size="12" fill="#5a6270" text-anchor="middle">lặp lại cho đợt đào tiếp theo / repeat for next round</text>
+
+  <defs>
+    <marker id="arrowSeq" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+    <marker id="arrowMuck" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Chu trình thi công hầm khoan nổ / Drill and blast tunneling cycle
+  </text>
+</svg>
