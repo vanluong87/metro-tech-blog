@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground surface -->
+  <rect x="0" y="70" width="800" height="20" fill="#3a3f47"/>
+  <text x="20" y="60" font-size="13" fill="#1a1d23">mặt đất / ground surface</text>
+
+  <!-- soft soil layers -->
+  <rect x="0" y="90" width="800" height="330" fill="#e2e8e1"/>
+  <line x1="0" y1="180" x2="800" y2="180" stroke="#c7cdc5" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#c7cdc5" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="680" y="140" font-size="12" fill="#5a6270" text-anchor="end">sét yếu / soft clay</text>
+  <text x="680" y="235" font-size="12" fill="#5a6270" text-anchor="end">bùn sét / silty clay</text>
+  <text x="680" y="355" font-size="12" fill="#5a6270" text-anchor="end">cát mịn bão hòa nước</text>
+  <text x="680" y="370" font-size="12" fill="#5a6270" text-anchor="end">saturated fine sand</text>
+
+  <!-- jet grouting rig -->
+  <g>
+    <rect x="128" y="30" width="10" height="45" fill="#3a3f47"/>
+    <rect x="100" y="10" width="66" height="22" rx="3" fill="#5a6270"/>
+    <text x="133" y="25" font-size="10" fill="#ffffff" text-anchor="middle">máy khoan</text>
+  </g>
+
+  <!-- drill rod -->
+  <line x1="133" y1="75" x2="133" y2="250" stroke="#8a8f98" stroke-width="5"/>
+
+  <!-- jet grouting columns (soil-cement), 4 columns forming a wall -->
+  <g fill="#0a5c4a" opacity="0.92">
+    <ellipse cx="133" cy="250" rx="30" ry="170"/>
+    <ellipse cx="203" cy="250" rx="30" ry="170"/>
+    <ellipse cx="273" cy="250" rx="30" ry="170"/>
+    <ellipse cx="343" cy="250" rx="30" ry="170"/>
+  </g>
+
+  <!-- jet spray detail at tip of active column -->
+  <g stroke="#e6c84a" stroke-width="2">
+    <line x1="133" y1="248" x2="110" y2="238"/>
+    <line x1="133" y1="248" x2="156" y2="238"/>
+    <line x1="133" y1="248" x2="118" y2="262"/>
+    <line x1="133" y1="248" x2="148" y2="262"/>
+  </g>
+
+  <text x="203" y="432" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Cột đất trộn xi măng (jet grouting) / Soil-cement columns
+  </text>
+
+  <!-- arrow showing rod withdrawal direction -->
+  <line x1="170" y1="110" x2="170" y2="80" stroke="#1a1d23" stroke-width="2.5" marker-end="url(#arrowUp)"/>
+  <text x="178" y="100" font-size="11" fill="#1a1d23">rút cần, phun vữa</text>
+  <text x="178" y="113" font-size="11" fill="#1a1d23">withdraw &amp; grout</text>
+
+  <defs>
+    <marker id="arrowUp" markerWidth="10" markerHeight="10" refX="5" refY="2" orient="auto">
+      <path d="M0,10 L5,0 L10,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <!-- future tunnel alignment indicator, dashed, beneath improved ground -->
+  <g stroke="#5a6270" stroke-width="1.5" stroke-dasharray="6 5" fill="none">
+    <circle cx="500" cy="300" r="55"/>
+  </g>
+  <text x="500" y="298" font-size="12" fill="#5a6270" text-anchor="middle">vị trí hầm/ga</text>
+  <text x="500" y="313" font-size="12" fill="#5a6270" text-anchor="middle">future tunnel/station</text>
+  <line x1="375" y1="250" x2="445" y2="280" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Gia cố nền đất yếu bằng Jet Grouting / Jet Grouting Ground Improvement
+  </text>
+</svg>
