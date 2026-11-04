@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground -->
+  <rect x="0" y="40" width="800" height="410" fill="#e2e8e1"/>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#9fb09c" stroke-width="2"/>
+  <rect x="0" y="22" width="800" height="18" fill="#3a3f47"/>
+  <text x="20" y="18" font-size="13" fill="#1a1d23">mặt đất / street level</text>
+
+  <!-- station box -->
+  <rect x="120" y="110" width="560" height="260" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+
+  <!-- ceiling -->
+  <rect x="120" y="110" width="560" height="16" fill="#5a6270"/>
+  <text x="400" y="104" font-size="12" fill="#5a6270" text-anchor="middle">trần ga / station ceiling</text>
+
+  <!-- daylight funnel from surface down into station -->
+  <rect x="372" y="40" width="56" height="86" fill="#f6e9b0" opacity="0.85"/>
+  <polygon points="372,126 428,126 452,218 348,218" fill="#f6e9b0" opacity="0.6"/>
+  <text x="400" y="60" font-size="11" fill="#8a6d1a" text-anchor="middle" font-weight="600">ống dẫn</text>
+  <text x="400" y="74" font-size="11" fill="#8a6d1a" text-anchor="middle" font-weight="600">sáng</text>
+  <text x="400" y="90" font-size="10" fill="#8a6d1a" text-anchor="middle">light funnel</text>
+
+  <!-- ceiling LED fixtures -->
+  <g fill="#0a5c4a">
+    <rect x="170" y="126" width="46" height="8"/>
+    <rect x="250" y="126" width="46" height="8"/>
+    <rect x="504" y="126" width="46" height="8"/>
+    <rect x="584" y="126" width="46" height="8"/>
+  </g>
+  <text x="633" y="150" font-size="12" fill="#0a5c4a" font-weight="600">đèn LED trần</text>
+  <text x="633" y="164" font-size="11" fill="#0a5c4a">ceiling LED</text>
+
+  <!-- light rays from LEDs -->
+  <g stroke="#cfd6cf" stroke-width="1.5">
+    <line x1="193" y1="134" x2="180" y2="200"/>
+    <line x1="193" y1="134" x2="206" y2="200"/>
+    <line x1="273" y1="134" x2="260" y2="200"/>
+    <line x1="273" y1="134" x2="286" y2="200"/>
+    <line x1="527" y1="134" x2="514" y2="200"/>
+    <line x1="527" y1="134" x2="540" y2="200"/>
+    <line x1="607" y1="134" x2="594" y2="200"/>
+    <line x1="607" y1="134" x2="620" y2="200"/>
+  </g>
+
+  <!-- platform floor -->
+  <rect x="120" y="300" width="560" height="14" fill="#8a8f98"/>
+
+  <!-- platform edge light strip -->
+  <rect x="120" y="296" width="560" height="5" fill="#0a5c4a"/>
+  <text x="140" y="290" font-size="11" fill="#0a5c4a" font-weight="600">dải chiếu sáng mép sân ga / platform-edge light strip</text>
+
+  <!-- track bed below platform -->
+  <rect x="120" y="314" width="560" height="56" fill="#dfe3e1"/>
+  <line x1="150" y1="366" x2="650" y2="366" stroke="#3a3f47" stroke-width="4"/>
+  <line x1="150" y1="366" x2="650" y2="366" stroke="#b7bcc1" stroke-width="1"/>
+
+  <!-- passengers (simple shapes) as scale reference -->
+  <g fill="#5a6270">
+    <circle cx="300" cy="280" r="6"/>
+    <rect x="294" y="286" width="12" height="18" rx="3"/>
+    <circle cx="460" cy="282" r="6"/>
+    <rect x="454" y="288" width="12" height="18" rx="3"/>
+  </g>
+
+  <!-- exit sign -->
+  <rect x="650" y="150" width="20" height="12" fill="#2e8a4a"/>
+  <text x="662" y="172" font-size="9" fill="#2e8a4a" text-anchor="middle">lối thoát</text>
+
+  <text x="400" y="28" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Chiếu sáng ga ngầm: LED trần, giếng lấy sáng &amp; dải sáng sân ga
+  </text>
+  <text x="400" y="434" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Underground station lighting: ceiling LEDs, daylight funnel &amp; platform-edge strip
+  </text>
+</svg>

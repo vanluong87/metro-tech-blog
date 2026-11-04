@@ -73,7 +73,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 
 - [x] Thi công hầm bằng phương pháp khoan nổ (drill and blast) trong địa chất đá cứng — Na Uy (Oslo) — `khoan-no-ham-oslo`
 - [x] Gia cố nền đất yếu bằng cọc đất trộn xi măng (jet grouting) trước khi thi công hầm — Việt Nam (Hà Nội) — `gia-co-nen-dat-ha-noi`
-- [ ] Thiết kế hệ thống chiếu sáng ga ngầm — Hungary (Budapest) — `chieu-sang-ga-budapest`
+- [x] Thiết kế hệ thống chiếu sáng ga ngầm — Hungary (Budapest) — `chieu-sang-ga-budapest`
 - [ ] Quản lý giao thông mặt đất trong quá trình thi công ngầm tại đô thị đông đúc — Việt Nam (TP. Hồ Chí Minh) — `quan-ly-giao-thong-tphcm`
 - [ ] Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT (structural health monitoring) — Qatar (Doha) — `giam-sat-ket-cau-doha`
 - [ ] Kiểm soát chất lượng thi công (QA/QC) trong dự án metro — Ba Lan (Warsaw) — `qa-qc-metro-warsaw`
