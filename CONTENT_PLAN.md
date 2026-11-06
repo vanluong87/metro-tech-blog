@@ -75,7 +75,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Gia cố nền đất yếu bằng cọc đất trộn xi măng (jet grouting) trước khi thi công hầm — Việt Nam (Hà Nội) — `gia-co-nen-dat-ha-noi`
 - [x] Thiết kế hệ thống chiếu sáng ga ngầm — Hungary (Budapest) — `chieu-sang-ga-budapest`
 - [x] Quản lý giao thông mặt đất trong quá trình thi công ngầm tại đô thị đông đúc — Việt Nam (TP. Hồ Chí Minh) — `quan-ly-giao-thong-tphcm`
-- [ ] Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT (structural health monitoring) — Qatar (Doha) — `giam-sat-ket-cau-doha`
+- [x] Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT (structural health monitoring) — Qatar (Doha) — `giam-sat-ket-cau-doha`
 - [ ] Kiểm soát chất lượng thi công (QA/QC) trong dự án metro — Ba Lan (Warsaw) — `qa-qc-metro-warsaw`
 - [ ] Kiến trúc ga & nghệ thuật công cộng trong thiết kế ga metro — Bồ Đào Nha (Lisbon) — `kien-truc-ga-lisbon`
 - [ ] Thi công hầm qua địa chất karst (đá vôi hang hốc) — Hy Lạp (Athens) — `dia-chat-karst-athens`

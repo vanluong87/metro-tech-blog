@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground layers -->
+  <rect x="0" y="0" width="800" height="90" fill="#e7ebe6"/>
+  <rect x="0" y="90" width="800" height="300" fill="#dfe6de"/>
+  <line x1="0" y1="90" x2="800" y2="90" stroke="#9fb09c" stroke-width="2"/>
+
+  <!-- tunnel lining ring (segmental lining cross-section) -->
+  <circle cx="260" cy="250" r="110" fill="#eef1ef" stroke="#5a6270" stroke-width="3"/>
+  <circle cx="260" cy="250" r="88" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+  <text x="260" y="250" font-size="13" fill="#8a8f98" text-anchor="middle">vỏ hầm / tunnel lining</text>
+
+  <!-- sensors mounted around the ring -->
+  <g>
+    <circle cx="260" cy="140" r="9" fill="#0a5c4a"/>
+    <circle cx="350" cy="195" r="9" fill="#0a5c4a"/>
+    <circle cx="350" cy="305" r="9" fill="#0a5c4a"/>
+    <circle cx="260" cy="360" r="9" fill="#0a5c4a"/>
+    <circle cx="170" cy="305" r="9" fill="#0a5c4a"/>
+    <circle cx="170" cy="195" r="9" fill="#0a5c4a"/>
+  </g>
+
+  <!-- crack indicator near one sensor -->
+  <path d="M345,200 l10,10 l-6,8 l10,10" stroke="#b23b3b" stroke-width="2" fill="none"/>
+
+  <!-- wireless signal lines from sensors to a data logger box -->
+  <g stroke="#3a8a72" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.85">
+    <line x1="260" y1="140" x2="470" y2="130"/>
+    <line x1="350" y1="195" x2="470" y2="140"/>
+    <line x1="350" y1="305" x2="470" y2="150"/>
+    <line x1="260" y1="360" x2="470" y2="160"/>
+    <line x1="170" y1="305" x2="470" y2="150"/>
+    <line x1="170" y1="195" x2="470" y2="140"/>
+  </g>
+
+  <!-- data logger box -->
+  <rect x="465" y="100" width="90" height="60" rx="6" fill="#5a6270"/>
+  <text x="510" y="126" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Data</text>
+  <text x="510" y="142" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Logger</text>
+
+  <!-- transmission line to monitoring center -->
+  <line x1="555" y1="130" x2="650" y2="130" stroke="#1a1d23" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- monitoring center -->
+  <rect x="650" y="90" width="120" height="100" rx="8" fill="#ffffff" stroke="#5a6270" stroke-width="2"/>
+  <rect x="664" y="104" width="92" height="56" rx="3" fill="#0a5c4a"/>
+  <g stroke="#eafff6" stroke-width="2" fill="none">
+    <polyline points="672,148 688,118 704,136 720,106 736,128 748,112"/>
+  </g>
+  <text x="710" y="178" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Trung tâm giám sát</text>
+  <text x="710" y="192" font-size="11" fill="#5a6270" text-anchor="middle">Monitoring center</text>
+
+  <!-- train passing through tunnel for context -->
+  <rect x="210" y="235" width="100" height="30" rx="6" fill="#8a8f98" opacity="0.7"/>
+  <text x="260" y="256" font-size="10" fill="#ffffff" text-anchor="middle">tàu / train</text>
+
+  <!-- legend: sensor dot -->
+  <circle cx="60" cy="400" r="8" fill="#0a5c4a"/>
+  <text x="78" y="404" font-size="12" fill="#1a1d23">Cảm biến IoT / IoT sensor</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT / Tunnel structural health monitoring with IoT sensors
+  </text>
+</svg>
