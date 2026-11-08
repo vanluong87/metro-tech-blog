@@ -77,7 +77,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Quản lý giao thông mặt đất trong quá trình thi công ngầm tại đô thị đông đúc — Việt Nam (TP. Hồ Chí Minh) — `quan-ly-giao-thong-tphcm`
 - [x] Giám sát sức khỏe kết cấu hầm bằng cảm biến IoT (structural health monitoring) — Qatar (Doha) — `giam-sat-ket-cau-doha`
 - [x] Kiểm soát chất lượng thi công (QA/QC) trong dự án metro — Ba Lan (Warsaw) — `qa-qc-metro-warsaw`
-- [ ] Kiến trúc ga & nghệ thuật công cộng trong thiết kế ga metro — Bồ Đào Nha (Lisbon) — `kien-truc-ga-lisbon`
+- [x] Kiến trúc ga & nghệ thuật công cộng trong thiết kế ga metro — Bồ Đào Nha (Lisbon) — `kien-truc-ga-lisbon`
 - [ ] Thi công hầm qua địa chất karst (đá vôi hang hốc) — Hy Lạp (Athens) — `dia-chat-karst-athens`
 - [ ] Thiết kế trụ cầu & kết cấu cầu cạn cho đoạn tuyến trên cao — Chile (Santiago) — `tru-cau-can-santiago`
 - [ ] Tích hợp metro với quy hoạch phát triển theo định hướng giao thông công cộng (TOD) — Đan Mạch (Copenhagen) — `tod-copenhagen`

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- station cross-section panel -->
+  <rect x="60" y="80" width="680" height="300" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- structural layer: columns + slabs -->
+  <rect x="90" y="330" width="620" height="18" fill="#5a6270"/>
+  <rect x="90" y="100" width="620" height="16" fill="#5a6270"/>
+  <rect x="150" y="116" width="16" height="214" fill="#8a8f98"/>
+  <rect x="392" y="116" width="16" height="214" fill="#8a8f98"/>
+  <rect x="634" y="116" width="16" height="214" fill="#8a8f98"/>
+  <text x="76" y="112" font-size="11" fill="#5a6270" text-anchor="end">kết cấu</text>
+  <text x="76" y="124" font-size="11" fill="#5a6270" text-anchor="end">structure</text>
+
+  <!-- architectural layer: platform + concourse volume -->
+  <rect x="166" y="250" width="226" height="80" fill="#e7ebe6"/>
+  <rect x="408" y="250" width="226" height="80" fill="#e7ebe6"/>
+  <text x="400" y="245" font-size="12" fill="#3a3f47" text-anchor="middle">không gian kiến trúc / architectural space</text>
+
+  <!-- natural light shaft -->
+  <path d="M370,116 L430,116 L450,250 L350,250 Z" fill="#dce8f2" opacity="0.8"/>
+  <text x="400" y="200" font-size="11" fill="#4d6b96" text-anchor="middle">ánh sáng tự nhiên</text>
+  <text x="400" y="213" font-size="11" fill="#4d6b96" text-anchor="middle">natural light</text>
+
+  <!-- public art layer: tile panel on wall -->
+  <g>
+    <rect x="182" y="150" width="90" height="90" fill="#ffffff" stroke="#0a5c4a" stroke-width="2"/>
+    <g fill="#0a5c4a">
+      <rect x="182" y="150" width="22" height="22"/>
+      <rect x="226" y="150" width="22" height="22"/>
+      <rect x="204" y="172" width="22" height="22"/>
+      <rect x="248" y="172" width="22" height="22"/>
+      <rect x="182" y="194" width="22" height="22"/>
+      <rect x="226" y="194" width="22" height="22"/>
+      <rect x="204" y="216" width="22" height="22"/>
+      <rect x="248" y="216" width="22" height="22"/>
+    </g>
+    <rect x="182" y="150" width="90" height="90" fill="none" stroke="#0a5c4a" stroke-width="2"/>
+  </g>
+  <text x="227" y="140" font-size="11" fill="#0a5c4a" text-anchor="middle" font-weight="600">gạch azulejo</text>
+
+  <!-- sculpture / art installation on opposite wall -->
+  <circle cx="570" cy="195" r="22" fill="#0a5c4a"/>
+  <rect x="558" y="217" width="24" height="33" fill="#3a8a72"/>
+  <text x="570" y="140" font-size="11" fill="#0a5c4a" text-anchor="middle" font-weight="600">tác phẩm điêu khắc</text>
+  <text x="570" y="153" font-size="11" fill="#0a5c4a" text-anchor="middle" font-weight="600">sculpture / art</text>
+
+  <!-- passenger figures for scale -->
+  <g fill="#8a8f98">
+    <circle cx="300" cy="320" r="7"/>
+    <rect x="294" y="327" width="12" height="20" rx="3"/>
+    <circle cx="500" cy="322" r="7"/>
+    <rect x="494" y="329" width="12" height="20" rx="3"/>
+  </g>
+
+  <!-- signage layer -->
+  <rect x="330" y="96" width="140" height="18" fill="#1a1d23"/>
+  <text x="400" y="109" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">TÊN GA / STATION NAME</text>
+
+  <text x="400" y="400" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Các lớp thiết kế nhà ga: kết cấu – kiến trúc – nghệ thuật công cộng
+  </text>
+  <text x="400" y="420" font-size="13" fill="#3a3f47" text-anchor="middle">
+    Station design layers: structure – architecture – public art
+  </text>
+</svg>
