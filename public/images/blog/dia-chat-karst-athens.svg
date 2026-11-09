@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground layers -->
+  <rect x="0" y="0" width="800" height="90" fill="#e7ebe6"/>
+  <rect x="0" y="90" width="800" height="300" fill="#dfe6de"/>
+  <rect x="0" y="390" width="800" height="60" fill="#d3ddd2"/>
+
+  <!-- ground surface hatch (urban) -->
+  <line x1="0" y1="90" x2="800" y2="90" stroke="#9fb09c" stroke-width="2"/>
+  <g stroke="#9fb09c" stroke-width="2">
+    <line x1="40" y1="90" x2="30" y2="75"/>
+    <line x1="90" y1="90" x2="80" y2="75"/>
+    <line x1="140" y1="90" x2="130" y2="75"/>
+    <line x1="700" y1="90" x2="690" y2="75"/>
+    <line x1="750" y1="90" x2="740" y2="75"/>
+  </g>
+
+  <!-- bedrock texture (limestone blocks) -->
+  <g stroke="#b9c2bb" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="140" x2="800" y2="140"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="260" x2="800" y2="260"/>
+    <line x1="0" y1="320" x2="800" y2="320"/>
+    <line x1="60" y1="90" x2="60" y2="390"/>
+    <line x1="180" y1="90" x2="180" y2="390"/>
+    <line x1="300" y1="90" x2="300" y2="390"/>
+    <line x1="420" y1="90" x2="420" y2="390"/>
+    <line x1="540" y1="90" x2="540" y2="390"/>
+    <line x1="660" y1="90" x2="660" y2="390"/>
+  </g>
+
+  <!-- karst cavity 1: open void above tunnel -->
+  <path d="M120,150 q30,-25 70,-5 q25,20 5,50 q-35,25 -70,0 q-20,-20 -5,-45 z" fill="#f3f5f4" stroke="#8a8f98" stroke-width="2"/>
+  <text x="160" y="150" font-size="11" fill="#5a6270" text-anchor="middle">hang karst / void</text>
+
+  <!-- karst cavity 2: mud-filled pocket near tunnel, being grouted -->
+  <path d="M540,230 q35,-20 75,0 q20,25 -10,55 q-40,20 -75,-5 q-20,-25 10,-50 z" fill="#c9bfa0" stroke="#8a8f98" stroke-width="2"/>
+  <text x="577" y="330" font-size="11" fill="#5a6270" text-anchor="middle">túi bùn / mud pocket</text>
+
+  <!-- grout injection pipes into cavity 2 -->
+  <g stroke="#5a6270" stroke-width="2.5">
+    <line x1="560" y1="330" x2="555" y2="260"/>
+    <line x1="600" y1="335" x2="605" y2="255"/>
+  </g>
+  <g fill="#5a6270">
+    <circle cx="555" cy="260" r="3"/>
+    <circle cx="605" cy="255" r="3"/>
+  </g>
+  <text x="620" y="360" font-size="11" fill="#5a6270" text-anchor="middle">phun vữa / grouting</text>
+
+  <!-- probe drilling fan ahead of tunnel face -->
+  <g stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.85">
+    <line x1="400" y1="280" x2="470" y2="170"/>
+    <line x1="400" y1="280" x2="500" y2="230"/>
+    <line x1="400" y1="280" x2="510" y2="300"/>
+    <line x1="400" y1="280" x2="480" y2="350"/>
+  </g>
+  <text x="430" y="400" font-size="11" fill="#0a5c4a" text-anchor="middle" font-weight="600">khoan thăm dò / probe drilling</text>
+
+  <!-- tunnel bore with lining -->
+  <circle cx="400" cy="280" r="55" fill="#eef3f0" stroke="#0a5c4a" stroke-width="4"/>
+  <circle cx="400" cy="280" r="42" fill="#ffffff" stroke="#5a6270" stroke-width="2"/>
+  <text x="400" y="285" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">hầm / tunnel</text>
+
+  <!-- advance direction arrow -->
+  <line x1="300" y1="280" x2="345" y2="280" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="300" y="265" font-size="12" fill="#1a1d23" text-anchor="middle">hướng đào / advance</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Thi công hầm qua địa chất karst / Tunneling through karst geology
+  </text>
+</svg>
