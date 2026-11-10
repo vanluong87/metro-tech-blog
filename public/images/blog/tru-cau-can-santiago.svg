@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- sky area -->
+  <rect x="0" y="0" width="800" height="300" fill="#eef2f0"/>
+
+  <!-- ground level -->
+  <rect x="0" y="360" width="800" height="90" fill="#d8dde1"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#9fa6ad" stroke-width="2"/>
+
+  <!-- pile foundations below ground -->
+  <g stroke="#8a8f98" stroke-width="10" stroke-linecap="round">
+    <line x1="160" y1="360" x2="160" y2="432"/>
+    <line x1="190" y1="360" x2="190" y2="432"/>
+    <line x1="610" y1="360" x2="610" y2="432"/>
+    <line x1="640" y1="360" x2="640" y2="432"/>
+  </g>
+  <rect x="145" y="352" width="60" height="16" rx="3" fill="#5a6270"/>
+  <rect x="595" y="352" width="60" height="16" rx="3" fill="#5a6270"/>
+  <text x="175" y="443" font-size="10" fill="#5a6270" text-anchor="middle">cọc / piles</text>
+  <text x="625" y="443" font-size="10" fill="#5a6270" text-anchor="middle">cọc / piles</text>
+
+  <!-- pier shafts -->
+  <rect x="158" y="262" width="34" height="90" fill="#8a8f98"/>
+  <rect x="608" y="262" width="34" height="90" fill="#8a8f98"/>
+
+  <!-- ductile hinge zone highlight (base of pier) -->
+  <g>
+    <rect x="155" y="310" width="40" height="42" fill="none" stroke="#c98a2c" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="100" y="335" font-size="10" fill="#9a5c12" text-anchor="end">vùng dẻo</text>
+    <text x="100" y="347" font-size="10" fill="#9a5c12" text-anchor="end">ductile zone</text>
+    <line x1="155" y1="331" x2="103" y2="331" stroke="#c98a2c" stroke-width="1.5"/>
+  </g>
+  <g>
+    <rect x="605" y="310" width="40" height="42" fill="none" stroke="#c98a2c" stroke-width="2" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- seismic isolation bearings on pier tops -->
+  <g>
+    <rect x="152" y="240" width="46" height="22" rx="2" fill="#ffffff" stroke="#0a5c4a" stroke-width="2"/>
+    <g stroke="#0a5c4a" stroke-width="2">
+      <line x1="158" y1="246" x2="192" y2="246"/>
+      <line x1="158" y1="251" x2="192" y2="251"/>
+      <line x1="158" y1="256" x2="192" y2="256"/>
+    </g>
+  </g>
+  <g>
+    <rect x="602" y="240" width="46" height="22" rx="2" fill="#ffffff" stroke="#0a5c4a" stroke-width="2"/>
+    <g stroke="#0a5c4a" stroke-width="2">
+      <line x1="608" y1="246" x2="642" y2="246"/>
+      <line x1="608" y1="251" x2="642" y2="251"/>
+      <line x1="608" y1="256" x2="642" y2="256"/>
+    </g>
+  </g>
+  <text x="175" y="225" font-size="10" fill="#0a5c4a" text-anchor="middle" font-weight="600">gối cách chấn</text>
+  <text x="175" y="213" font-size="9" fill="#0a5c4a" text-anchor="middle">isolation bearing</text>
+
+  <!-- seismic restrainer stops beside bearings -->
+  <rect x="145" y="232" width="8" height="30" fill="#5a6270"/>
+  <rect x="197" y="232" width="8" height="30" fill="#5a6270"/>
+  <rect x="595" y="232" width="8" height="30" fill="#5a6270"/>
+  <rect x="647" y="232" width="8" height="30" fill="#5a6270"/>
+  <text x="670" y="222" font-size="9" fill="#5a6270">gối chặn / restrainer</text>
+  <line x1="655" y1="240" x2="700" y2="222" stroke="#5a6270" stroke-width="1"/>
+
+  <!-- precast segmental viaduct girder -->
+  <rect x="90" y="196" width="620" height="36" rx="4" fill="#0a5c4a"/>
+  <g stroke="#06392e" stroke-width="1.5" opacity="0.6">
+    <line x1="150" y1="196" x2="150" y2="232"/>
+    <line x1="210" y1="196" x2="210" y2="232"/>
+    <line x1="270" y1="196" x2="270" y2="232"/>
+    <line x1="330" y1="196" x2="330" y2="232"/>
+    <line x1="400" y1="196" x2="400" y2="232"/>
+    <line x1="470" y1="196" x2="470" y2="232"/>
+    <line x1="530" y1="196" x2="530" y2="232"/>
+    <line x1="590" y1="196" x2="590" y2="232"/>
+    <line x1="650" y1="196" x2="650" y2="232"/>
+  </g>
+
+  <!-- expansion joint mark at mid-span -->
+  <line x1="400" y1="196" x2="400" y2="232" stroke="#e6c84a" stroke-width="3"/>
+  <text x="400" y="186" font-size="10" fill="#1a1d23" text-anchor="middle">khớp giãn nở / expansion joint</text>
+
+  <!-- rail on top of girder -->
+  <line x1="90" y1="192" x2="710" y2="192" stroke="#1a1d23" stroke-width="3"/>
+
+  <!-- train on girder -->
+  <rect x="470" y="168" width="120" height="26" rx="6" fill="#0a5c4a" opacity="0.9"/>
+  <rect x="480" y="174" width="20" height="12" fill="#eafff6"/>
+  <rect x="508" y="174" width="20" height="12" fill="#eafff6"/>
+  <rect x="536" y="174" width="20" height="12" fill="#eafff6"/>
+  <rect x="564" y="174" width="20" height="12" fill="#eafff6"/>
+
+  <!-- ground shaking indicator arrows -->
+  <g stroke="#9a5c12" stroke-width="2">
+    <line x1="350" y1="400" x2="370" y2="400" marker-end="url(#arrowSeismic)"/>
+    <line x1="370" y1="414" x2="350" y2="414" marker-end="url(#arrowSeismic)"/>
+  </g>
+  <text x="430" y="406" font-size="11" fill="#9a5c12">rung động nền / ground shaking</text>
+
+  <defs>
+    <marker id="arrowSeismic" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#9a5c12"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Trụ &amp; cầu cạn kháng chấn / Seismic pier &amp; viaduct design
+  </text>
+  <text x="400" y="430" font-size="12" fill="#5a6270" text-anchor="middle">
+    Gối cách chấn – vùng dẻo – thanh giằng chống rơi dầm / Isolation bearing – ductile zone – girder restrainer
+  </text>
+</svg>
