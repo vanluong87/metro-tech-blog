@@ -80,7 +80,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Kiến trúc ga & nghệ thuật công cộng trong thiết kế ga metro — Bồ Đào Nha (Lisbon) — `kien-truc-ga-lisbon`
 - [x] Thi công hầm qua địa chất karst (đá vôi hang hốc) — Hy Lạp (Athens) — `dia-chat-karst-athens`
 - [x] Thiết kế trụ cầu & kết cấu cầu cạn cho đoạn tuyến trên cao — Chile (Santiago) — `tru-cau-can-santiago`
-- [ ] Tích hợp metro với quy hoạch phát triển theo định hướng giao thông công cộng (TOD) — Đan Mạch (Copenhagen) — `tod-copenhagen`
+- [x] Tích hợp metro với quy hoạch phát triển theo định hướng giao thông công cộng (TOD) — Đan Mạch (Copenhagen) — `tod-copenhagen`
 - [ ] Thi công giao cắt giữa hai tuyến hầm (tunnel crossing) trong đô thị hiện hữu — Séc (Praha) — `giao-cat-ham-prague`
 - [ ] Đánh giá tuổi thọ & gia cường kết cấu hầm metro cũ — Argentina (Buenos Aires) — `gia-cuong-ham-cu-buenos-aires`
 - [ ] Chuyển giao công nghệ & đào tạo kỹ sư thi công hầm cho dự án metro đầu tiên của một quốc gia — Bangladesh (Dhaka) — `chuyen-giao-cong-nghe-dhaka`

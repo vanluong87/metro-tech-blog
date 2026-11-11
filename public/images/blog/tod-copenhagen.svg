@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- outer low-density ring -->
+  <circle cx="400" cy="230" r="190" fill="#e7ebe6" stroke="#d8dde1" stroke-width="2"/>
+  <!-- mid-density ring -->
+  <circle cx="400" cy="230" r="130" fill="#d8dde1" stroke="#c3cbd1" stroke-width="2"/>
+  <!-- high-density ring (walkable catchment) -->
+  <circle cx="400" cy="230" r="70" fill="#bcd6cc" stroke="#0a5c4a" stroke-width="2"/>
+
+  <!-- dashed walking radius guide -->
+  <circle cx="400" cy="230" r="70" fill="none" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- buildings in high-density ring (near station) -->
+  <g fill="#0a5c4a">
+    <rect x="345" y="175" width="14" height="40"/>
+    <rect x="365" y="165" width="14" height="50"/>
+    <rect x="420" y="170" width="14" height="45"/>
+    <rect x="440" y="180" width="14" height="35"/>
+    <rect x="345" y="250" width="14" height="42"/>
+    <rect x="435" y="255" width="14" height="38"/>
+  </g>
+
+  <!-- buildings in mid-density ring -->
+  <g fill="#5a6270">
+    <rect x="300" y="195" width="12" height="28"/>
+    <rect x="480" y="200" width="12" height="25"/>
+    <rect x="290" y="270" width="12" height="26"/>
+    <rect x="490" y="260" width="12" height="24"/>
+    <rect x="390" y="110" width="12" height="24"/>
+    <rect x="400" y="340" width="12" height="24"/>
+  </g>
+
+  <!-- low-density ring: sparse small marks + green space -->
+  <g fill="#8a9c8e">
+    <circle cx="240" cy="150" r="6"/>
+    <circle cx="560" cy="160" r="6"/>
+    <circle cx="245" cy="330" r="6"/>
+    <circle cx="555" cy="320" r="6"/>
+  </g>
+
+  <!-- metro line through station -->
+  <line x1="60" y1="230" x2="740" y2="230" stroke="#1a1d23" stroke-width="4"/>
+  <!-- station marker -->
+  <circle cx="400" cy="230" r="10" fill="#ffffff" stroke="#1a1d23" stroke-width="3"/>
+  <text x="400" y="257" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">ga metro / station</text>
+
+  <!-- walking distance arrow -->
+  <line x1="400" y1="230" x2="470" y2="230" stroke="#0a5c4a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="435" y="222" font-size="11" fill="#0a5c4a" text-anchor="middle">bán kính đi bộ</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0a5c4a"/>
+    </marker>
+  </defs>
+
+  <!-- legend -->
+  <g font-size="12" fill="#1a1d23">
+    <rect x="620" y="60" width="14" height="14" fill="#bcd6cc" stroke="#0a5c4a"/>
+    <text x="640" y="71">mật độ cao / high density</text>
+    <rect x="620" y="82" width="14" height="14" fill="#d8dde1" stroke="#c3cbd1"/>
+    <text x="640" y="93">mật độ trung bình / mid</text>
+    <rect x="620" y="104" width="14" height="14" fill="#e7ebe6" stroke="#d8dde1"/>
+    <text x="640" y="115">mật độ thấp / low</text>
+  </g>
+
+  <text x="400" y="410" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Phát triển theo định hướng giao thông công cộng / Transit-Oriented Development (TOD)
+  </text>
+</svg>
