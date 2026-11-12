@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground panel -->
+  <rect x="40" y="70" width="720" height="320" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+
+  <!-- ground fill texture band -->
+  <rect x="60" y="90" width="680" height="280" fill="#eef1ef"/>
+
+  <!-- existing operating tunnel (upper) -->
+  <rect x="150" y="150" width="500" height="55" rx="10" fill="#8a8f98"/>
+  <circle cx="220" cy="177" r="16" fill="#5a6270"/>
+  <circle cx="400" cy="177" r="16" fill="#5a6270"/>
+  <circle cx="580" cy="177" r="16" fill="#5a6270"/>
+  <text x="400" y="182" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Tuyến hiện hữu / Existing line</text>
+
+  <!-- reinforced ground zone between the two tunnels -->
+  <rect x="330" y="215" width="140" height="70" fill="none" stroke="#e6c84a" stroke-width="3" stroke-dasharray="8 6" rx="6"/>
+  <text x="400" y="211" font-size="11" fill="#9a7d14" text-anchor="middle" font-weight="600">Vùng gia cố nền / Reinforced zone</text>
+
+  <!-- new crossing tunnel (lower, crossing diagonally) -->
+  <g transform="rotate(8 400 320)">
+    <rect x="150" y="295" width="500" height="55" rx="10" fill="#0a5c4a"/>
+    <text x="400" y="327" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Tuyến mới / New tunnel</text>
+  </g>
+
+  <!-- monitoring sensor markers on existing tunnel -->
+  <g>
+    <circle cx="340" cy="150" r="5" fill="#c0392b"/>
+    <circle cx="400" cy="150" r="5" fill="#c0392b"/>
+    <circle cx="460" cy="150" r="5" fill="#c0392b"/>
+    <line x1="340" y1="150" x2="340" y2="130" stroke="#c0392b" stroke-width="1.5"/>
+    <line x1="460" y1="150" x2="460" y2="130" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="400" y="122" font-size="11" fill="#8a3127" text-anchor="middle">Điểm giám sát lún / Settlement sensors</text>
+  </g>
+
+  <!-- ground surface line -->
+  <line x1="60" y1="90" x2="740" y2="90" stroke="#9fb09c" stroke-width="2"/>
+  <text x="90" y="82" font-size="11" fill="#5a6270">Mặt đất / Ground surface</text>
+
+  <!-- legend -->
+  <rect x="60" y="355" width="14" height="10" fill="#8a8f98"/>
+  <text x="80" y="364" font-size="11" fill="#5a6270">Kết cấu hầm cũ / Existing structure</text>
+  <rect x="330" y="355" width="14" height="10" fill="#0a5c4a"/>
+  <text x="350" y="364" font-size="11" fill="#5a6270">Kết cấu hầm mới / New structure</text>
+
+  <text x="400" y="35" font-size="16" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Giao cắt hai tuyến hầm metro / Metro tunnel crossing
+  </text>
+</svg>
