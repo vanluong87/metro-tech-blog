@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground layers -->
+  <rect x="0" y="0" width="800" height="100" fill="#e7ebe6"/>
+  <rect x="0" y="100" width="800" height="250" fill="#dfe6de"/>
+  <rect x="0" y="350" width="800" height="100" fill="#d3ddd2"/>
+
+  <!-- ground surface hatch -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#9fb09c" stroke-width="2"/>
+  <g stroke="#9fb09c" stroke-width="2">
+    <line x1="40" y1="100" x2="30" y2="85"/>
+    <line x1="90" y1="100" x2="80" y2="85"/>
+    <line x1="700" y1="100" x2="690" y2="85"/>
+    <line x1="750" y1="100" x2="740" y2="85"/>
+  </g>
+
+  <!-- panel background for the tunnel ring -->
+  <rect x="150" y="140" width="500" height="260" rx="12" fill="#ffffff"/>
+
+  <!-- tunnel ring outer -->
+  <circle cx="400" cy="260" r="115" fill="none" stroke="#5a6270" stroke-width="3"/>
+  <circle cx="400" cy="260" r="95" fill="none" stroke="#5a6270" stroke-width="2"/>
+
+  <!-- dividing line: left = deteriorated, right = reinforced -->
+  <line x1="400" y1="145" x2="400" y2="375" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- LEFT HALF: deteriorated lining -->
+  <g>
+    <path d="M400,145 A115,115 0 0,0 400,375 Z" fill="#e3e6e8"/>
+    <!-- cracks -->
+    <g stroke="#5a6270" stroke-width="2" fill="none">
+      <path d="M340,180 l-10,20 l12,14 l-8,18"/>
+      <path d="M312,250 l-14,8 l10,16"/>
+      <path d="M330,320 l-10,18 l14,12"/>
+    </g>
+    <!-- water seepage -->
+    <g stroke="#7fa8d9" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M355,210 q-4,10 0,18 q4,10 0,18"/>
+      <path d="M345,290 q-4,10 0,18 q4,10 0,16"/>
+    </g>
+    <!-- rust stain dots -->
+    <g fill="#b98a5a" opacity="0.6">
+      <circle cx="320" cy="245" r="3"/>
+      <circle cx="334" cy="300" r="2.5"/>
+      <circle cx="350" cy="195" r="2.5"/>
+    </g>
+  </g>
+  <text x="285" y="400" font-size="13" fill="#5a6270" text-anchor="middle">vỏ hầm xuống cấp</text>
+  <text x="285" y="416" font-size="12" fill="#5a6270" text-anchor="middle">deteriorated lining</text>
+
+  <!-- RIGHT HALF: reinforced lining -->
+  <g>
+    <path d="M400,145 A115,115 0 0,1 400,375 Z" fill="#eafff6"/>
+    <!-- new reinforcement band just inside ring -->
+    <path d="M400,160 A100,100 0 0,1 400,360" fill="none" stroke="#0a5c4a" stroke-width="10" opacity="0.9"/>
+    <!-- CFRP strips -->
+    <g stroke="#0a5c4a" stroke-width="3">
+      <line x1="430" y1="185" x2="455" y2="200"/>
+      <line x1="450" y1="260" x2="478" y2="260"/>
+      <line x1="430" y1="335" x2="455" y2="320"/>
+    </g>
+    <!-- sensor points -->
+    <g>
+      <circle cx="455" cy="200" r="5" fill="#0a5c4a"/>
+      <circle cx="478" cy="260" r="5" fill="#0a5c4a"/>
+      <circle cx="455" cy="320" r="5" fill="#0a5c4a"/>
+    </g>
+  </g>
+  <text x="500" y="400" font-size="13" fill="#0a5c4a" text-anchor="middle" font-weight="600">lớp gia cường + cảm biến</text>
+  <text x="500" y="416" font-size="12" fill="#0a5c4a" text-anchor="middle">reinforcement + sensors</text>
+
+  <!-- center train gauge hint -->
+  <rect x="370" y="300" width="60" height="55" rx="4" fill="#d8dde1"/>
+  <line x1="370" y1="355" x2="430" y2="355" stroke="#8a8f98" stroke-width="3"/>
+
+  <text x="400" y="430" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Đánh giá & gia cường hầm metro cũ / Assessing and reinforcing an aging metro tunnel
+  </text>
+</svg>
