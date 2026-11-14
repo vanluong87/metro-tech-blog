@@ -83,6 +83,6 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Tích hợp metro với quy hoạch phát triển theo định hướng giao thông công cộng (TOD) — Đan Mạch (Copenhagen) — `tod-copenhagen`
 - [x] Thi công giao cắt giữa hai tuyến hầm (tunnel crossing) trong đô thị hiện hữu — Séc (Praha) — `giao-cat-ham-prague`
 - [x] Đánh giá tuổi thọ & gia cường kết cấu hầm metro cũ — Argentina (Buenos Aires) — `gia-cuong-ham-cu-buenos-aires`
-- [ ] Chuyển giao công nghệ & đào tạo kỹ sư thi công hầm cho dự án metro đầu tiên của một quốc gia — Bangladesh (Dhaka) — `chuyen-giao-cong-nghe-dhaka`
+- [x] Chuyển giao công nghệ & đào tạo kỹ sư thi công hầm cho dự án metro đầu tiên của một quốc gia — Bangladesh (Dhaka) — `chuyen-giao-cong-nghe-dhaka`
 - [ ] Hệ thống thông báo hành khách & thông tin hành trình (PA/PIS) trong ga metro — Peru (Lima) — `he-thong-thong-bao-lima`
 - [ ] Quản lý chuỗi cung ứng vật tư thi công cho dự án metro — Azerbaijan (Baku) — `chuoi-cung-ung-baku`
