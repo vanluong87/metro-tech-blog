@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Hệ thống PA/PIS trong ga metro / Metro PA/PIS System
+  </text>
+
+  <!-- OCC box -->
+  <rect x="300" y="55" width="200" height="70" rx="8" fill="#0a5c4a"/>
+  <text x="400" y="85" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Trung tâm điều khiển (OCC)</text>
+  <text x="400" y="102" font-size="11" fill="#dce9e4" text-anchor="middle">Operations Control Center</text>
+  <text x="400" y="116" font-size="10" fill="#cfe3dc" text-anchor="middle">Điều phối viên / Controller</text>
+
+  <!-- transmission lines down to two stations -->
+  <line x1="400" y1="125" x2="400" y2="150" stroke="#5a6270" stroke-width="2"/>
+  <line x1="400" y1="150" x2="190" y2="150" stroke="#5a6270" stroke-width="2"/>
+  <line x1="400" y1="150" x2="610" y2="150" stroke="#5a6270" stroke-width="2"/>
+  <line x1="190" y1="150" x2="190" y2="175" stroke="#5a6270" stroke-width="2"/>
+  <line x1="610" y1="150" x2="610" y2="175" stroke="#5a6270" stroke-width="2"/>
+  <text x="400" y="145" font-size="9" fill="#5a6270" text-anchor="middle">cáp quang / fiber link</text>
+
+  <!-- Station A panel -->
+  <rect x="60" y="175" width="260" height="235" rx="6" fill="#ffffff" stroke="#d8dde1" stroke-width="1.5"/>
+  <text x="190" y="196" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Ga A / Station A</text>
+
+  <!-- Station A: concourse speaker (PA) -->
+  <circle cx="110" cy="230" r="14" fill="#8a8f98"/>
+  <path d="M104 226 l0 8 l6 0 l8 6 l0 -20 l-8 6 z" fill="#f3f5f4"/>
+  <text x="150" y="226" font-size="10" fill="#5a6270">Loa sảnh</text>
+  <text x="150" y="238" font-size="9" fill="#5a6270">Concourse PA speaker</text>
+
+  <!-- Station A: platform speaker -->
+  <circle cx="110" cy="270" r="14" fill="#8a8f98"/>
+  <path d="M104 266 l0 8 l6 0 l8 6 l0 -20 l-8 6 z" fill="#f3f5f4"/>
+  <text x="150" y="266" font-size="10" fill="#5a6270">Loa ke ga</text>
+  <text x="150" y="278" font-size="9" fill="#5a6270">Platform PA speaker</text>
+
+  <!-- Station A: PIS screen -->
+  <rect x="96" y="305" width="60" height="38" rx="3" fill="#1a1d23"/>
+  <rect x="100" y="309" width="52" height="24" fill="#0a5c4a"/>
+  <text x="126" y="324" font-size="7" fill="#ffffff" text-anchor="middle">2 phút</text>
+  <text x="150" y="312" font-size="10" fill="#5a6270">Màn hình PIS</text>
+  <text x="150" y="324" font-size="9" fill="#5a6270">PIS display</text>
+  <text x="150" y="336" font-size="9" fill="#5a6270">(giờ tàu đến / arrival)</text>
+
+  <!-- Station A priority note -->
+  <rect x="80" y="365" width="220" height="28" rx="4" fill="#f3f5f4" stroke="#d8dde1"/>
+  <text x="190" y="378" font-size="9" fill="#245c4c" text-anchor="middle" font-weight="600">Ưu tiên: Khẩn cấp &gt; Vận hành &gt; Tiện ích</text>
+  <text x="190" y="389" font-size="8" fill="#245c4c" text-anchor="middle">Priority: Emergency &gt; Operational &gt; Info</text>
+
+  <!-- Station B panel -->
+  <rect x="480" y="175" width="260" height="235" rx="6" fill="#ffffff" stroke="#d8dde1" stroke-width="1.5"/>
+  <text x="610" y="196" font-size="12" fill="#1a1d23" text-anchor="middle" font-weight="600">Ga B / Station B</text>
+
+  <!-- Station B: train with PIS above doors -->
+  <rect x="510" y="222" width="200" height="60" rx="8" fill="#3a3f47"/>
+  <rect x="524" y="234" width="50" height="36" fill="#5a6270"/>
+  <rect x="588" y="234" width="50" height="36" fill="#5a6270"/>
+  <rect x="652" y="234" width="50" height="36" fill="#5a6270"/>
+  <rect x="524" y="226" width="50" height="7" fill="#0a5c4a"/>
+  <rect x="588" y="226" width="50" height="7" fill="#0a5c4a"/>
+  <rect x="652" y="226" width="50" height="7" fill="#0a5c4a"/>
+  <text x="610" y="296" font-size="10" fill="#5a6270" text-anchor="middle">PIS trên cửa toa tàu</text>
+  <text x="610" y="308" font-size="9" fill="#5a6270" text-anchor="middle">In-train PIS above doors</text>
+
+  <!-- Station B: platform speaker -->
+  <circle cx="610" cy="335" r="14" fill="#8a8f98"/>
+  <path d="M604 331 l0 8 l6 0 l8 6 l0 -20 l-8 6 z" fill="#f3f5f4"/>
+  <text x="635" y="332" font-size="10" fill="#5a6270">Loa ke ga</text>
+  <text x="635" y="344" font-size="9" fill="#5a6270">Platform PA speaker</text>
+
+  <!-- Station B feed note -->
+  <rect x="500" y="365" width="220" height="28" rx="4" fill="#f3f5f4" stroke="#d8dde1"/>
+  <text x="610" y="378" font-size="9" fill="#245c4c" text-anchor="middle" font-weight="600">Dữ liệu tín hiệu → vị trí tàu thời gian thực</text>
+  <text x="610" y="389" font-size="8" fill="#245c4c" text-anchor="middle">Signaling data → real-time train position</text>
+
+  <text x="400" y="430" font-size="10" fill="#5a6270" text-anchor="middle">Sơ đồ minh họa tổng quát, không mô tả một dự án cụ thể / Generic schematic, not a specific project</text>
+</svg>
