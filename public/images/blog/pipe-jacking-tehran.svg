@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground -->
+  <rect x="0" y="80" width="800" height="340" fill="#e2e8e1"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#9fb09c" stroke-width="2"/>
+
+  <!-- road surface -->
+  <rect x="0" y="60" width="800" height="20" fill="#3a3f47"/>
+  <line x1="0" y1="70" x2="800" y2="70" stroke="#e6c84a" stroke-width="2" stroke-dasharray="18 14"/>
+  <text x="20" y="50" font-size="13" fill="#1a1d23">mặt đường không bị gián đoạn / road stays open</text>
+
+  <!-- jacking shaft (left) -->
+  <rect x="70" y="80" width="90" height="300" fill="#dfe6de" stroke="#5a6270" stroke-width="2"/>
+  <rect x="70" y="80" width="90" height="300" fill="none" stroke="#8a8f98" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="115" y="398" font-size="12" fill="#5a6270" text-anchor="middle">hố xuất phát</text>
+  <text x="115" y="412" font-size="12" fill="#5a6270" text-anchor="middle">jacking shaft</text>
+
+  <!-- thrust wall -->
+  <rect x="150" y="300" width="14" height="70" fill="#5a6270"/>
+
+  <!-- hydraulic jacks -->
+  <g stroke="#1a1d23" stroke-width="3">
+    <line x1="164" y1="320" x2="195" y2="320"/>
+    <line x1="164" y1="345" x2="195" y2="345"/>
+  </g>
+  <rect x="163" y="310" width="8" height="45" fill="#1a1d23"/>
+  <text x="130" y="290" font-size="12" fill="#1a1d23" text-anchor="middle">kích thủy lực</text>
+  <text x="130" y="275" font-size="12" fill="#1a1d23" text-anchor="middle">hydraulic jacks</text>
+
+  <!-- pipe string being jacked -->
+  <g stroke="#5a6270" stroke-width="2" fill="#d8dde1">
+    <rect x="195" y="310" width="90" height="45"/>
+    <rect x="285" y="310" width="90" height="45"/>
+    <rect x="375" y="310" width="90" height="45"/>
+  </g>
+  <g stroke="#8a8f98" stroke-width="1.5">
+    <line x1="285" y1="310" x2="285" y2="355"/>
+    <line x1="375" y1="310" x2="375" y2="355"/>
+  </g>
+  <text x="330" y="300" font-size="12" fill="#5a6270" text-anchor="middle">các đoạn ống đúc sẵn / precast pipe segments</text>
+
+  <!-- cutting head -->
+  <rect x="465" y="305" width="55" height="55" rx="10" fill="#0a5c4a"/>
+  <g stroke="#eafff6" stroke-width="3">
+    <line x1="492" y1="312" x2="492" y2="358"/>
+    <line x1="470" y1="332" x2="515" y2="332"/>
+  </g>
+  <text x="492" y="390" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">đầu cắt</text>
+  <text x="492" y="404" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">cutting head</text>
+
+  <!-- advance direction arrow -->
+  <line x1="525" y1="332" x2="590" y2="332" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="557" y="318" font-size="12" fill="#1a1d23" text-anchor="middle">hướng kích đẩy</text>
+  <text x="557" y="350" font-size="11" fill="#1a1d23" text-anchor="middle">(jacking direction)</text>
+
+  <!-- reception shaft (right) -->
+  <rect x="630" y="80" width="90" height="300" fill="#dfe6de" stroke="#5a6270" stroke-width="2"/>
+  <rect x="630" y="80" width="90" height="300" fill="none" stroke="#8a8f98" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="675" y="398" font-size="12" fill="#5a6270" text-anchor="middle">hố tiếp nhận</text>
+  <text x="675" y="412" font-size="12" fill="#5a6270" text-anchor="middle">reception shaft</text>
+
+  <!-- existing utility conflict (crossed utility line shown avoided above) -->
+  <g stroke="#7fa8d9" stroke-width="3" fill="none">
+    <line x1="330" y1="80" x2="330" y2="260"/>
+  </g>
+  <circle cx="330" cy="260" r="6" fill="#7fa8d9"/>
+  <text x="340" y="120" font-size="11" fill="#4d6b96">hạ tầng ngầm hiện hữu</text>
+  <text x="340" y="134" font-size="11" fill="#4d6b96">existing utility (avoided)</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="435" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Nguyên lý thi công đào kích ống ngầm / Pipe jacking construction principle
+  </text>
+</svg>

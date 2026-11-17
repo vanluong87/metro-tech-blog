@@ -86,3 +86,20 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Chuyển giao công nghệ & đào tạo kỹ sư thi công hầm cho dự án metro đầu tiên của một quốc gia — Bangladesh (Dhaka) — `chuyen-giao-cong-nghe-dhaka`
 - [x] Hệ thống thông báo hành khách & thông tin hành trình (PA/PIS) trong ga metro — Peru (Lima) — `he-thong-thong-bao-lima`
 - [x] Quản lý chuỗi cung ứng vật tư thi công cho dự án metro — Azerbaijan (Baku) — `chuoi-cung-ung-baku`
+
+## Hàng chờ — Bổ sung (lô 4)
+
+- [x] Thi công hầm bằng phương pháp đào kích ống ngầm (pipe jacking/microtunneling) cho hạ tầng kỹ thuật dọc tuyến metro — Iran (Tehran) — `pipe-jacking-tehran`
+- [ ] Thiết kế hệ thống thoát nước & bơm chống ngập cho ga ngầm — Ả Rập Xê Út (Riyadh) — `thoat-nuoc-ga-ngam-riyadh`
+- [ ] Ứng dụng tự động hóa & robot hóa trong thi công hầm metro — Ukraine (Kyiv) — `tu-dong-hoa-thi-cong-kyiv`
+- [ ] Quản lý giao diện thi công giữa nhiều gói thầu (multi-contract interface management) — Romania (Bucharest) — `giao-dien-goi-thau-bucharest`
+- [ ] Thiết kế hệ thống điều hòa không khí & làm mát ga ngầm trong khí hậu nóng — Pakistan (Lahore) — `dieu-hoa-ga-ngam-lahore`
+- [ ] Khảo sát & xử lý di tích khảo cổ phát hiện trong quá trình thi công ngầm — Bulgaria (Sofia) — `khao-co-thi-cong-sofia`
+- [ ] Tích hợp metro với mạng lưới xe buýt & giao thông phi cơ giới (kết nối last-mile) — Colombia (Medellín) — `ket-noi-last-mile-medellin`
+- [ ] Quản lý hồ sơ hoàn công & mô hình digital twin phục vụ vận hành metro — Phần Lan (Helsinki) — `digital-twin-helsinki`
+- [ ] Đào tạo ứng phó sự cố khẩn cấp & diễn tập cứu nạn cho nhân viên vận hành metro — Kazakhstan (Almaty) — `dien-tap-cuu-nan-almaty`
+- [ ] Thi công hầm qua địa chất đất nhiễm phèn & môi trường ăn mòn hóa học cho vỏ hầm — Ecuador (Quito) — `dia-chat-nhiem-phen-quito`
+- [ ] Thiết kế hệ thống an ninh & giám sát CCTV thông minh trong ga metro — Uzbekistan (Tashkent) — `an-ninh-cctv-tashkent`
+- [ ] Quản lý vận hành & chính sách giá vé metro trong giai đoạn đầu khai thác — Panama (Panama City) — `gia-ve-van-hanh-panama`
+- [ ] Thi công móng & kết cấu ga ngầm ven biển ứng phó nước biển dâng — Algeria (Algiers) — `nen-mong-ven-bien-algiers`
+- [ ] Giám sát môi trường thi công (bụi, nước thải, chất lượng không khí) tại công trường metro đô thị — Belarus (Minsk) — `giam-sat-moi-truong-minsk`
