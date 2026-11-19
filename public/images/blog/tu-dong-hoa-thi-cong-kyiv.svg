@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- three panel backgrounds -->
+  <rect x="20" y="70" width="230" height="320" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <rect x="285" y="70" width="230" height="320" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <rect x="550" y="70" width="230" height="320" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+
+  <!-- Panel 1: automated TBM guidance -->
+  <g>
+    <text x="135" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Bước 1 / Step 1</text>
+    <!-- tunnel bore cross section -->
+    <circle cx="135" cy="230" r="80" fill="#e2e8e1" stroke="#8a8f98" stroke-width="1.5"/>
+    <!-- TBM body -->
+    <rect x="95" y="190" width="80" height="80" rx="18" fill="#5a6270"/>
+    <!-- guidance laser line -->
+    <line x1="60" y1="230" x2="210" y2="230" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="60" cy="230" r="4" fill="#0a5c4a"/>
+    <circle cx="210" cy="230" r="4" fill="#0a5c4a"/>
+    <!-- control panel icon -->
+    <rect x="110" y="300" width="50" height="34" rx="4" fill="#0a5c4a"/>
+    <line x1="118" y1="310" x2="152" y2="310" stroke="#eafff6" stroke-width="2"/>
+    <line x1="118" y1="318" x2="142" y2="318" stroke="#eafff6" stroke-width="2"/>
+    <line x1="118" y1="326" x2="148" y2="326" stroke="#eafff6" stroke-width="2"/>
+    <text x="135" y="355" font-size="12" fill="#5a6270" text-anchor="middle">Dẫn hướng tự động</text>
+    <text x="135" y="370" font-size="12" fill="#5a6270" text-anchor="middle">Automated TBM guidance</text>
+  </g>
+
+  <!-- Panel 2: robotic segment erector -->
+  <g>
+    <text x="400" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Bước 2 / Step 2</text>
+    <circle cx="400" cy="230" r="80" fill="#e2e8e1" stroke="#8a8f98" stroke-width="1.5"/>
+    <!-- partial lining ring -->
+    <path d="M 325,270 A 80 80 0 0 1 400 150" fill="none" stroke="#5a6270" stroke-width="10"/>
+    <!-- robotic arm -->
+    <line x1="400" y1="310" x2="400" y2="260" stroke="#0a5c4a" stroke-width="8" stroke-linecap="round"/>
+    <line x1="400" y1="260" x2="455" y2="215" stroke="#0a5c4a" stroke-width="8" stroke-linecap="round"/>
+    <!-- segment being placed -->
+    <rect x="440" y="195" width="40" height="22" rx="3" fill="#3a8a72" transform="rotate(30 460 206)"/>
+    <text x="400" y="355" font-size="12" fill="#5a6270" text-anchor="middle">Robot lắp đặt segment</text>
+    <text x="400" y="370" font-size="12" fill="#5a6270" text-anchor="middle">Robotic segment erector</text>
+  </g>
+
+  <!-- Panel 3: tunnel inspection robot -->
+  <g>
+    <text x="665" y="100" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Bước 3 / Step 3</text>
+    <circle cx="665" cy="230" r="80" fill="#e2e8e1" stroke="#8a8f98" stroke-width="1.5"/>
+    <!-- rail -->
+    <line x1="595" y1="290" x2="735" y2="290" stroke="#8a8f98" stroke-width="3"/>
+    <!-- inspection robot body -->
+    <rect x="635" y="260" width="60" height="26" rx="6" fill="#0a5c4a"/>
+    <circle cx="648" cy="292" r="7" fill="#3a3f47"/>
+    <circle cx="682" cy="292" r="7" fill="#3a3f47"/>
+    <!-- scan beams toward lining -->
+    <line x1="660" y1="258" x2="630" y2="175" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="670" y1="258" x2="700" y2="175" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <line x1="665" y1="258" x2="665" y2="165" stroke="#0a5c4a" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="665" y="355" font-size="12" fill="#5a6270" text-anchor="middle">Robot kiểm tra hầm</text>
+    <text x="665" y="370" font-size="12" fill="#5a6270" text-anchor="middle">Tunnel inspection robot</text>
+  </g>
+
+  <!-- arrows between panels -->
+  <line x1="255" y1="230" x2="280" y2="230" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow3)"/>
+  <line x1="520" y1="230" x2="545" y2="230" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow3)"/>
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Tự động hóa &amp; robot hóa thi công hầm metro / Automation &amp; robotics in metro tunneling
+  </text>
+</svg>

@@ -91,7 +91,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 
 - [x] Thi công hầm bằng phương pháp đào kích ống ngầm (pipe jacking/microtunneling) cho hạ tầng kỹ thuật dọc tuyến metro — Iran (Tehran) — `pipe-jacking-tehran`
 - [x] Thiết kế hệ thống thoát nước & bơm chống ngập cho ga ngầm — Ả Rập Xê Út (Riyadh) — `thoat-nuoc-ga-ngam-riyadh`
-- [ ] Ứng dụng tự động hóa & robot hóa trong thi công hầm metro — Ukraine (Kyiv) — `tu-dong-hoa-thi-cong-kyiv`
+- [x] Ứng dụng tự động hóa & robot hóa trong thi công hầm metro — Ukraine (Kyiv) — `tu-dong-hoa-thi-cong-kyiv`
 - [ ] Quản lý giao diện thi công giữa nhiều gói thầu (multi-contract interface management) — Romania (Bucharest) — `giao-dien-goi-thau-bucharest`
 - [ ] Thiết kế hệ thống điều hòa không khí & làm mát ga ngầm trong khí hậu nóng — Pakistan (Lahore) — `dieu-hoa-ga-ngam-lahore`
 - [ ] Khảo sát & xử lý di tích khảo cổ phát hiện trong quá trình thi công ngầm — Bulgaria (Sofia) — `khao-co-thi-cong-sofia`
