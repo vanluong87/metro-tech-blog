@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#ffffff"/>
+
+  <!-- background panel -->
+  <rect x="30" y="40" width="740" height="330" rx="10" fill="#f3f5f4" stroke="#d8dde1" stroke-width="2"/>
+
+  <!-- Package A: Civil works -->
+  <g>
+    <rect x="60" y="70" width="170" height="110" rx="8" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <rect x="80" y="90" width="50" height="40" fill="none" stroke="#5a6270" stroke-width="2"/>
+    <line x1="80" y1="100" x2="130" y2="100" stroke="#5a6270" stroke-width="1.5"/>
+    <line x1="95" y1="90" x2="95" y2="130" stroke="#5a6270" stroke-width="1.5"/>
+    <line x1="110" y1="90" x2="110" y2="130" stroke="#5a6270" stroke-width="1.5"/>
+    <text x="145" y="105" font-size="13" fill="#1a1d23" font-weight="700">A</text>
+    <text x="145" y="122" font-size="11" fill="#5a6270">Gói dân dụng</text>
+    <text x="145" y="135" font-size="10" fill="#5a6270">Civil works</text>
+    <text x="145" y="155" font-size="10" fill="#8a8f98">Hầm · Ga / Tunnel · Stations</text>
+  </g>
+
+  <!-- Package B: Track & systems -->
+  <g>
+    <rect x="315" y="70" width="170" height="110" rx="8" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <line x1="335" y1="95" x2="465" y2="95" stroke="#5a6270" stroke-width="3"/>
+    <line x1="335" y1="105" x2="465" y2="105" stroke="#5a6270" stroke-width="3"/>
+    <line x1="350" y1="90" x2="350" y2="110" stroke="#5a6270" stroke-width="2"/>
+    <line x1="380" y1="90" x2="380" y2="110" stroke="#5a6270" stroke-width="2"/>
+    <line x1="410" y1="90" x2="410" y2="110" stroke="#5a6270" stroke-width="2"/>
+    <line x1="440" y1="90" x2="440" y2="110" stroke="#5a6270" stroke-width="2"/>
+    <text x="400" y="105" font-size="13" fill="#1a1d23" font-weight="700" text-anchor="middle" dy="-30">B</text>
+    <text x="400" y="138" font-size="11" fill="#5a6270" text-anchor="middle">Gói đường ray &amp; hệ thống</text>
+    <text x="400" y="151" font-size="10" fill="#5a6270" text-anchor="middle">Track &amp; systems</text>
+    <text x="400" y="168" font-size="10" fill="#8a8f98" text-anchor="middle">Ray · Tín hiệu / Rail · Signalling</text>
+  </g>
+
+  <!-- Package C: Station M&E -->
+  <g>
+    <rect x="570" y="70" width="170" height="110" rx="8" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+    <circle cx="610" cy="105" r="16" fill="none" stroke="#5a6270" stroke-width="2"/>
+    <line x1="610" y1="89" x2="610" y2="80" stroke="#5a6270" stroke-width="2"/>
+    <line x1="610" y1="121" x2="610" y2="130" stroke="#5a6270" stroke-width="2"/>
+    <line x1="594" y1="105" x2="585" y2="105" stroke="#5a6270" stroke-width="2"/>
+    <line x1="626" y1="105" x2="635" y2="105" stroke="#5a6270" stroke-width="2"/>
+    <text x="650" y="105" font-size="13" fill="#1a1d23" font-weight="700">C</text>
+    <text x="650" y="122" font-size="11" fill="#5a6270">Gói cơ điện ga</text>
+    <text x="650" y="135" font-size="10" fill="#5a6270">Station M&amp;E</text>
+    <text x="650" y="155" font-size="10" fill="#8a8f98">Thông gió · Điện / HVAC · Power</text>
+  </g>
+
+  <!-- connecting lines to central interface hub -->
+  <line x1="190" y1="180" x2="330" y2="250" stroke="#8a8f98" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="400" y1="180" x2="400" y2="240" stroke="#8a8f98" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="610" y1="180" x2="470" y2="250" stroke="#8a8f98" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- interface diamond markers -->
+  <rect x="320" y="203" width="16" height="16" fill="#0a5c4a" transform="rotate(45 328 211)"/>
+  <rect x="392" y="195" width="16" height="16" fill="#0a5c4a" transform="rotate(45 400 203)"/>
+  <rect x="460" y="203" width="16" height="16" fill="#0a5c4a" transform="rotate(45 468 211)"/>
+
+  <!-- central interface control hub -->
+  <g>
+    <rect x="280" y="250" width="240" height="90" rx="8" fill="#0a5c4a" opacity="0.95"/>
+    <path d="M305,280 l10,12 l16,-20" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="400" y="285" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Sổ đăng ký giao diện</text>
+    <text x="400" y="303" font-size="12" fill="#eafff6" text-anchor="middle">Interface Register</text>
+    <text x="400" y="322" font-size="10" fill="#eafff6" text-anchor="middle">Thỏa thuận · Kiểm soát thay đổi</text>
+  </g>
+
+  <text x="400" y="410" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Quản lý giao diện giữa nhiều gói thầu / Multi-contract interface management
+  </text>
+</svg>
