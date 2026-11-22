@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground surface -->
+  <rect x="0" y="0" width="800" height="60" fill="#e7ebe6"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#9fb09c" stroke-width="2"/>
+  <text x="16" y="38" font-size="13" fill="#3f4a44">mặt đất / street level</text>
+
+  <!-- soil layers -->
+  <rect x="0" y="60" width="800" height="90" fill="#e3ddd2"/>
+  <text x="650" y="105" font-size="12" fill="#5a6270">đất lấp hiện đại / modern fill</text>
+
+  <rect x="0" y="150" width="800" height="90" fill="#d8dde1"/>
+  <text x="630" y="195" font-size="12" fill="#5a6270">lớp văn hóa cổ / cultural layers</text>
+
+  <rect x="0" y="240" width="800" height="210" fill="#c9d2c8"/>
+  <text x="640" y="430" font-size="12" fill="#5a6270">nền đất tự nhiên / natural ground</text>
+
+  <!-- station excavation pit with diaphragm walls -->
+  <rect x="150" y="60" width="16" height="330" fill="#5a6270"/>
+  <rect x="634" y="60" width="16" height="330" fill="#5a6270"/>
+  <text x="158" y="48" font-size="11" fill="#3a3f45" text-anchor="middle">tường vây</text>
+  <text x="642" y="48" font-size="11" fill="#3a3f45" text-anchor="middle">diaphragm wall</text>
+
+  <!-- excavated pit interior (lighter, shows open excavation) -->
+  <rect x="166" y="60" width="468" height="330" fill="#eef1ef" opacity="0.55"/>
+
+  <!-- ancient wall remains exposed inside the pit, around cultural layer depth -->
+  <g>
+    <rect x="260" y="175" width="180" height="40" fill="#c7a46b" stroke="#0a5c4a" stroke-width="3"/>
+    <g stroke="#9c8152" stroke-width="1">
+      <line x1="290" y1="175" x2="290" y2="215"/>
+      <line x1="320" y1="175" x2="320" y2="215"/>
+      <line x1="350" y1="175" x2="350" y2="215"/>
+      <line x1="380" y1="175" x2="380" y2="215"/>
+      <line x1="410" y1="175" x2="410" y2="215"/>
+      <line x1="260" y1="195" x2="440" y2="195"/>
+    </g>
+    <text x="350" y="165" font-size="12" fill="#0a5c4a" text-anchor="middle" font-weight="600">di tích cổ phát hiện</text>
+    <text x="350" y="232" font-size="11" fill="#0a5c4a" text-anchor="middle" font-weight="600">ancient remains found</text>
+  </g>
+
+  <!-- cordoned-off zone around the find -->
+  <rect x="245" y="160" width="210" height="70" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 5" opacity="0.85"/>
+  <text x="350" y="245" font-size="11" fill="#8a2f26" text-anchor="middle">khu vực tạm dừng thi công / work paused here</text>
+
+  <!-- archaeologist figure examining the find -->
+  <g>
+    <circle cx="500" cy="190" r="10" fill="#1a1d23"/>
+    <rect x="492" y="200" width="16" height="28" rx="4" fill="#1a1d23"/>
+    <line x1="500" y1="210" x2="470" y2="200" stroke="#1a1d23" stroke-width="3"/>
+    <text x="500" y="245" font-size="10" fill="#1a1d23" text-anchor="middle">khảo cổ học</text>
+    <text x="500" y="257" font-size="10" fill="#1a1d23" text-anchor="middle">archaeologist</text>
+  </g>
+
+  <!-- arrow to decision outcomes box -->
+  <line x1="650" y1="200" x2="700" y2="200" stroke="#1a1d23" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- decision outcomes panel -->
+  <rect x="660" y="100" width="130" height="200" rx="8" fill="#ffffff" stroke="#5a6270" stroke-width="2"/>
+  <text x="725" y="122" font-size="11" fill="#1a1d23" text-anchor="middle" font-weight="600">Phương án / Options</text>
+  <circle cx="676" cy="148" r="5" fill="#0a5c4a"/>
+  <text x="687" y="152" font-size="10" fill="#1a1d23">Bảo tồn tại chỗ</text>
+  <text x="687" y="164" font-size="9" fill="#5a6270">in-situ preserve</text>
+  <circle cx="676" cy="188" r="5" fill="#0a5c4a"/>
+  <text x="687" y="192" font-size="10" fill="#1a1d23">Di dời &amp; bảo quản</text>
+  <text x="687" y="204" font-size="9" fill="#5a6270">relocate &amp; conserve</text>
+  <circle cx="676" cy="228" r="5" fill="#0a5c4a"/>
+  <text x="687" y="232" font-size="10" fill="#1a1d23">Ghi nhận, tiếp tục</text>
+  <text x="687" y="244" font-size="9" fill="#5a6270">record &amp; continue</text>
+  <circle cx="676" cy="268" r="5" fill="#0a5c4a"/>
+  <text x="687" y="272" font-size="10" fill="#1a1d23">Điều chỉnh thiết kế</text>
+  <text x="687" y="284" font-size="9" fill="#5a6270">adjust design</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Phát hiện &amp; xử lý di tích khảo cổ trong thi công ngầm / Archaeological finds in underground construction
+  </text>
+</svg>

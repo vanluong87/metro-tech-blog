@@ -94,7 +94,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Ứng dụng tự động hóa & robot hóa trong thi công hầm metro — Ukraine (Kyiv) — `tu-dong-hoa-thi-cong-kyiv`
 - [x] Quản lý giao diện thi công giữa nhiều gói thầu (multi-contract interface management) — Romania (Bucharest) — `giao-dien-goi-thau-bucharest`
 - [x] Thiết kế hệ thống điều hòa không khí & làm mát ga ngầm trong khí hậu nóng — Pakistan (Lahore) — `dieu-hoa-ga-ngam-lahore`
-- [ ] Khảo sát & xử lý di tích khảo cổ phát hiện trong quá trình thi công ngầm — Bulgaria (Sofia) — `khao-co-thi-cong-sofia`
+- [x] Khảo sát & xử lý di tích khảo cổ phát hiện trong quá trình thi công ngầm — Bulgaria (Sofia) — `khao-co-thi-cong-sofia`
 - [ ] Tích hợp metro với mạng lưới xe buýt & giao thông phi cơ giới (kết nối last-mile) — Colombia (Medellín) — `ket-noi-last-mile-medellin`
 - [ ] Quản lý hồ sơ hoàn công & mô hình digital twin phục vụ vận hành metro — Phần Lan (Helsinki) — `digital-twin-helsinki`
 - [ ] Đào tạo ứng phó sự cố khẩn cấp & diễn tập cứu nạn cho nhân viên vận hành metro — Kazakhstan (Almaty) — `dien-tap-cuu-nan-almaty`
