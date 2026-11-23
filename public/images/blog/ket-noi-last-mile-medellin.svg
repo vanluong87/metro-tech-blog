@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- sky/hill background panel -->
+  <rect x="40" y="40" width="720" height="330" fill="#ffffff" stroke="#d8dde1" stroke-width="2" rx="6"/>
+
+  <!-- hillside slope on the right -->
+  <path d="M 520 350 L 620 170 L 740 110 L 740 350 Z" fill="#e7ebe6" stroke="#d8dde1" stroke-width="2"/>
+  <!-- hillside buildings -->
+  <g fill="#8a9c8e">
+    <rect x="600" y="150" width="16" height="30"/>
+    <rect x="630" y="135" width="16" height="35"/>
+    <rect x="660" y="120" width="16" height="38"/>
+    <rect x="690" y="105" width="16" height="40"/>
+    <rect x="645" y="170" width="14" height="26"/>
+    <rect x="675" y="155" width="14" height="28"/>
+  </g>
+
+  <!-- valley ground line -->
+  <line x1="60" y1="350" x2="740" y2="350" stroke="#5a6270" stroke-width="2"/>
+
+  <!-- metro line (elevated, valley floor) -->
+  <line x1="80" y1="310" x2="480" y2="310" stroke="#1a1d23" stroke-width="5"/>
+  <text x="140" y="300" font-size="11" fill="#1a1d23" font-weight="600">Metro</text>
+
+  <!-- metro station / interchange hub -->
+  <rect x="330" y="292" width="90" height="36" fill="#0a5c4a" rx="4"/>
+  <text x="375" y="315" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">GA / STATION</text>
+
+  <!-- feeder bus -->
+  <g>
+    <rect x="130" y="330" width="56" height="26" rx="4" fill="#5a6270"/>
+    <circle cx="144" cy="358" r="5" fill="#1a1d23"/>
+    <circle cx="172" cy="358" r="5" fill="#1a1d23"/>
+    <text x="158" y="347" font-size="9" fill="#ffffff" text-anchor="middle">BUS</text>
+  </g>
+  <path d="M 186 343 L 330 315" stroke="#5a6270" stroke-width="2.5" stroke-dasharray="6 4" fill="none" marker-end="url(#arrowgray)"/>
+  <text x="230" y="335" font-size="10" fill="#5a6270">xe buýt gom khách / feeder bus</text>
+
+  <!-- bike path -->
+  <g>
+    <circle cx="110" cy="310" r="9" fill="none" stroke="#0a5c4a" stroke-width="2.5"/>
+    <circle cx="128" cy="310" r="9" fill="none" stroke="#0a5c4a" stroke-width="2.5"/>
+    <path d="M110,310 L119,296 L128,310 M119,296 L119,305" stroke="#0a5c4a" stroke-width="2.5" fill="none"/>
+  </g>
+  <path d="M 128 305 L 330 300" stroke="#0a5c4a" stroke-width="2" stroke-dasharray="3 3" fill="none"/>
+  <text x="160" y="290" font-size="10" fill="#0a5c4a">xe đạp / cycling</text>
+
+  <!-- pedestrian path -->
+  <g>
+    <circle cx="200" cy="265" r="7" fill="#8a8f98"/>
+    <line x1="200" y1="272" x2="200" y2="288" stroke="#8a8f98" stroke-width="2.5"/>
+    <line x1="200" y1="278" x2="192" y2="285" stroke="#8a8f98" stroke-width="2.5"/>
+    <line x1="200" y1="278" x2="208" y2="285" stroke="#8a8f98" stroke-width="2.5"/>
+  </g>
+  <path d="M 200 289 L 340 295" stroke="#8a8f98" stroke-width="2" stroke-dasharray="2 3" fill="none"/>
+  <text x="230" y="270" font-size="10" fill="#8a8f98">đi bộ / walking</text>
+
+  <!-- Metrocable towers and cable line going up the hillside -->
+  <g stroke="#5a6270" stroke-width="3">
+    <line x1="500" y1="310" x2="500" y2="265"/>
+    <line x1="560" y1="250" x2="560" y2="205"/>
+    <line x1="630" y1="190" x2="630" y2="150"/>
+  </g>
+  <path d="M 420 305 Q 460 270 500 265 Q 540 255 560 205 Q 590 175 630 150"
+        stroke="#0a5c4a" stroke-width="2.5" fill="none"/>
+  <!-- cable car cabins -->
+  <rect x="488" y="258" width="20" height="16" rx="2" fill="#0a5c4a"/>
+  <rect x="610" y="142" width="20" height="16" rx="2" fill="#0a5c4a"/>
+  <text x="560" y="230" font-size="10" fill="#0a5c4a" text-anchor="middle" font-weight="600">Metrocable</text>
+
+  <!-- hillside cable car terminal -->
+  <rect x="655" y="95" width="70" height="30" fill="#0a5c4a" rx="4"/>
+  <text x="690" y="115" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">KHU DÂN CƯ</text>
+
+  <defs>
+    <marker id="arrowgray" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#5a6270"/>
+    </marker>
+  </defs>
+
+  <!-- legend -->
+  <g font-size="11" fill="#1a1d23">
+    <rect x="60" y="55" width="12" height="12" fill="#0a5c4a"/>
+    <text x="78" y="65">ga trung chuyển / hub</text>
+  </g>
+
+  <text x="400" y="400" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="700">
+    Kết nối Last-Mile: Metro – Xe buýt – Metrocable – Đi bộ/Xe đạp
+  </text>
+  <text x="400" y="420" font-size="11" fill="#5a6270" text-anchor="middle">
+    Last-Mile Connectivity: Metro – Bus – Cable Car – Walking/Cycling
+  </text>
+</svg>
