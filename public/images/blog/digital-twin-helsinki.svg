@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- left panel: as-built site data sources -->
+  <rect x="30" y="80" width="230" height="300" rx="10" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+  <text x="145" y="108" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">Dữ liệu hoàn công</text>
+  <text x="145" y="126" font-size="12" fill="#5a6270" text-anchor="middle">as-built data sources</text>
+
+  <g>
+    <rect x="50" y="145" width="190" height="42" rx="6" fill="#eef1ee" stroke="#8a8f98"/>
+    <text x="145" y="169" font-size="12" fill="#1a1d23" text-anchor="middle">Mô hình BIM thi công</text>
+  </g>
+  <g>
+    <rect x="50" y="200" width="190" height="42" rx="6" fill="#eef1ee" stroke="#8a8f98"/>
+    <text x="145" y="224" font-size="12" fill="#1a1d23" text-anchor="middle">Quét laser 3D (point cloud)</text>
+  </g>
+  <g>
+    <rect x="50" y="255" width="190" height="42" rx="6" fill="#eef1ee" stroke="#8a8f98"/>
+    <text x="145" y="279" font-size="12" fill="#1a1d23" text-anchor="middle">Hồ sơ thiết bị M&amp;E / tín hiệu</text>
+  </g>
+  <g>
+    <rect x="50" y="310" width="190" height="42" rx="6" fill="#eef1ee" stroke="#8a8f98"/>
+    <text x="145" y="334" font-size="12" fill="#1a1d23" text-anchor="middle">Khảo sát địa chất dọc tuyến</text>
+  </g>
+
+  <!-- arrow to center -->
+  <line x1="265" y1="230" x2="330" y2="230" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- center: digital twin core -->
+  <rect x="335" y="130" width="170" height="200" rx="12" fill="#0a5c4a"/>
+  <circle cx="420" cy="185" r="30" fill="none" stroke="#eafff6" stroke-width="2"/>
+  <circle cx="420" cy="185" r="18" fill="none" stroke="#eafff6" stroke-width="2"/>
+  <line x1="420" y1="155" x2="420" y2="215" stroke="#eafff6" stroke-width="2"/>
+  <line x1="390" y1="185" x2="450" y2="185" stroke="#eafff6" stroke-width="2"/>
+  <text x="420" y="250" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">Digital Twin</text>
+  <text x="420" y="268" font-size="12" fill="#eafff6" text-anchor="middle">mô hình số cập nhật</text>
+  <text x="420" y="283" font-size="12" fill="#eafff6" text-anchor="middle">liên tục / live model</text>
+
+  <!-- arrow to right -->
+  <line x1="510" y1="230" x2="570" y2="230" stroke="#1a1d23" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- right panel: operations uses -->
+  <rect x="575" y="80" width="200" height="300" rx="10" fill="#ffffff" stroke="#d8dde1" stroke-width="2"/>
+  <text x="675" y="108" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">Ứng dụng vận hành</text>
+  <text x="675" y="126" font-size="12" fill="#5a6270" text-anchor="middle">operations use cases</text>
+
+  <g>
+    <rect x="592" y="145" width="166" height="42" rx="6" fill="#eef1ee" stroke="#3a8a72"/>
+    <text x="675" y="169" font-size="12" fill="#1a1d23" text-anchor="middle">Bảo trì dự phòng</text>
+  </g>
+  <g>
+    <rect x="592" y="200" width="166" height="42" rx="6" fill="#eef1ee" stroke="#3a8a72"/>
+    <text x="675" y="224" font-size="12" fill="#1a1d23" text-anchor="middle">Xử lý sự cố nhanh</text>
+  </g>
+  <g>
+    <rect x="592" y="255" width="166" height="42" rx="6" fill="#eef1ee" stroke="#3a8a72"/>
+    <text x="675" y="279" font-size="12" fill="#1a1d23" text-anchor="middle">Mô phỏng cải tạo, mở rộng</text>
+  </g>
+  <g>
+    <rect x="592" y="310" width="166" height="42" rx="6" fill="#eef1ee" stroke="#3a8a72"/>
+    <text x="675" y="334" font-size="12" fill="#1a1d23" text-anchor="middle">Đào tạo nhân sự vận hành</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1d23"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="415" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Từ hồ sơ hoàn công đến Digital Twin / From as-built records to a digital twin
+  </text>
+</svg>
