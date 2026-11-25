@@ -97,7 +97,7 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Khảo sát & xử lý di tích khảo cổ phát hiện trong quá trình thi công ngầm — Bulgaria (Sofia) — `khao-co-thi-cong-sofia`
 - [x] Tích hợp metro với mạng lưới xe buýt & giao thông phi cơ giới (kết nối last-mile) — Colombia (Medellín) — `ket-noi-last-mile-medellin`
 - [x] Quản lý hồ sơ hoàn công & mô hình digital twin phục vụ vận hành metro — Phần Lan (Helsinki) — `digital-twin-helsinki`
-- [ ] Đào tạo ứng phó sự cố khẩn cấp & diễn tập cứu nạn cho nhân viên vận hành metro — Kazakhstan (Almaty) — `dien-tap-cuu-nan-almaty`
+- [x] Đào tạo ứng phó sự cố khẩn cấp & diễn tập cứu nạn cho nhân viên vận hành metro — Kazakhstan (Almaty) — `dien-tap-cuu-nan-almaty`
 - [ ] Thi công hầm qua địa chất đất nhiễm phèn & môi trường ăn mòn hóa học cho vỏ hầm — Ecuador (Quito) — `dia-chat-nhiem-phen-quito`
 - [ ] Thiết kế hệ thống an ninh & giám sát CCTV thông minh trong ga metro — Uzbekistan (Tashkent) — `an-ninh-cctv-tashkent`
 - [ ] Quản lý vận hành & chính sách giá vé metro trong giai đoạn đầu khai thác — Panama (Panama City) — `gia-ve-van-hanh-panama`
