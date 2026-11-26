@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- ground layers (volcanic soil strata) -->
+  <rect x="0" y="0" width="800" height="90" fill="#e7ebe6"/>
+  <rect x="0" y="90" width="800" height="90" fill="#dfe6de"/>
+  <rect x="0" y="180" width="800" height="90" fill="#d3ddd2"/>
+  <rect x="0" y="270" width="800" height="110" fill="#c7d4c5"/>
+
+  <!-- ground surface hatch -->
+  <line x1="0" y1="90" x2="800" y2="90" stroke="#9fb09c" stroke-width="2"/>
+  <g stroke="#9fb09c" stroke-width="2">
+    <line x1="40" y1="90" x2="30" y2="75"/>
+    <line x1="90" y1="90" x2="80" y2="75"/>
+    <line x1="700" y1="90" x2="690" y2="75"/>
+    <line x1="750" y1="90" x2="740" y2="75"/>
+  </g>
+
+  <!-- acidic groundwater pockets scattered in soil (small reddish-orange dots) -->
+  <g fill="#c96a3a" opacity="0.55">
+    <circle cx="90" cy="150" r="5"/>
+    <circle cx="160" cy="210" r="4"/>
+    <circle cx="60" cy="300" r="5"/>
+    <circle cx="640" cy="140" r="5"/>
+    <circle cx="700" cy="220" r="4"/>
+    <circle cx="730" cy="320" r="5"/>
+    <circle cx="200" cy="320" r="4"/>
+    <circle cx="600" cy="320" r="4"/>
+  </g>
+  <text x="140" y="130" font-size="12" fill="#8a4524" text-anchor="middle">đất nhiễm phèn</text>
+  <text x="140" y="144" font-size="11" fill="#8a4524" text-anchor="middle">acid sulfate soil</text>
+  <text x="660" y="130" font-size="12" fill="#8a4524" text-anchor="middle">nước ngầm axit</text>
+  <text x="660" y="144" font-size="11" fill="#8a4524" text-anchor="middle">acidic groundwater</text>
+
+  <!-- tunnel cross-section, centered -->
+  <g transform="translate(400,255)">
+    <!-- outer corrosive-contact zone -->
+    <circle r="118" fill="none" stroke="#c96a3a" stroke-width="10" stroke-dasharray="4 5" opacity="0.6"/>
+    <!-- waterproofing membrane layer -->
+    <circle r="105" fill="none" stroke="#7fa8d9" stroke-width="6"/>
+    <!-- sulfate-resisting concrete lining -->
+    <circle r="92" fill="#eef1ee" stroke="#5a6270" stroke-width="10"/>
+    <!-- reinforcement cover ring -->
+    <circle r="78" fill="none" stroke="#8a8f98" stroke-width="3" stroke-dasharray="2 4"/>
+    <!-- tunnel bore -->
+    <circle r="62" fill="#0a5c4a"/>
+    <text y="-6" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Hầm</text>
+    <text y="12" font-size="11" fill="#eafff6" text-anchor="middle">Tunnel bore</text>
+
+    <!-- segment joints -->
+    <g stroke="#3a3f47" stroke-width="2">
+      <line x1="0" y1="-92" x2="0" y2="-62"/>
+      <line x1="0" y1="62" x2="0" y2="92"/>
+      <line x1="-80" y1="-53" x2="-54" y2="-36"/>
+      <line x1="80" y1="-53" x2="54" y2="-36"/>
+      <line x1="-80" y1="53" x2="-54" y2="36"/>
+      <line x1="80" y1="53" x2="54" y2="36"/>
+    </g>
+  </g>
+
+  <!-- callout labels with leader lines -->
+  <g font-size="12" fill="#1a1d23">
+    <line x1="518" y1="255" x2="565" y2="255" stroke="#1a1d23" stroke-width="1.5"/>
+    <text x="570" y="252" font-weight="600">Vùng tiếp xúc ăn mòn</text>
+    <text x="570" y="267">Corrosive contact zone</text>
+
+    <line x1="505" y1="195" x2="560" y2="150" stroke="#1a1d23" stroke-width="1.5"/>
+    <text x="565" y="147" font-weight="600">Màng chống thấm</text>
+    <text x="565" y="162">Waterproofing membrane</text>
+
+    <line x1="282" y1="200" x2="225" y2="150" stroke="#1a1d23" stroke-width="1.5"/>
+    <text x="220" y="147" text-anchor="end" font-weight="600">Bê tông bền sulfate</text>
+    <text x="220" y="162" text-anchor="end">Sulfate-resisting concrete</text>
+
+    <line x1="295" y1="310" x2="235" y2="355" stroke="#1a1d23" stroke-width="1.5"/>
+    <text x="230" y="358" text-anchor="end" font-weight="600">Cốt thép bảo vệ dày</text>
+    <text x="230" y="373" text-anchor="end">Increased rebar cover</text>
+  </g>
+
+  <text x="400" y="30" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Bảo vệ vỏ hầm trong đất nhiễm phèn / Lining protection in acid sulfate ground
+  </text>
+</svg>
