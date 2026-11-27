@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- Station platform panel (left) -->
+  <rect x="20" y="70" width="430" height="330" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <text x="235" y="98" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Ga metro / Metro station</text>
+
+  <!-- platform floor -->
+  <rect x="45" y="330" width="380" height="20" fill="#8a8f98"/>
+  <text x="235" y="370" font-size="11" fill="#5a6270" text-anchor="middle">Sân ga / Platform</text>
+
+  <!-- ceiling line -->
+  <line x1="45" y1="120" x2="425" y2="120" stroke="#9fb09c" stroke-width="2"/>
+
+  <!-- fare gate zone -->
+  <rect x="60" y="210" width="60" height="60" fill="#e2e8e1" stroke="#8a8f98"/>
+  <text x="90" y="285" font-size="10" fill="#5a6270" text-anchor="middle">Cổng soát vé</text>
+  <text x="90" y="297" font-size="10" fill="#5a6270" text-anchor="middle">Fare gate</text>
+
+  <!-- restricted technical room -->
+  <rect x="340" y="200" width="70" height="70" fill="#e2e8e1" stroke="#8a8f98"/>
+  <text x="375" y="283" font-size="10" fill="#5a6270" text-anchor="middle">Phòng kỹ thuật</text>
+  <text x="375" y="295" font-size="10" fill="#5a6270" text-anchor="middle">Technical room</text>
+
+  <!-- cameras: dome icons at ceiling, with coverage cones -->
+  <!-- camera 1: above fare gate -->
+  <g>
+    <path d="M90,120 L55,205 L125,205 Z" fill="#0a5c4a" opacity="0.12"/>
+    <circle cx="90" cy="120" r="9" fill="#0a5c4a"/>
+    <rect x="84" y="112" width="12" height="8" rx="2" fill="#0a5c4a"/>
+  </g>
+
+  <!-- camera 2: concourse/platform center -->
+  <g>
+    <path d="M235,120 L180,330 L290,330 Z" fill="#0a5c4a" opacity="0.1"/>
+    <circle cx="235" cy="120" r="9" fill="#0a5c4a"/>
+    <rect x="229" y="112" width="12" height="8" rx="2" fill="#0a5c4a"/>
+  </g>
+
+  <!-- camera 3: above technical room door, flagged as alert -->
+  <g>
+    <path d="M375,120 L340,200 L410,200 Z" fill="#c0463c" opacity="0.14"/>
+    <circle cx="375" cy="120" r="9" fill="#c0463c"/>
+    <rect x="369" y="112" width="12" height="8" rx="2" fill="#c0463c"/>
+  </g>
+
+  <text x="235" y="140" font-size="10" fill="#5a6270" text-anchor="middle">camera cố định / fixed cameras</text>
+
+  <!-- small alert badge above camera 3 -->
+  <circle cx="389" cy="106" r="7" fill="#c0463c"/>
+  <text x="389" y="110" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="700">!</text>
+
+  <!-- Network transmission backbone -->
+  <g stroke="#8a8f98" stroke-width="2" stroke-dasharray="5 5" fill="none">
+    <path d="M90,112 C90,60 460,40 490,120"/>
+    <path d="M235,112 C260,60 460,50 490,150"/>
+    <path d="M375,112 C420,70 460,70 490,180"/>
+  </g>
+  <text x="520" y="100" font-size="11" fill="#5a6270" text-anchor="middle">mạng truyền dẫn</text>
+  <text x="520" y="113" font-size="11" fill="#5a6270" text-anchor="middle">transmission network</text>
+
+  <!-- Security Operations Center panel (right) -->
+  <rect x="490" y="150" width="290" height="250" rx="8" fill="#ffffff" stroke="#d8dde1"/>
+  <text x="635" y="176" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Trung tâm điều hành an ninh</text>
+  <text x="635" y="191" font-size="11" fill="#5a6270" text-anchor="middle">Security Operations Center</text>
+
+  <!-- video wall grid: 3x2 screens, one highlighted red for alert -->
+  <g>
+    <rect x="515" y="210" width="76" height="56" rx="3" fill="#3a3f47"/>
+    <rect x="601" y="210" width="76" height="56" rx="3" fill="#3a3f47"/>
+    <rect x="687" y="210" width="76" height="56" rx="3" fill="#c0463c"/>
+    <rect x="515" y="276" width="76" height="56" rx="3" fill="#3a3f47"/>
+    <rect x="601" y="276" width="76" height="56" rx="3" fill="#3a3f47"/>
+    <rect x="687" y="276" width="76" height="56" rx="3" fill="#3a3f47"/>
+  </g>
+  <text x="725" y="300" font-size="10" fill="#ffffff" text-anchor="middle">cảnh báo</text>
+  <text x="725" y="312" font-size="10" fill="#ffffff" text-anchor="middle">alert</text>
+
+  <!-- VMS / analytics label -->
+  <rect x="515" y="345" width="248" height="34" rx="6" fill="#0a5c4a"/>
+  <text x="639" y="364" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">VMS + phân tích thông minh / smart video analytics</text>
+
+  <text x="400" y="35" font-size="15" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Hệ thống an ninh &amp; CCTV thông minh trong ga metro / Smart metro station security &amp; CCTV
+  </text>
+</svg>
