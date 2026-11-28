@@ -100,6 +100,6 @@ File này điều phối agent tự động viết bài hàng ngày (xem `.claud
 - [x] Đào tạo ứng phó sự cố khẩn cấp & diễn tập cứu nạn cho nhân viên vận hành metro — Kazakhstan (Almaty) — `dien-tap-cuu-nan-almaty`
 - [x] Thi công hầm qua địa chất đất nhiễm phèn & môi trường ăn mòn hóa học cho vỏ hầm — Ecuador (Quito) — `dia-chat-nhiem-phen-quito`
 - [x] Thiết kế hệ thống an ninh & giám sát CCTV thông minh trong ga metro — Uzbekistan (Tashkent) — `an-ninh-cctv-tashkent`
-- [ ] Quản lý vận hành & chính sách giá vé metro trong giai đoạn đầu khai thác — Panama (Panama City) — `gia-ve-van-hanh-panama`
+- [x] Quản lý vận hành & chính sách giá vé metro trong giai đoạn đầu khai thác — Panama (Panama City) — `gia-ve-van-hanh-panama`
 - [ ] Thi công móng & kết cấu ga ngầm ven biển ứng phó nước biển dâng — Algeria (Algiers) — `nen-mong-ven-bien-algiers`
 - [ ] Giám sát môi trường thi công (bụi, nước thải, chất lượng không khí) tại công trường metro đô thị — Belarus (Minsk) — `giam-sat-moi-truong-minsk`

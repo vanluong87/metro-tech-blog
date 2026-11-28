@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect width="800" height="450" fill="#f3f5f4"/>
+
+  <!-- chart panel -->
+  <rect x="40" y="40" width="720" height="300" rx="8" fill="#ffffff" stroke="#8a8f98" stroke-width="2"/>
+
+  <!-- axes -->
+  <line x1="90" y1="90" x2="90" y2="300" stroke="#5a6270" stroke-width="2"/>
+  <line x1="90" y1="300" x2="740" y2="300" stroke="#5a6270" stroke-width="2"/>
+  <text x="60" y="95" font-size="11" fill="#5a6270" text-anchor="middle">khách</text>
+  <text x="60" y="108" font-size="11" fill="#5a6270" text-anchor="middle">riders</text>
+  <text x="730" y="318" font-size="11" fill="#5a6270" text-anchor="end">thời gian / time</text>
+
+  <!-- phase background bands -->
+  <rect x="90" y="90" width="190" height="210" fill="#d8dde1" opacity="0.45"/>
+  <rect x="280" y="90" width="230" height="210" fill="#bfe4d8" opacity="0.45"/>
+  <rect x="510" y="90" width="230" height="210" fill="#0a5c4a" opacity="0.18"/>
+
+  <!-- ridership growth curve -->
+  <path d="M90,290 C 180,286 230,278 280,255 C 350,220 430,165 510,135 C 600,105 680,92 740,88"
+        fill="none" stroke="#0a5c4a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- phase divider lines -->
+  <line x1="280" y1="90" x2="280" y2="300" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="510" y1="90" x2="510" y2="300" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- phase labels -->
+  <text x="185" y="115" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Khai trương</text>
+  <text x="185" y="131" font-size="11" fill="#5a6270" text-anchor="middle">Soft launch</text>
+  <text x="185" y="148" font-size="10.5" fill="#5a6270" text-anchor="middle">vé miễn phí / giá tượng trưng</text>
+  <text x="185" y="162" font-size="10" fill="#8a8f98" text-anchor="middle">free / nominal fare</text>
+
+  <text x="395" y="115" font-size="13" fill="#1a1d23" text-anchor="middle" font-weight="600">Tăng trưởng</text>
+  <text x="395" y="131" font-size="11" fill="#5a6270" text-anchor="middle">Ramp-up</text>
+  <text x="395" y="148" font-size="10.5" fill="#5a6270" text-anchor="middle">giá ưu đãi tăng dần</text>
+  <text x="395" y="162" font-size="10" fill="#8a8f98" text-anchor="middle">graduated promotional fare</text>
+
+  <text x="625" y="115" font-size="13" fill="#0a5c4a" text-anchor="middle" font-weight="600">Ổn định</text>
+  <text x="625" y="131" font-size="11" fill="#1a6a54" text-anchor="middle">Steady state</text>
+  <text x="625" y="148" font-size="10.5" fill="#1a6a54" text-anchor="middle">giá đầy đủ + trợ giá</text>
+  <text x="625" y="162" font-size="10" fill="#5a9985" text-anchor="middle">full tariff + subsidy</text>
+
+  <!-- small icons: fare gate / bus-metro transfer / review cycle -->
+  <g>
+    <rect x="110" y="250" width="26" height="40" rx="3" fill="#5a6270"/>
+    <rect x="150" y="250" width="26" height="40" rx="3" fill="#5a6270"/>
+    <text x="143" y="302" font-size="9.5" fill="#5a6270" text-anchor="middle">cổng vé</text>
+  </g>
+
+  <g>
+    <circle cx="395" cy="265" r="16" fill="#0a5c4a"/>
+    <rect x="370" y="258" width="20" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+    <rect x="408" y="258" width="20" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+    <text x="399" y="302" font-size="9.5" fill="#5a6270" text-anchor="middle">liên thông metro–bus</text>
+  </g>
+
+  <g stroke="#1a6a54" stroke-width="2.5" fill="none">
+    <path d="M610,268 a18,18 0 1 1 30,10" marker-end="url(#arrow2)"/>
+    <path d="M650,262 a18,18 0 1 1 -30,-10" marker-end="url(#arrow2)"/>
+  </g>
+  <text x="630" y="302" font-size="9.5" fill="#1a6a54" text-anchor="middle">rà soát định kỳ</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a6a54"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="375" font-size="14" fill="#1a1d23" text-anchor="middle" font-weight="600">
+    Chính sách giá vé theo giai đoạn khai thác ban đầu
+  </text>
+  <text x="400" y="396" font-size="12.5" fill="#5a6270" text-anchor="middle">
+    Fare policy across the early metro operations ramp-up
+  </text>
+</svg>
